@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="var" path="M2_REPO"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/activation-1.1 - Copy.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/commons-email-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/commons-net-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/flash-selenium.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/java-client-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/junit-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/ojdbc14dms.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/poi-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/rc-tool-SA_win32x86_1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/saxon-9.1.0.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/selendroid-client-0.16.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/selendroid-standalone-0.16.0-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/selenium-server-standalone-2.47.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/testng-6.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

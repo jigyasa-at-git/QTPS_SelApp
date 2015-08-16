@@ -1,0 +1,17 @@
+package com.qtpselenium.mobile.flipkart.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.qtpselenium.mobile.flipkart.pages.common.Menu;
+
+public class ProductDisplayPage {
+
+	Menu menu;
+	WebDriver driver;
+	
+	public ProductDisplayPage(WebDriver driver){
+		this.driver=driver;
+		menu = PageFactory.initElements(driver, Menu.class);
+	}
+}

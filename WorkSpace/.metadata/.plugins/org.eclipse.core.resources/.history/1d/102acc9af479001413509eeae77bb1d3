@@ -1,0 +1,13 @@
+package com.mobile.qtpselenium.makemytrip;
+
+import org.testng.annotations.Test;
+
+public class MakeMyTripTest {
+	
+	
+	@Test
+	public void testApp(){
+		
+	}
+
+}

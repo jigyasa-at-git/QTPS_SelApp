@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40514" started-at="2014-12-09T02:10:46Z" finished-at="2014-12-09T02:11:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40514" started-at="2014-12-09T02:10:46Z" finished-at="2014-12-09T02:11:27Z">
+      <class name="com.mobile.qtpselenium.makemytrip.MakeMyTripTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:com.mobile.qtpselenium.makemytrip.MakeMyTripTest@649d209a]" name="testApp" duration-ms="40504" started-at="2014-12-08T18:10:46Z" finished-at="2014-12-08T18:11:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.mobile.qtpselenium.makemytrip.MakeMyTripTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

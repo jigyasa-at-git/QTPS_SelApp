@@ -1,0 +1,45 @@
+import io.selendroid.SelendroidCapabilities;
+import io.selendroid.SelendroidDriver;
+import io.selendroid.SelendroidKeys;
+import io.selendroid.SelendroidLauncher;
+import io.selendroid.waiter.WaitingConditions;
+
+import java.net.MalformedURLException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+@SuppressWarnings("deprecation")
+public class TestApp {
+
+	WebDriver driver;
+	SelendroidLauncher selendroidServer;
+
+	@Test
+	public void setup() throws MalformedURLException, Exception {
+	
+		//Selendroid Driver 
+		//Selendroid Standalone Driver
+	}
+	@Test
+	public void test() throws Exception {
+		SelendroidCapabilities capa = new SelendroidCapabilities(
+				"io.selendroid.testapp:0.11.0");
+		driver = new SelendroidDriver(capa);
+		Thread.sleep(12000);
+	}
+
+	@AfterTest
+	public void close() {
+
+		driver.quit();
+
+	}
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29955" started-at="2014-11-23T09:10:16Z" finished-at="2014-11-23T09:10:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29955" started-at="2014-11-23T09:10:16Z" finished-at="2014-11-23T09:10:46Z">
+      <class name="touchactions.PinchTest">
+        <test-method status="PASS" signature="setUpAppium()[pri:0, instance:touchactions.PinchTest@2ddc8ecb]" name="setUpAppium" duration-ms="24299" started-at="2014-11-23T14:40:16Z" finished-at="2014-11-23T14:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAppium -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:touchactions.PinchTest@2ddc8ecb]" name="stopDriver" is-config="true" duration-ms="5642" started-at="2014-11-23T14:40:40Z" finished-at="2014-11-23T14:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- touchactions.PinchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

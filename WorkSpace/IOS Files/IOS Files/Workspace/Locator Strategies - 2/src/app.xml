@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppiumAUT>
+    <UIAApplication name="UICatalog" label="UICatalog" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0" x="0" y="20" width="320" height="548">
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0" x="0" y="0" width="320" height="568">
+            <UIANavigationBar name="UICatalog" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0" x="0" y="20" width="320" height="44">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/0" x="0" y="0" width="320" height="64">
+                    <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/0/0" x="0" y="64" width="320" height="0.5">
+                    </UIAImage>
+                </UIAImage>
+                <UIAButton name="Back" label="Back" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/1" x="8" y="31.5" width="21" height="21">
+                </UIAButton>
+                <UIAStaticText name="UICatalog" label="UICatalog" value="UICatalog" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/2" x="121" y="28" width="78.5" height="27">
+                </UIAStaticText>
+            </UIANavigationBar>
+            <UIATableView name="" label="" value="rows 1 to 12 of 17" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1" x="0" y="0" width="320" height="568">
+                <UIATableCell name="Activity Indicators" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0" x="0" y="64" width="320" height="44">
+                    <UIAStaticText name="Activity Indicators" label="Activity Indicators" value="Activity Indicators" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/0" x="16" y="70" width="130" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLActivityIndicatorViewController" label="AAPLActivityIndicatorViewController" value="AAPLActivityIndicatorViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/1" x="16" y="89.5" width="186.5" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Alert Controller" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/1" x="0" y="108" width="320" height="44">
+                    <UIAStaticText name="Alert Controller" label="Alert Controller" value="Alert Controller" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/1/0" x="16" y="114" width="109.5" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLAlertControllerViewController" label="AAPLAlertControllerViewController" value="AAPLAlertControllerViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/1/1" x="16" y="133.5" width="177.5" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Buttons" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/2" x="0" y="152" width="320" height="44">
+                    <UIAStaticText name="Buttons" label="Buttons" value="Buttons" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/2/0" x="16" y="158" width="57" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLButtonViewController" label="AAPLButtonViewController" value="AAPLButtonViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/2/1" x="16" y="177.5" width="138" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Date Picker" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/3" x="0" y="196" width="320" height="44">
+                    <UIAStaticText name="Date Picker" label="Date Picker" value="Date Picker" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/3/0" x="16" y="202" width="84" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLDatePickerController" label="AAPLDatePickerController" value="AAPLDatePickerController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/3/1" x="16" y="221.5" width="135.5" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Image View" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/4" x="0" y="240" width="320" height="44">
+                    <UIAStaticText name="Image View" label="Image View" value="Image View" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/4/0" x="16" y="246" width="83.5" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLImageViewController" label="AAPLImageViewController" value="AAPLImageViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/4/1" x="16" y="265.5" width="135" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Page Control" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/5" x="0" y="284" width="320" height="44">
+                    <UIAStaticText name="Page Control" label="Page Control" value="Page Control" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/5/0" x="16" y="290" width="95" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLPageControlViewController" label="AAPLPageControlViewController" value="AAPLPageControlViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/5/1" x="16" y="309.5" width="167.5" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Picker View" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/6" x="0" y="328" width="320" height="44">
+                    <UIAStaticText name="Picker View" label="Picker View" value="Picker View" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/6/0" x="16" y="334" width="84.5" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLPickerViewController" label="AAPLPickerViewController" value="AAPLPickerViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/6/1" x="16" y="353.5" width="135.5" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Progress Views" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/7" x="0" y="372" width="320" height="44">
+                    <UIAStaticText name="Progress Views" label="Progress Views" value="Progress Views" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/7/0" x="16" y="378" width="111.5" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLProgressViewController" label="AAPLProgressViewController" value="AAPLProgressViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/7/1" x="16" y="397.5" width="149" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Segmented Controls" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/8" x="0" y="416" width="320" height="44">
+                    <UIAStaticText name="Segmented Controls" label="Segmented Controls" value="Segmented Controls" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/8/0" x="16" y="422" width="149.5" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLSegmentedControlViewController" label="AAPLSegmentedControlViewController" value="AAPLSegmentedControlViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/8/1" x="16" y="441.5" width="200" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Sliders" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/9" x="0" y="460" width="320" height="44">
+                    <UIAStaticText name="Sliders" label="Sliders" value="Sliders" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/9/0" x="16" y="466" width="50" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLSliderViewController" label="AAPLSliderViewController" value="AAPLSliderViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/9/1" x="16" y="485.5" width="133" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Steppers" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/10" x="0" y="504" width="320" height="44">
+                    <UIAStaticText name="Steppers" label="Steppers" value="Steppers" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/10/0" x="16" y="510" width="66" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLStepperViewController" label="AAPLStepperViewController" value="AAPLStepperViewController" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/10/1" x="16" y="529.5" width="144" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Switches" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/11" x="0" y="548" width="320" height="44">
+                    <UIAStaticText name="Switches" label="Switches" value="Switches" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/11/0" x="16" y="554" width="66.5" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLSwitchViewController" label="AAPLSwitchViewController" value="AAPLSwitchViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/11/1" x="16" y="573.5" width="138" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Text Fields" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/12" x="0" y="592" width="320" height="44">
+                    <UIAStaticText name="Text Fields" label="Text Fields" value="Text Fields" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/12/0" x="0" y="0" width="77.5" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLTextFieldViewController" label="AAPLTextFieldViewController" value="AAPLTextFieldViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/12/1" x="0" y="0" width="148.5" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Text View" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/13" x="0" y="636" width="320" height="44">
+                    <UIAStaticText name="Text View" label="Text View" value="Text View" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/13/0" x="0" y="0" width="69" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLTextViewController" label="AAPLTextViewController" value="AAPLTextViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/13/1" x="0" y="0" width="123.5" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Web View" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/14" x="0" y="680" width="320" height="44">
+                    <UIAStaticText name="Web View" label="Web View" value="Web View" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/14/0" x="0" y="0" width="71.5" height="19.5">
+                    </UIAStaticText>
+                    <UIAStaticText name="AAPLWebViewController" label="AAPLWebViewController" value="AAPLWebViewController" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/14/1" x="0" y="0" width="125.5" height="13.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Search" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/15" x="0" y="724" width="320" height="44">
+                    <UIAStaticText name="Search" label="Search" value="Search" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/15/0" x="0" y="0" width="288" height="43.5">
+                    </UIAStaticText>
+                </UIATableCell>
+                <UIATableCell name="Toolbars" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/16" x="0" y="768" width="320" height="44">
+                    <UIAStaticText name="Toolbars" label="Toolbars" value="Toolbars" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/16/0" x="0" y="0" width="288" height="43.5">
+                    </UIAStaticText>
+                </UIATableCell>
+            </UIATableView>
+            <UIAToolbar name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2" x="0" y="568" width="320" height="44">
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0" x="0" y="567.5" width="320" height="0.5">
+                </UIAImage>
+                <UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/1" x="0" y="568" width="320" height="44">
+                </UIAImage>
+            </UIAToolbar>
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1" x="0" y="0" width="320" height="568">
+        </UIAWindow>
+        <UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2" x="0" y="0" width="320" height="568">
+            <UIAStatusBar name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0" x="0" y="0" width="320" height="20">
+                <UIAElement name="5 of 5 bars, signal strength" label="5 of 5 bars, signal strength" value="" dom="" enabled="true" valid="true" visible="true" hint="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" path="/0/2/0/0" x="6" y="0" width="35" height="20">
+                </UIAElement>
+                <UIAElement name="airtel network" label="airtel network" value="" dom="" enabled="true" valid="true" visible="true" hint="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" path="/0/2/0/1" x="44" y="0" width="29" height="20">
+                </UIAElement>
+                <UIAElement name="3 of 3 Wi-Fi bars" label="3 of 3 Wi-Fi bars" value="hellouser123" dom="" enabled="true" valid="true" visible="true" hint="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" path="/0/2/0/2" x="78" y="0" width="13" height="20">
+                </UIAElement>
+                <UIAElement name="1:21 pm" label="1:21 pm" value="" dom="" enabled="true" valid="true" visible="true" hint="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" path="/0/2/0/3" x="139" y="0" width="43" height="20">
+                </UIAElement>
+                <UIAElement name="100% battery power, Charging" label="100% battery power, Charging" value="" dom="" enabled="true" valid="true" visible="true" hint="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" path="/0/2/0/4" x="248" y="0" width="67" height="20">
+                </UIAElement>
+            </UIAStatusBar>
+        </UIAWindow>
+    </UIAApplication>
+</AppiumAUT>

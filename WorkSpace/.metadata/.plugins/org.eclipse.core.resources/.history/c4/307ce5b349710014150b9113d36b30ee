@@ -1,0 +1,30 @@
+package com.touchactions;
+
+import io.appium.java_client.android.AndroidDriver;
+
+import org.testng.annotations.Test;
+
+public class Temp {
+
+	public static void main(String[] args) {
+		AndroidDriver driver;
+
+		@Test
+		public void testApp() throws MalformedURLException {
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			capabilities.setCapability("deviceName", "Xperia Z1");
+			capabilities.setCapability("platformVersion", "4.4.4");
+			capabilities.setCapability("platformName", "Android");
+			capabilities.setCapability("appPackage", "com.bt.bms");
+			capabilities.setCapability("appActivity",
+					"com.bt.bms.activities.SplashActivity");
+			driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),
+					capabilities);
+			
+			
+			
+		}
+
+	}
+
+}

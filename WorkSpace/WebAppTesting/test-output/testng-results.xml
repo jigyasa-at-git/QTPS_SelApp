@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11397" started-at="2014-09-08T08:31:53Z" finished-at="2014-09-08T08:32:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11397" started-at="2014-09-08T08:31:53Z" finished-at="2014-09-08T08:32:04Z">
+      <class name="Gmail">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:Gmail@28864e92]" name="testApp" duration-ms="11385" started-at="2014-09-08T14:01:53Z" finished-at="2014-09-08T14:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Gmail@28864e92]" name="quit" is-config="true" duration-ms="0" started-at="2014-09-08T14:02:04Z" finished-at="2014-09-08T14:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Gmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

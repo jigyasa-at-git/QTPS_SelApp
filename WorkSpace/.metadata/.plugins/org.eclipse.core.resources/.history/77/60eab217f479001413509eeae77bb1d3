@@ -1,0 +1,11 @@
+package com.mobile.qtpselenium.makemytrip;
+
+public class MakeMyTripTest {
+	
+	
+	@Test
+	public void testApp(){
+		
+	}
+
+}

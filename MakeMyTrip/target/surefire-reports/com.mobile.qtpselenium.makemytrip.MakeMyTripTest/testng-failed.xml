@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.mobile.qtpselenium.makemytrip.MakeMyTripTest]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="com.mobile.qtpselenium.makemytrip.MakeMyTripTest">
+        <methods>
+          <include name="testApp"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

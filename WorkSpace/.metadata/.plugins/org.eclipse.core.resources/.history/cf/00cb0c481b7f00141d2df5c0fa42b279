@@ -1,0 +1,15 @@
+package com.mobile.qtpselenium.makemytrip;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class temp {
+
+	public static void main(String[] args) {
+		List<String> x = new ArrayList<String>();
+		
+		MyArrayList<E> c= (MyArrayList<String>)x;
+
+	}
+
+}
