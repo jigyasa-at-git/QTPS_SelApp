@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rediff">
+
+
+<test name="Login and Check mail">
+    <classes>
+        <class name="com.qtpselenium.hybrid.testcases.LoginAndCheckMail" ></class>  
+    </classes>
+</test>
+
+<test name="Search Share Value">
+    <classes>
+        <class name="com.qtpselenium.hybrid.testcases.SearchShareTest" ></class>  
+    </classes>
+</test>
+
+</suite>

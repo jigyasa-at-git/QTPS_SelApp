@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My suite" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+    <groups>
+    </groups>
+  </suite>
+  <suite name="Suite B" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+    <groups>
+    </groups>
+    <test name="Test B1" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+      <class name="com.qtpselenium.suiteB.TestCase_B1">
+        <test-method status="PASS" signature="testcaseB1()[pri:0, instance:com.qtpselenium.suiteB.TestCase_B1@748417]" name="testcaseB1" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Test B2" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+      <class name="com.qtpselenium.suiteB.TestCase_B2">
+        <test-method status="PASS" signature="testcaseB2()[pri:0, instance:com.qtpselenium.suiteB.TestCase_B2@1801e5f]" name="testcaseB2" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="Suite C" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+    <groups>
+    </groups>
+    <test name="Test C1" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+      <class name="com.qtpselenium.suiteC.TestCase_C1">
+        <test-method status="PASS" signature="testcaseC1()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@1be40d5]" name="testcaseC1" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Test C2" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+      <class name="com.qtpselenium.suiteC.TestCase_C2">
+        <test-method status="PASS" signature="testcaseC2()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C2@eb203b]" name="testcaseC2" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="Suite A" duration-ms="47" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+    <groups>
+    </groups>
+    <test name="Test A1" duration-ms="32" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+      <class name="com.qtpselenium.suiteA.TestCase_A1">
+        <test-method status="PASS" signature="testcaseA1()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@ccc96]" name="testcaseA1" duration-ms="32" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Test A2" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+      <class name="com.qtpselenium.suiteA.TestCase_A2">
+        <test-method status="PASS" signature="testcaseA2()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A2@1a2f9dd]" name="testcaseA2" duration-ms="0" started-at="2011-11-11T19:43:24Z" finished-at="2011-11-11T19:43:24Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="whizdom" name="com.qtpselenium.framework.datadriven.suiteA.Test1" tests="7" failures="0" timestamp="5 Aug 2014 03:04:59 GMT" time="1.203" errors="0">
+  <testcase name="test1" time="0.016" classname="com.qtpselenium.framework.datadriven.suiteA.Test1"/>
+  <testcase name="test1" time="0.0" classname="com.qtpselenium.framework.datadriven.suiteA.Test1"/>
+  <testcase name="test1" time="0.0" classname="com.qtpselenium.framework.datadriven.suiteA.Test1"/>
+  <testcase name="test2" time="0.0" classname="com.qtpselenium.framework.datadriven.suiteA.Test2">
+    <skipped/>
+  </testcase>
+  <testcase name="test3" time="0.0" classname="com.qtpselenium.framework.datadriven.suiteA.Test3"/>
+  <testcase name="test4" time="0.0" classname="com.qtpselenium.framework.datadriven.suiteA.Test4"/>
+  <testcase name="test5" time="0.0" classname="com.qtpselenium.framework.datadriven.suiteA.Test5"/>
+</testsuite>

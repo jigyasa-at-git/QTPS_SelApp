@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="BAM-033354-PA" name="com.appium.mavensampleJigs.WhatsAppTest" tests="1" failures="0" timestamp="16 Aug 2015 06:46:45 GMT" time="36.035" errors="0">
+  <testcase name="testApp" time="29.262" classname="com.appium.mavensampleJigs.WhatsAppTest"/>
+</testsuite>

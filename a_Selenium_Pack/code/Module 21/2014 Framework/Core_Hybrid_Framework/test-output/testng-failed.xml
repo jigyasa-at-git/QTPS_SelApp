@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]">
+  <test name="PortFolio Test(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.suiteA.PortFolioTest">
+        <methods>
+          <include name="deletePortFolioTest" invocation-numbers="0 1"/>
+          <include name="renamePortFolioTest" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.suiteA.PortFolioTest -->
+    </classes>
+  </test> <!-- PortFolio Test(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

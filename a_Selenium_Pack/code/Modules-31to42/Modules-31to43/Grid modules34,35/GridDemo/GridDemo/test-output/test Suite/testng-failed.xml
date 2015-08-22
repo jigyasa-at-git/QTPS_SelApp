@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" verbose="0" name="Failed suite [test Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="Testie(failed)" parallel="tests" preserve-order="false">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Grid.TestApp1">
+        <methods>
+          <include name="setup"/>
+          <include name="test_FOURTH"/>
+          <include name="tearDown"/>
+          <include name="test_THIRD"/>
+        </methods>
+      </class>
+      <class name="Grid.TestApp2">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="a-ff7944704ca64" name="com.qtpselenium.hybrid.testcases.LoginAndCheckMail" tests="2" failures="1" timestamp="25 Jul 2012 04:32:11 GMT" time="8.968" errors="0">
+  <testcase name="LoginTest" time="8.0" classname="com.qtpselenium.hybrid.testcases.LoginAndCheckMail">
+    <failure type="java.lang.AssertionError" message="Fail - not able to enter data in input box -login_username expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[java.lang.AssertionError: Fail - not able to enter data in input box -login_username expected:<true> but was:<false>
+	at com.qtpselenium.hybrid.util.Keywords.executeKeywords(Keywords.java:91)
+	at com.qtpselenium.hybrid.testcases.LoginAndCheckMail.LoginTest(LoginAndCheckMail.java:25)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="checkMailTest" time="0.0" classname="com.qtpselenium.hybrid.testcases.LoginAndCheckMail">
+    <skipped/>
+  </testcase>
+</testsuite>

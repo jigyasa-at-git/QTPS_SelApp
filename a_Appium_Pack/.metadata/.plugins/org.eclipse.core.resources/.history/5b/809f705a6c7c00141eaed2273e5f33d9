@@ -1,0 +1,15 @@
+package com.mobile.qtpselenium.makemytrip;
+
+import java.util.ArrayList;
+
+public class MyArrayList<Object> extends ArrayList<Object>{
+	
+
+
+	public boolean add(Object o){
+		System.out.println("Adding "+o);
+		super.add(o);
+		return true;
+	}
+
+}

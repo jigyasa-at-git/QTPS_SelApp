@@ -1,0 +1,17 @@
+18/11/2011 04:20:42 devpinoyLogger Loading Property files
+18/11/2011 04:20:42 devpinoyLogger Loaded Property files successfully
+18/11/2011 04:20:42 devpinoyLogger Loading XLS Files
+18/11/2011 04:20:43 devpinoyLogger Loaded XLS Files successfully
+18/11/2011 04:20:43 devpinoyLogger Checking Runmode of Shop Suite
+18/11/2011 04:20:43 devpinoyLogger  Executing TestCase_A2
+18/11/2011 04:20:43 devpinoyLogger Google Nexus S -- black -- 8 GB
+18/11/2011 04:21:40 devpinoyLogger  Executing TestCase_A2
+18/11/2011 04:21:40 devpinoyLogger iPhone 4 -- white -- 8 GB
+18/11/2011 04:22:02 devpinoyLogger  Executing TestCase_A2
+18/11/2011 04:22:02 devpinoyLogger Desire HD -- white -- 8 GB
+18/11/2011 04:22:25 devpinoyLogger Skipping Test CaseCheckProductDisplay as runmode set to NO
+18/11/2011 04:22:25 devpinoyLogger Checking Runmode of Cart Suite
+18/11/2011 04:22:25 devpinoyLogger  Executing testcaseCartTotal
+18/11/2011 04:22:37 devpinoyLogger Skipping Test CaseTestCase_B2 as runmode set to NO
+18/11/2011 04:22:37 devpinoyLogger Checking Runmode of Product Display Suite
+18/11/2011 04:22:37 devpinoyLogger Skipped Product Display Suite as the runmode was set to NO

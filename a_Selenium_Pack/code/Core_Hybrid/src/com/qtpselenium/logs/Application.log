@@ -1,0 +1,70 @@
+27/12/2011 01:45:04 devpinoyLogger openBrowser
+27/12/2011 01:45:04 devpinoyLogger Opening browser
+27/12/2011 01:45:11 devpinoyLogger PASS
+27/12/2011 01:45:11 devpinoyLogger navigate
+27/12/2011 01:45:11 devpinoyLogger Navigating to URL
+27/12/2011 01:45:15 devpinoyLogger PASS
+27/12/2011 01:45:15 devpinoyLogger verifyText
+27/12/2011 01:45:15 devpinoyLogger Verifying the text
+27/12/2011 01:45:15 devpinoyLogger FAIL Object not found Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:15 devpinoyLogger clickLink
+27/12/2011 01:45:15 devpinoyLogger Clicking on link 
+27/12/2011 01:45:15 devpinoyLogger FAIL -- Not able to click on linkCannot find elements when the XPath expression is null.
+27/12/2011 01:45:15 devpinoyLogger verifyLinkText
+27/12/2011 01:45:15 devpinoyLogger Verifying link Text
+27/12/2011 01:45:15 devpinoyLogger FAIL -- Link text not verifiedCannot find elements when the XPath expression is null.
+27/12/2011 01:45:15 devpinoyLogger writeInInput
+27/12/2011 01:45:15 devpinoyLogger Writing in text box
+27/12/2011 01:45:15 devpinoyLogger FAIL Unable to write Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:15 devpinoyLogger writeInInput
+27/12/2011 01:45:15 devpinoyLogger Writing in text box
+27/12/2011 01:45:15 devpinoyLogger FAIL Unable to write Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:15 devpinoyLogger verifyTextinInput
+27/12/2011 01:45:15 devpinoyLogger Verifying the text in input box
+27/12/2011 01:45:15 devpinoyLogger FAIL Unable to find input box Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:15 devpinoyLogger verifyTextinInput
+27/12/2011 01:45:15 devpinoyLogger Verifying the text in input box
+27/12/2011 01:45:15 devpinoyLogger FAIL Unable to find input box Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:15 devpinoyLogger verifyButtonText
+27/12/2011 01:45:15 devpinoyLogger Verifying the button text
+27/12/2011 01:45:15 devpinoyLogger FAIL Object not found Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:15 devpinoyLogger clickButton
+27/12/2011 01:45:15 devpinoyLogger Clicking on Button
+27/12/2011 01:45:15 devpinoyLogger FAIL -- Not able to click on ButtonCannot find elements when the XPath expression is null.
+27/12/2011 01:45:15 devpinoyLogger validateLogin
+27/12/2011 01:45:25 devpinoyLogger FAIL
+27/12/2011 01:45:25 devpinoyLogger closeBrowser
+27/12/2011 01:45:25 devpinoyLogger openBrowser
+27/12/2011 01:45:25 devpinoyLogger Opening browser
+27/12/2011 01:45:31 devpinoyLogger PASS
+27/12/2011 01:45:31 devpinoyLogger navigate
+27/12/2011 01:45:31 devpinoyLogger Navigating to URL
+27/12/2011 01:45:32 devpinoyLogger FAIL -- Not able to navigate
+27/12/2011 01:45:32 devpinoyLogger verifyText
+27/12/2011 01:45:32 devpinoyLogger Verifying the text
+27/12/2011 01:45:32 devpinoyLogger FAIL Object not found Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:32 devpinoyLogger clickLink
+27/12/2011 01:45:32 devpinoyLogger Clicking on link 
+27/12/2011 01:45:32 devpinoyLogger FAIL -- Not able to click on linkCannot find elements when the XPath expression is null.
+27/12/2011 01:45:32 devpinoyLogger verifyLinkText
+27/12/2011 01:45:32 devpinoyLogger Verifying link Text
+27/12/2011 01:45:32 devpinoyLogger FAIL -- Link text not verifiedCannot find elements when the XPath expression is null.
+27/12/2011 01:45:32 devpinoyLogger writeInInput
+27/12/2011 01:45:32 devpinoyLogger Writing in text box
+27/12/2011 01:45:32 devpinoyLogger FAIL Unable to write Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:32 devpinoyLogger writeInInput
+27/12/2011 01:45:32 devpinoyLogger Writing in text box
+27/12/2011 01:45:32 devpinoyLogger FAIL Unable to write Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:32 devpinoyLogger verifyTextinInput
+27/12/2011 01:45:32 devpinoyLogger Verifying the text in input box
+27/12/2011 01:45:32 devpinoyLogger FAIL Unable to find input box Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:32 devpinoyLogger verifyTextinInput
+27/12/2011 01:45:32 devpinoyLogger Verifying the text in input box
+27/12/2011 01:45:32 devpinoyLogger FAIL Unable to find input box Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:32 devpinoyLogger verifyButtonText
+27/12/2011 01:45:32 devpinoyLogger Verifying the button text
+27/12/2011 01:45:32 devpinoyLogger FAIL Object not found Cannot find elements when the XPath expression is null.
+27/12/2011 01:45:32 devpinoyLogger clickButton
+27/12/2011 01:45:32 devpinoyLogger Clicking on Button
+27/12/2011 01:45:32 devpinoyLogger FAIL -- Not able to click on ButtonCannot find elements when the XPath expression is null.
+27/12/2011 01:45:32 devpinoyLogger validateLogin

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;x&apos; to &apos;ExecuteFunction&apos;&#x0A;- Original project: &apos;Temp&apos;&#x0A;- Original element: &apos;x&apos;&#x0A;- Renamed element: &apos;ExecuteFunction&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;x&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{x.java[x" matchStrategy="1" name="ExecuteFunction" qualified="false" references="true" similarDeclarations="false" stamp="1427708607116" textual="false" version="1.0"/>
+</session>

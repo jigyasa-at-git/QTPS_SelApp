@@ -1,0 +1,19 @@
+02/12/2011 00:10:26 devpinoyLogger Hello
+02/12/2011 00:10:26 devpinoyLogger Intialize Suite xlsx
+02/12/2011 00:10:26 devpinoyLogger Check Items -- Y
+02/12/2011 00:10:26 devpinoyLogger ******Executing the Suite******Check Items
+02/12/2011 00:10:26 devpinoyLogger LoginTest -- N
+02/12/2011 00:10:26 devpinoyLogger CheckItems -- N
+02/12/2011 00:10:26 devpinoyLogger AddItemstoCart -- Y
+02/12/2011 00:10:26 devpinoyLogger Executing the test case -> AddItemstoCart
+02/12/2011 00:10:27 devpinoyLogger openBrowser
+02/12/2011 00:10:27 devpinoyLogger Opening browser
+02/12/2011 00:10:27 devpinoyLogger PASS
+02/12/2011 00:10:27 devpinoyLogger navigate
+02/12/2011 00:10:27 devpinoyLogger Navigating to URL
+02/12/2011 00:10:27 devpinoyLogger PASS
+02/12/2011 00:10:27 devpinoyLogger verifyTitle
+02/12/2011 00:10:27 devpinoyLogger Verifying title
+02/12/2011 00:10:27 devpinoyLogger PASS
+02/12/2011 00:10:28 devpinoyLogger Search Suite -- N
+02/12/2011 00:10:28 devpinoyLogger C Suite -- N

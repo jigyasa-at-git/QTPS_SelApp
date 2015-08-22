@@ -35,5 +35,7 @@
 	<classpathentry kind="var" path="M2_REPO/io/appium/java-client/2.1.0/java-client-2.1.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/cglib/cglib/3.1/cglib-3.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/ow2/asm/asm/4.2/asm-4.2.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/agarwal/OneDrive/Personal/006 J/C.Education/000_Jars/selenium-server-standalone-2.47.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

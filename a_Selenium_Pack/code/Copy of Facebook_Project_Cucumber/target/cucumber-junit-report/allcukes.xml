@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" tests="4">
+<testcase classname="Logging in Facebook" name="Good user" time="0">
+<skipped><![CDATA[Given I go to facebook on "Mozilla".....................................................undefined
+And I enter "username" as "its.thakur@gmail.com"..............................................undefined
+And I enter "password" as "whoareyou"....................................................undefined
+And I click on "LoginButton"........................................................undefined
+Then login should be "success".......................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Life of IT Tester" name="I am a tester_3" time="0">
+<skipped><![CDATA[Given I am a "Good" tester.........................................................undefined
+When I go to work..............................................................undefined
+Then I "Complete" it............................................................undefined
+And My boss "Salutes" me..........................................................undefined
+But The developer "hates" me........................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Life of IT Tester" name="I am a tester_2" time="0">
+<skipped><![CDATA[Given I am a "Bad" tester..........................................................undefined
+When I go to work..............................................................undefined
+Then I "Mess" it..............................................................undefined
+And My boss "Fires" me...........................................................undefined
+But The developer "Likes" me........................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Life of IT Tester" name="I am a tester_1" time="0">
+<skipped><![CDATA[Given I am a "avg" tester..........................................................undefined
+When I go to work..............................................................undefined
+Then I "sufficient" it...........................................................undefined
+And My boss "congrats" me..........................................................undefined
+But The developer "respects" me.......................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

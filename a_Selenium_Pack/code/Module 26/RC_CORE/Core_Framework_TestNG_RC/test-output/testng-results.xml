@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="12" failed="3" total="15" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cart Suite" duration-ms="3606079" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T06:46:06Z">
+    <groups>
+    </groups>
+    <test name="Test the total in cart" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+      <class name="com.qtpselenium.suite.cart.CheckTotalPrice">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.qtpselenium.suite.cart.CheckTotalPrice@1b3a74d]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+        <test-method status="SKIP" signature="testcaseB2()[pri:0, instance:com.qtpselenium.suite.cart.CheckTotalPrice@1b3a74d]" name="testcaseB2" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+        </test-method>
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suite.cart.CheckTotalPrice@1b3a74d]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test CaseCheckTotalPrice as runmode set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test CaseCheckTotalPrice as runmode set to NO
+	at com.qtpselenium.suite.cart.CheckTotalPrice.checkTestSkip(CheckTotalPrice.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:543)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:212)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:637)
+	at org.testng.TestRunner.run(TestRunner.java:605)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:241)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1169)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1165)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1094)
+	at org.testng.TestNG.run(TestNG.java:1006)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:107)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:199)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:170)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+    </test>
+    <test name="Randomly add items to cart" duration-ms="3606079" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T06:46:06Z">
+      <class name="com.qtpselenium.suite.cart.AddtoCartTest">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+        <test-method status="FAIL" signature="testcaseA(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="testcaseA" duration-ms="1805688" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T06:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_B1_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_B1_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_B1_3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_B1_4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.thoughtworks.selenium.SeleniumException">
+            <message>
+              <![CDATA[ERROR: Command timed out]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Command timed out
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:97)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:91)
+	at com.thoughtworks.selenium.DefaultSelenium.open(DefaultSelenium.java:335)
+	at com.qtpselenium.suite.cart.AddtoCartTest.selectRandomItem(AddtoCartTest.java:95)
+	at com.qtpselenium.suite.cart.AddtoCartTest.testcaseA(AddtoCartTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:241)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1169)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1165)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1094)
+	at org.testng.TestNG.run(TestNG.java:1006)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:107)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:199)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:170)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="reportDataSetResult" is-config="true" duration-ms="187" started-at="2011-11-21T06:16:05Z" finished-at="2011-11-21T06:16:05Z">
+        </test-method>
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="reportDataSetResult" is-config="true" duration-ms="47" started-at="2011-11-21T06:16:05Z" finished-at="2011-11-21T06:16:05Z">
+        </test-method>
+        <test-method status="SKIP" signature="testcaseA(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="testcaseA" duration-ms="0" started-at="2011-11-21T06:16:05Z" finished-at="2011-11-21T06:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_B1_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_B1_6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_B1_7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_B1_8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode for test set data set to no 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode for test set data set to no 1
+	at com.qtpselenium.suite.cart.AddtoCartTest.testcaseA(AddtoCartTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:241)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1169)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1165)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1094)
+	at org.testng.TestNG.run(TestNG.java:1006)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:107)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:199)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:170)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="FAIL" signature="testcaseA(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="testcaseA" duration-ms="1800047" started-at="2011-11-21T06:16:05Z" finished-at="2011-11-21T06:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_B1_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_B1_10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_B1_11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_B1_12]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.thoughtworks.selenium.SeleniumException">
+            <message>
+              <![CDATA[ERROR: Command timed out]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR: Command timed out
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:97)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:91)
+	at com.thoughtworks.selenium.DefaultSelenium.open(DefaultSelenium.java:335)
+	at com.qtpselenium.suite.cart.AddtoCartTest.selectRandomItem(AddtoCartTest.java:95)
+	at com.qtpselenium.suite.cart.AddtoCartTest.testcaseA(AddtoCartTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:241)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1169)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1165)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1094)
+	at org.testng.TestNG.run(TestNG.java:1006)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:107)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:199)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:170)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="reportDataSetResult" is-config="true" duration-ms="31" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+        </test-method>
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="reportDataSetResult" is-config="true" duration-ms="47" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+        </test-method>
+        <test-method status="FAIL" signature="testcaseA(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="testcaseA" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_B1_13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_B1_14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_B1_15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_B1_16]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.thoughtworks.selenium.SeleniumException">
+            <message>
+              <![CDATA[ERROR Server Exception: unexpected command json={command:"open",target:"/",value:""} in place before new command open could be added]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.thoughtworks.selenium.SeleniumException: ERROR Server Exception: unexpected command json={command:"open",target:"/",value:""} in place before new command open could be added
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:97)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:91)
+	at com.thoughtworks.selenium.DefaultSelenium.open(DefaultSelenium.java:335)
+	at com.qtpselenium.suite.cart.AddtoCartTest.selectRandomItem(AddtoCartTest.java:95)
+	at com.qtpselenium.suite.cart.AddtoCartTest.testcaseA(AddtoCartTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:613)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:241)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1169)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1165)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1094)
+	at org.testng.TestNG.run(TestNG.java:1006)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:107)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:199)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:170)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="reportTestResult()[pri:0, instance:com.qtpselenium.suite.cart.AddtoCartTest@127a1d8]" name="reportTestResult" is-config="true" duration-ms="16" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="Suite C" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+    <groups>
+    </groups>
+    <test name="Test C1" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+      <class name="com.qtpselenium.suiteC.TestCase_C1">
+        <test-method status="SKIP" signature="testcaseC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@1e07f4b]" name="testcaseC1" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_C1_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_C1_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_C1_3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_C1_4]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="SKIP" signature="testcaseC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@1e07f4b]" name="testcaseC1" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_C1_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_C1_10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_C1_11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_C1_12]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="SKIP" signature="testcaseC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@1e07f4b]" name="testcaseC1" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_C1_13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_C1_14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_C1_15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_C1_16]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@1e07f4b]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+        </test-method>
+        <test-method status="SKIP" signature="testcaseC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@1e07f4b]" name="testcaseC1" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_C1_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_C1_6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_C1_7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_C1_8]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+    <test name="Test C2" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+      <class name="com.qtpselenium.suiteC.TestCase_C2">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C2@c48b77]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RUnmode of Suite A set to no. So Skipping all tests in Suite A]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RUnmode of Suite A set to no. So Skipping all tests in Suite A
+	at com.qtpselenium.suiteC.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:543)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:212)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:278)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:241)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1169)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1165)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1094)
+	at org.testng.TestNG.run(TestNG.java:1006)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:107)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:199)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:170)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C2@c48b77]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+        </test-method>
+        <test-method status="SKIP" signature="testcaseC2()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C2@c48b77]" name="testcaseC2" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="Search Suite" duration-ms="31" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+    <groups>
+    </groups>
+    <test name="Check Laptop Displays" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+      <class name="com.qtpselenium.suite.search.LaptopDisplayTest">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.qtpselenium.suite.search.LaptopDisplayTest@64978b]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2011-11-21T05:45:58Z" finished-at="2011-11-21T05:45:58Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RUnmode of Suite A set to no. So Skipping all tests in Suite A]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RUnmode of Suite A set to no. So Skipping all tests in Suite A
+	at com.qtpselenium.suite.search.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:543)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:212)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:278)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:241)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1169)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1165)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1094)
+	at org.testng.TestNG.run(TestNG.java:1006)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:107)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:199)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:170)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="SKIP" signature="reportTestResult()[pri:0, instance:com.qtpselenium.suite.search.LaptopDisplayTest@64978b]" name="reportTestResult" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+        <test-method status="SKIP" signature="testcaseA2(java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suite.search.LaptopDisplayTest@64978b]" name="testcaseA2" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rs.25000 - Rs.35000]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suite.search.LaptopDisplayTest@64978b]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+        <test-method status="SKIP" signature="testcaseA2(java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suite.search.LaptopDisplayTest@64978b]" name="testcaseA2" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_A2_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_A2_5]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="SKIP" signature="reportDataSetResult()[pri:0, instance:com.qtpselenium.suite.search.LaptopDisplayTest@64978b]" name="reportDataSetResult" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+        <test-method status="SKIP" signature="reportDataSetResult()[pri:0, instance:com.qtpselenium.suite.search.LaptopDisplayTest@64978b]" name="reportDataSetResult" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Check First 3 results" duration-ms="15" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+      <class name="com.qtpselenium.suite.search.SearchResults">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suite.search.SearchResults@17d1256]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+        <test-method status="SKIP" signature="searchTest(java.lang.String)[pri:0, instance:com.qtpselenium.suite.search.SearchResults@17d1256]" name="searchTest" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="SKIP" signature="searchTest(java.lang.String)[pri:0, instance:com.qtpselenium.suite.search.SearchResults@17d1256]" name="searchTest" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Obama]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="SKIP" signature="reportDataSetResult()[pri:0, instance:com.qtpselenium.suite.search.SearchResults@17d1256]" name="reportDataSetResult" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+        <test-method status="SKIP" signature="reportTestResult()[pri:0, instance:com.qtpselenium.suite.search.SearchResults@17d1256]" name="reportTestResult" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+        <test-method status="SKIP" signature="reportDataSetResult()[pri:0, instance:com.qtpselenium.suite.search.SearchResults@17d1256]" name="reportDataSetResult" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+        <test-method status="SKIP" signature="searchTest(java.lang.String)[pri:0, instance:com.qtpselenium.suite.search.SearchResults@17d1256]" name="searchTest" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="SKIP" signature="reportDataSetResult()[pri:0, instance:com.qtpselenium.suite.search.SearchResults@17d1256]" name="reportDataSetResult" is-config="true" duration-ms="0" started-at="2011-11-21T05:46:00Z" finished-at="2011-11-21T05:46:00Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="My suite" duration-ms="0" started-at="2011-11-21T06:46:06Z" finished-at="2011-11-21T06:46:06Z">
+    <groups>
+    </groups>
+  </suite>
+</testng-results>

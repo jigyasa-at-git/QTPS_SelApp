@@ -1,4 +1,5 @@
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -15,7 +16,7 @@ import org.testng.annotations.Test;
 
 
 public class ContactManager {
-	AppiumDriver dr;
+	AndroidDriver dr;
 	@Test
 	public void testApp() throws InterruptedException, Exception{
 
@@ -25,7 +26,7 @@ public class ContactManager {
          capabilities.setCapability("platformVersion", "4.4.4");
          capabilities.setCapability("platformName","Android");
 	     capabilities.setCapability("app", app.getAbsolutePath());
-         dr = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+         dr = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
          dr.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
          Thread.sleep(5000);
          String src = dr.getPageSource();

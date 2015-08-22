@@ -1,0 +1,18 @@
+06/10/2011 14:45:12 devpinoyLogger Loaded config.properties
+06/10/2011 14:45:12 devpinoyLogger Loaded OR.properties
+06/10/2011 14:45:12 devpinoyLogger Initialized selenium
+06/10/2011 14:45:22 devpinoyLogger Loaded data from xls files
+06/10/2011 14:45:22 devpinoyLogger Test Name -- LoginTest
+06/10/2011 14:45:22 devpinoyLogger total rows -- 2
+06/10/2011 14:45:22 devpinoyLogger total cols -- 3
+06/10/2011 14:45:22 devpinoyLogger Test Name -- CreateLeadTest
+06/10/2011 14:45:22 devpinoyLogger total rows -- 3
+06/10/2011 14:45:22 devpinoyLogger total cols -- 5
+06/10/2011 14:45:22 devpinoyLogger Starting Login Test Execution
+06/10/2011 14:45:22 devpinoyLogger qtpselenium@gmail.com  ---- pass@1234 -- Y
+06/10/2011 14:46:07 devpinoyLogger Starting Create Lead Test Execution
+06/10/2011 14:46:07 devpinoyLogger *firefox
+06/10/2011 14:46:07 devpinoyLogger Mr.  ---- Henry -- Fawks -- HSBC -- Open
+06/10/2011 14:46:12 devpinoyLogger Starting Create Lead Test Execution
+06/10/2011 14:46:12 devpinoyLogger *firefox
+06/10/2011 14:46:12 devpinoyLogger Mr.  ---- Ashish -- Thakur -- JavatestBox -- Open

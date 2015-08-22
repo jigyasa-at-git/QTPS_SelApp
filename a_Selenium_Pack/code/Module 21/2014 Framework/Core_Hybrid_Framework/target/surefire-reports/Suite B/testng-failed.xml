@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite B]">
+  <listeners>
+    <listener class-name="com.qtpselenium.framework.util.CustomListener"/>
+  </listeners>
+  <test name="Add Portfolio New stock(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest">
+        <methods>
+          <include name="addPortFolioNewStockTest" invocation-numbers="1 0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Modify Existing Stock(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest">
+        <methods>
+          <include name="modifyPortFolioStockTest" invocation-numbers="0 1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,56 @@
+<html>
+<head>
+<script language="Javascript">
+
+function changeMessage(){
+		//alert('in change message');
+		// need to communicate with applet
+		document.SimpleMessageApplet.setWelcomeMessage('Please enter');
+}
+
+
+function getMessage(){
+		alert(document.SimpleMessageApplet.getWelcomeMessage());
+}
+
+function getMessageText(){
+		alert(document.SimpleMessageApplet.getTextMessage());
+}
+
+function setMessageText(){
+		document.SimpleMessageApplet.setTextMessage('Any Rand');
+}
+
+function getCity(){
+		alert(document.SimpleMessageApplet.getSelectedCity());
+}
+
+function setCity(){
+		document.SimpleMessageApplet.selectCity('Delhi');
+}
+
+function sendForm(){
+		document.SimpleMessageApplet.submitForm();
+}
+
+
+</script>
+
+</head>
+
+<body>
+<APPLET CODE="My_Test_Applet.class" NAME="SimpleMessageApplet" WIDTH=200 HEIGHT=100 >
+  </APPLET >
+
+
+  <br><br><br><br>
+  <input type="submit" value="Get Message" onclick="getMessage();"><br>
+  <input type="submit" value="Change Message" onclick="changeMessage();"><br>
+  <input type="submit" value="Get Message from Text Field" onclick="getMessageText();"><br>
+  <input type="submit" value="Set Message in Text Field" onclick="setMessageText();"><br>
+  <input type="submit" value="Get Selected City" onclick="getCity();"><br>
+  <input type="submit" value="Change City" onclick="setCity();"><br>
+  <input type="submit" value="Submit the form" onclick="sendForm();"><br>
+</body>
+
+</html>

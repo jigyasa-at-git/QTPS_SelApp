@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rediff]">
+  <test name="Login and Check mail(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.hybrid.testcases.LoginAndCheckMail">
+        <methods>
+          <include name="checkMailTest"/>
+          <include name="LoginTest" invocation-numbers="0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

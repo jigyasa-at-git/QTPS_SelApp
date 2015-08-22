@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cart Suite">
+
+
+
+<test name="CheckTotal Test">
+    <classes>
+        <class name="com.qtpselenium.suite.cart.CheckTotal" ></class>  
+    </classes>
+</test>
+
+<test name="Test B2">
+    <classes>
+        <class name="com.qtpselenium.suite.cart.TestCase_B2" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

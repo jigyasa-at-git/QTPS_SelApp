@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cart Suite">
+
+
+
+
+<test name="Randomly add items to cart">
+    <classes>
+        <class name="com.qtpselenium.suite.cart.AddtoCartTest" ></class>  
+    </classes>
+</test>
+
+<test name="Test the total in cart">
+    <classes>
+        <class name="com.qtpselenium.suite.cart.CheckTotalPrice" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

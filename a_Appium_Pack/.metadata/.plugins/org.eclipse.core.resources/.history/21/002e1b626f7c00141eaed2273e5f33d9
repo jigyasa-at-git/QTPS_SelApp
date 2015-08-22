@@ -1,0 +1,30 @@
+package com.mobile.qtpselenium.makemytrip;
+
+import java.net.URL;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.WebElement;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class MyAndroidDriver extends AndroidDriver{
+
+	public MyAndroidDriver(URL remoteAddress, Capabilities desiredCapabilities) {
+		super(remoteAddress, desiredCapabilities);
+		
+	}
+	
+	@Override
+	public MyArrayList<WebElement> findElements(By b){
+		return (MyArrayList<WebElement>)super.findElements(b);
+	}
+	@Override
+	public void xyz(){
+		
+	}
+	
+	
+	
+
+}

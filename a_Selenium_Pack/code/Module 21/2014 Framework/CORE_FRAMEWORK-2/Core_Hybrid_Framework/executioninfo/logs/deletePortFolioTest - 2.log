@@ -1,0 +1,16 @@
+2015-03-11 08:08:47,750 DEBUG [deletePortFolioTest - 2] Executing  deletePortFolioTest - {PortFolioName=HelloP11, Runmode=Y, Iteration=2, Browser=Chrome}
+2015-03-11 08:08:47,780 DEBUG [deletePortFolioTest - 2] openBrowser ---  --- Browser
+2015-03-11 08:08:47,780 DEBUG [deletePortFolioTest - 2] Starting function openBrowser - Chrome
+2015-03-11 08:08:47,800 DEBUG [deletePortFolioTest - 2] Ending  function openBrowser with status PASS
+2015-03-11 08:08:47,800 DEBUG [deletePortFolioTest - 2] loginIfNotLoggedIn ---  --- 
+2015-03-11 08:08:47,800 DEBUG [deletePortFolioTest - 2] Entering function loginIfNotLoggedIn
+2015-03-11 08:08:47,820 DEBUG [deletePortFolioTest - 2] Already logged in
+2015-03-11 08:08:47,820 DEBUG [deletePortFolioTest - 2] selectPortFolio ---  --- PortFolioName
+2015-03-11 08:08:47,820 DEBUG [deletePortFolioTest - 2] Entering function selectPortFolio {PortFolioName=HelloP11, Runmode=Y, Iteration=2, Browser=Chrome}
+2015-03-11 08:08:47,820 DEBUG [deletePortFolioTest - 2] Starting function inputportfolioid_xpath , HelloP11
+2015-03-11 08:08:47,820 DEBUG [deletePortFolioTest - 2] Finding element portfolioid_xpath
+2015-03-11 08:08:47,884 DEBUG [deletePortFolioTest - 2] Ending  function click with status PASS
+2015-03-11 08:08:47,890 DEBUG [deletePortFolioTest - 2] Exiting function selectPortFolio
+2015-03-11 08:08:47,890 DEBUG [deletePortFolioTest - 2] clickAndAcceptAlert --- deletePortfolio_xpath --- 
+2015-03-11 08:08:50,942 DEBUG [deletePortFolioTest - 2] Finding element deletePortfolio_xpath
+2015-03-11 08:08:51,041 DEBUG [deletePortFolioTest - 2] Ending deletePortFolioTest

@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Quikr Suite">
+
+<listeners>
+    <listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+
+
+
+<test name="Test Base">
+    <classes>
+        <class name="tests.TestBase" ></class>  
+    </classes>
+</test>
+
+<test name="Registration Test">
+    <classes>
+        <class name="tests.RegisterTest" ></class>  
+    </classes>
+</test>
+
+<test name="Login Test">
+    <classes>
+        <class name="tests.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Post Add Test">
+    <classes>
+        <class name="tests.PostAddTest" ></class>  
+    </classes>
+</test>
+
+
+<test name="Password Change Test">
+    <classes>
+        <class name="tests.PasswordChangeTest" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>

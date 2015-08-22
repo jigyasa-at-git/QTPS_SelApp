@@ -1,0 +1,67 @@
+2015-03-12 08:11:29,668 DEBUG [addPortFolioNewStockTest - 1] Executing  addPortFolioNewStockTest - {Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Browser=Mozilla}
+2015-03-12 08:11:29,688 DEBUG [addPortFolioNewStockTest - 1] openBrowser ---  --- Browser
+2015-03-12 08:11:29,688 DEBUG [addPortFolioNewStockTest - 1] Starting function openBrowser - Mozilla
+2015-03-12 08:11:35,746 DEBUG [addPortFolioNewStockTest - 1] Ending  function openBrowser with status PASS
+2015-03-12 08:11:35,746 DEBUG [addPortFolioNewStockTest - 1] loginIfNotLoggedIn ---  --- 
+2015-03-12 08:11:35,746 DEBUG [addPortFolioNewStockTest - 1] Entering function loginIfNotLoggedIn
+2015-03-12 08:11:40,812 DEBUG [addPortFolioNewStockTest - 1] Starting function navigate
+2015-03-12 08:11:43,824 DEBUG [addPortFolioNewStockTest - 1] Ending  function navigate with status PASS
+2015-03-12 08:11:43,824 DEBUG [addPortFolioNewStockTest - 1] Starting function clickmoneyLink_xpath
+2015-03-12 08:11:43,824 DEBUG [addPortFolioNewStockTest - 1] Finding element moneyLink_xpath
+2015-03-12 08:11:52,455 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:11:52,455 DEBUG [addPortFolioNewStockTest - 1] Starting function clickmyPortfolio_xpath
+2015-03-12 08:11:52,455 DEBUG [addPortFolioNewStockTest - 1] Finding element myPortfolio_xpath
+2015-03-12 08:11:59,347 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:11:59,388 DEBUG [addPortFolioNewStockTest - 1] Starting function inputusername_xpath , ashishthakur1983
+2015-03-12 08:11:59,388 DEBUG [addPortFolioNewStockTest - 1] Finding element username_xpath
+2015-03-12 08:11:59,548 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:11:59,548 DEBUG [addPortFolioNewStockTest - 1] Starting function clickemailsubmit_xpath
+2015-03-12 08:11:59,548 DEBUG [addPortFolioNewStockTest - 1] Finding element emailsubmit_xpath
+2015-03-12 08:11:59,688 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:11:59,688 DEBUG [addPortFolioNewStockTest - 1] Starting function inputpassword_xpath , pass@1234
+2015-03-12 08:11:59,688 DEBUG [addPortFolioNewStockTest - 1] Finding element password_xpath
+2015-03-12 08:11:59,998 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:11:59,998 DEBUG [addPortFolioNewStockTest - 1] Starting function clickloginsubmit_xpath
+2015-03-12 08:11:59,998 DEBUG [addPortFolioNewStockTest - 1] Finding element loginsubmit_xpath
+2015-03-12 08:12:00,078 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:12:03,000 DEBUG [addPortFolioNewStockTest - 1] Exiting function loginIfNotLoggedIn
+2015-03-12 08:12:03,000 DEBUG [addPortFolioNewStockTest - 1] selectPortFolio ---  --- PortFolioName
+2015-03-12 08:12:03,000 DEBUG [addPortFolioNewStockTest - 1] Entering function selectPortFolio {Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Browser=Mozilla}
+2015-03-12 08:12:03,000 DEBUG [addPortFolioNewStockTest - 1] Starting function inputportfolioid_xpath , Ashish
+2015-03-12 08:12:03,000 DEBUG [addPortFolioNewStockTest - 1] Finding element portfolioid_xpath
+2015-03-12 08:12:03,046 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:12:03,053 DEBUG [addPortFolioNewStockTest - 1] Exiting function selectPortFolio
+2015-03-12 08:12:03,053 DEBUG [addPortFolioNewStockTest - 1] clickAndWait --- addStock_xpath,stockPurchaseDate_xpath --- 
+2015-03-12 08:12:03,053 DEBUG [addPortFolioNewStockTest - 1] Starting function clickAndWaitaddStock_xpath,stockPurchaseDate_xpath
+2015-03-12 08:12:06,055 DEBUG [addPortFolioNewStockTest - 1] Finding element addStock_xpath
+2015-03-12 08:12:08,241 DEBUG [addPortFolioNewStockTest - 1] Finding element stockPurchaseDate_xpath
+2015-03-12 08:12:11,252 DEBUG [addPortFolioNewStockTest - 1] Finding element addStock_xpath
+2015-03-12 08:12:11,413 DEBUG [addPortFolioNewStockTest - 1] Finding element stockPurchaseDate_xpath
+2015-03-12 08:12:14,425 DEBUG [addPortFolioNewStockTest - 1] selectAjaxCompanyName --- addstockname_xpath --- StockName
+2015-03-12 08:12:14,425 DEBUG [addPortFolioNewStockTest - 1] Finding element addstockname_xpath
+2015-03-12 08:12:19,538 DEBUG [addPortFolioNewStockTest - 1] Finding element addstockname_xpath
+2015-03-12 08:12:19,829 DEBUG [addPortFolioNewStockTest - 1] click --- stockPurchaseDate_xpath --- 
+2015-03-12 08:12:19,829 DEBUG [addPortFolioNewStockTest - 1] Starting function clickstockPurchaseDate_xpath
+2015-03-12 08:12:19,829 DEBUG [addPortFolioNewStockTest - 1] Finding element stockPurchaseDate_xpath
+2015-03-12 08:12:20,039 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:12:20,039 DEBUG [addPortFolioNewStockTest - 1] selectDate ---  --- Date
+2015-03-12 08:12:21,539 DEBUG [addPortFolioNewStockTest - 1] input --- addstockqty_xpath --- Quantity
+2015-03-12 08:12:21,539 DEBUG [addPortFolioNewStockTest - 1] Starting function inputaddstockqty_xpath , 300
+2015-03-12 08:12:21,539 DEBUG [addPortFolioNewStockTest - 1] Finding element addstockqty_xpath
+2015-03-12 08:12:21,600 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:12:21,600 DEBUG [addPortFolioNewStockTest - 1] input --- addstockprice_xpath --- Price
+2015-03-12 08:12:21,600 DEBUG [addPortFolioNewStockTest - 1] Starting function inputaddstockprice_xpath , 100
+2015-03-12 08:12:21,600 DEBUG [addPortFolioNewStockTest - 1] Finding element addstockprice_xpath
+2015-03-12 08:12:21,640 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:12:21,640 DEBUG [addPortFolioNewStockTest - 1] click --- addStockButton_xpath --- 
+2015-03-12 08:12:21,640 DEBUG [addPortFolioNewStockTest - 1] Starting function clickaddStockButton_xpath
+2015-03-12 08:12:21,640 DEBUG [addPortFolioNewStockTest - 1] Finding element addStockButton_xpath
+2015-03-12 08:12:21,710 DEBUG [addPortFolioNewStockTest - 1] Ending  function click with status PASS
+2015-03-12 08:12:21,710 DEBUG [addPortFolioNewStockTest - 1] verifyNewStock ---  --- 
+2015-03-12 08:12:21,710 DEBUG [addPortFolioNewStockTest - 1] Starting function verifyNewStock
+2015-03-12 08:12:26,314 DEBUG [addPortFolioNewStockTest - 1] Finding element //table[@id='stock']/tbody/tr[3]/td[2]/span/a
+2015-03-12 08:12:26,334 DEBUG [addPortFolioNewStockTest - 1] Finding element //table[@id='stock']/tbody/tr[3]/td[3]/span
+2015-03-12 08:12:26,345 DEBUG [addPortFolioNewStockTest - 1] Finding element //table[@id='stock']/tbody/tr[3]/td[4]/span
+2015-03-12 08:12:26,355 DEBUG [addPortFolioNewStockTest - 1] Tata Motors Ltd.  300  100.00
+2015-03-12 08:12:26,355 DEBUG [addPortFolioNewStockTest - 1] Ending function verifyNewStock
+2015-03-12 08:12:26,355 DEBUG [addPortFolioNewStockTest - 1] Ending addPortFolioNewStockTest

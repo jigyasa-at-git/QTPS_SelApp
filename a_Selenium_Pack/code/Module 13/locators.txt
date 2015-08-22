@@ -1,0 +1,13 @@
+//*[@id='blq-nav-sport']/a
+//ul[@id='blq-nav-main']/li[2]/a
+//a[@href='http://www.bbc.co.uk/sport/']
+
+
+
+li[id='blq-nav-sport'] a
+ul[id='blq-nav-main'] li:nth-child(5) a
+a[href='http://www.bbc.co.uk/sport/']
+
+1) click on play now for video 13 in www.qtpselenium.com
+2) click on navigation links in www.dice.com
+3) google search results links

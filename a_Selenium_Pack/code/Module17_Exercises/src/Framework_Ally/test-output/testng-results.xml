@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55719" started-at="2014-02-10T03:14:32Z" finished-at="2014-02-10T03:15:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55719" started-at="2014-02-10T03:14:32Z" finished-at="2014-02-10T03:15:28Z">
+      <class name="com.ally.testcases.OpenAccount">
+        <test-method status="PASS" signature="openAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ally.testcases.OpenAccount@15b9e68]" name="openAccount" duration-ms="54937" started-at="2014-02-10T08:44:33Z" data-provider="getData" finished-at="2014-02-10T08:45:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ashish|
+Ravi|
+Ruchi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Thakur|
+Goyal|
+Krishnan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+      </class> <!-- com.ally.testcases.OpenAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

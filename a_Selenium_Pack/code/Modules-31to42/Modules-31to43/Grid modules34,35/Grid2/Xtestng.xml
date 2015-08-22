@@ -1,0 +1,18 @@
+<suite name="Selenium Grid with webdriver" verbose="3"  parallel="tests" thread-count="2">   
+  
+  
+ <test name="Selenium Grid Demo 1">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+	  <class name="testcases.Google_Search"/>
+    </classes >
+ </test>
+ 
+ <test name="Selenium Grid Demo 2">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+	  <class name="testcases.Google_Search"/>
+    </classes >
+ </test>
+ 
+ </suite>

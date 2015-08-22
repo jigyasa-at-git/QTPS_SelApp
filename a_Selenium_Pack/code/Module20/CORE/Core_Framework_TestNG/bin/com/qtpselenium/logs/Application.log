@@ -1,0 +1,22 @@
+13/11/2011 03:12:49 devpinoyLogger Loading Property files
+13/11/2011 03:12:49 devpinoyLogger Loaded Property files successfully
+13/11/2011 03:12:49 devpinoyLogger Loading XLS Files
+13/11/2011 03:12:50 devpinoyLogger Loaded XLS Files successfully
+13/11/2011 03:12:50 devpinoyLogger Checking Runmode of Suite A
+13/11/2011 03:12:50 devpinoyLogger  Executing TestCase_A1
+13/11/2011 03:12:50 devpinoyLogger Dummy Data_A1_1 -- Dummy Data_A1_2 -- Dummy Data_A1_3 -- Dummy Data_A1_4
+13/11/2011 03:12:50 devpinoyLogger  Executing TestCase_A1
+13/11/2011 03:12:50 devpinoyLogger Dummy Data_A1_13 -- Dummy Data_A1_14 -- Dummy Data_A1_15 -- Dummy Data_A1_16
+13/11/2011 03:12:51 devpinoyLogger  Executing TestCase_A2
+13/11/2011 03:12:51 devpinoyLogger Dummy Data_A2_1 -- Dummy Data_A2_2 -- Dummy Data_A2_3
+13/11/2011 03:12:51 devpinoyLogger Checking Runmode of Suite B
+13/11/2011 03:12:51 devpinoyLogger Checking Runmode of Suite C
+13/11/2011 03:12:51 devpinoyLogger  Executing TestCase_B1
+13/11/2011 03:12:51 devpinoyLogger Dummy Data_B1_1 -- Dummy Data_B1_2 -- Dummy Data_B1_3 -- Dummy Data_B1_4
+13/11/2011 03:12:51 devpinoyLogger  Executing TestCase_B1
+13/11/2011 03:12:51 devpinoyLogger Dummy Data_B1_9 -- Dummy Data_B1_10 -- Dummy Data_B1_11 -- Dummy Data_B1_12
+13/11/2011 03:12:51 devpinoyLogger  Executing TestCase_B1
+13/11/2011 03:12:51 devpinoyLogger Dummy Data_B1_13 -- Dummy Data_B1_14 -- Dummy Data_B1_15 -- Dummy Data_B1_16
+13/11/2011 03:12:51 devpinoyLogger TestCase_B2
+13/11/2011 03:12:51 devpinoyLogger Checking Runmode of Suite C
+13/11/2011 03:12:51 devpinoyLogger Skipping Test CaseTestCase_C1 as runmode set to NO

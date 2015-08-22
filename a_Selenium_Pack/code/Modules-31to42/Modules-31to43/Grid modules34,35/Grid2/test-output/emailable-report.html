@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Google search</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">13.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Drop box</td><td class="numi">2</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">11.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">4</td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">24.0 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Google search &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">testcases.Google_Search<td><a href="#m1"><b>searchTest</b>  </a></td><td class="numi">2</td><td>1361485510796</td><td class="numi">12938</td></tr><tr class="passedodd"><td><a href="#m2"><b>searchTest</b>  </a></td><td class="numi">2</td><td>1361485510796</td><td class="numi">12938</td></tr>
+<tr><th colspan="4">Drop box &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">testcases.Dropbox<td><a href="#m3"><b>dropBox</b>  </a></td><td class="numi">1</td><td>1361485523812</td><td class="numi">10609</td></tr><tr class="failedodd"><td><a href="#m4"><b>dropBox</b>  </a></td><td class="numi">1</td><td>1361485523812</td><td class="numi">10609</td></tr>
+<tr><th colspan="4">Drop box &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">testcases.Dropbox<td><a href="#m5"><b>dropBox</b>  </a></td><td class="numi">1</td><td>1361485523812</td><td class="numi">10813</td></tr><tr class="passedodd"><td><a href="#m6"><b>dropBox</b>  </a></td><td class="numi">1</td><td>1361485523812</td><td class="numi">10813</td></tr>
+</table>
+<h1>Google search</h1>
+<a id="m1"></a><h2>testcases.Google_Search:searchTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">U2</td>
+<td style="padding-left:.5em;padding-right:2em">P2</td>
+<td style="padding-left:.5em;padding-right:2em">firefox</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>testcases.Google_Search:searchTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">U1</td>
+<td style="padding-left:.5em;padding-right:2em">P1</td>
+<td style="padding-left:.5em;padding-right:2em">chrome</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Drop box</h1>
+<a id="m3"></a><h2>testcases.Dropbox:dropBox</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">ashish</td>
+<td style="padding-left:.5em;padding-right:2em">chrome</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+<p>Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;fname&quot;}
+Command duration or timeout: 890 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.30.0&apos;, revision: &apos;dc1ef9c&apos;, time: &apos;2013-02-19 00:15:27&apos;
+System info: os.name: &apos;Windows 2003&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_04&apos;
+Session ID: 1217a982-bd83-4123-a2b5-a6adf07ec041
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=12.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+Command duration or timeout: 1.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.29.0&apos;, revision: &apos;58258c3&apos;, time: &apos;2013-01-17 22:46:35&apos;
+System info: os.name: &apos;Windows 2003&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_04&apos;
+Session ID: 559a4be3-533d-41ed-a5ce-2da53a63eb57
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=559a4be3-533d-41ed-a5ce-2da53a63eb57, version=12.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=true, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:331)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:216)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+<br/>at testcases.Dropbox.dropBox(Dropbox.java:42)
+<br/>15 lines not shown
+<p>Caused by Screen shot has been taken
+Build info: version: &apos;2.29.0&apos;, revision: &apos;58258c3&apos;, time: &apos;2013-01-17 22:46:35&apos;
+System info: os.name: &apos;Windows 2003&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_04&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:125)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:331)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:216)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+<br/>at testcases.Dropbox.dropBox(Dropbox.java:42)
+<br/>15 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;fname&quot;}
+Command duration or timeout: 890 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.30.0&apos;, revision: &apos;dc1ef9c&apos;, time: &apos;2013-02-19 00:15:27&apos;
+System info: os.name: &apos;Windows 2003&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_04&apos;
+Session ID: 1217a982-bd83-4123-a2b5-a6adf07ec041
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=12.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.29.0&apos;, revision: &apos;58258c3&apos;, time: &apos;2013-01-17 22:46:35&apos;
+System info: os.name: &apos;Windows 2003&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_04&apos;
+Driver info: driver.version: EventFiringWebDriver</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:216)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+<br/>at java.lang.reflect.Method.invoke(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+<br/>at $Proxy4.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+<br/>at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+<br/>at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+<br/>at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+<br/>at java.util.concurrent.FutureTask.run(Unknown Source)
+<br/>at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:167)
+<br/>at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+<br/>at java.lang.Thread.run(Unknown Source)
+<br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>testcases.Dropbox:dropBox</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">tom</td>
+<td style="padding-left:.5em;padding-right:2em">firefox</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,49 @@
+2015-03-17 13:49:08,240 DEBUG [createPortFolioTest - 1] Executing  createPortFolioTest - {Case=CASE DUPLICATE_NAME, PortFolioName=Port11, Runmode=Y, Iteration=1, Browser=Mozilla}
+2015-03-17 13:49:08,308 DEBUG [createPortFolioTest - 1] openBrowser ---  --- Browser
+2015-03-17 13:49:08,309 DEBUG [createPortFolioTest - 1] Starting function openBrowser - Mozilla
+2015-03-17 13:49:08,309 DEBUG [createPortFolioTest - 1] {chrome=null, mozilla=null}
+2015-03-17 13:49:08,309 DEBUG [createPortFolioTest - 1] Opening fresh browser
+2015-03-17 13:49:16,221 DEBUG [createPortFolioTest - 1] Ending  function openBrowser with status PASS
+2015-03-17 13:49:16,221 DEBUG [createPortFolioTest - 1] loginIfNotLoggedIn ---  --- 
+2015-03-17 13:49:16,221 DEBUG [createPortFolioTest - 1] Entering function loginIfNotLoggedIn
+2015-03-17 13:49:21,301 DEBUG [createPortFolioTest - 1] Starting function navigate
+2015-03-17 13:49:26,972 DEBUG [createPortFolioTest - 1] Ending  function navigate with status PASS
+2015-03-17 13:49:26,973 DEBUG [createPortFolioTest - 1] Starting function clickmoneyLink_xpath
+2015-03-17 13:49:26,973 DEBUG [createPortFolioTest - 1] Finding element moneyLink_xpath
+2015-03-17 13:49:32,677 DEBUG [createPortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:49:32,677 DEBUG [createPortFolioTest - 1] Starting function clickmyPortfolio_xpath
+2015-03-17 13:49:32,677 DEBUG [createPortFolioTest - 1] Finding element myPortfolio_xpath
+2015-03-17 13:49:43,275 DEBUG [createPortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:49:43,322 DEBUG [createPortFolioTest - 1] Starting function inputusername_xpath , ashishthakur1983
+2015-03-17 13:49:43,322 DEBUG [createPortFolioTest - 1] Finding element username_xpath
+2015-03-17 13:49:43,388 DEBUG [createPortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:49:43,389 DEBUG [createPortFolioTest - 1] Starting function clickemailsubmit_xpath
+2015-03-17 13:49:43,389 DEBUG [createPortFolioTest - 1] Finding element emailsubmit_xpath
+2015-03-17 13:49:43,479 DEBUG [createPortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:49:43,479 DEBUG [createPortFolioTest - 1] Starting function inputpassword_xpath , pass@1234
+2015-03-17 13:49:43,479 DEBUG [createPortFolioTest - 1] Finding element password_xpath
+2015-03-17 13:49:43,756 DEBUG [createPortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:49:43,756 DEBUG [createPortFolioTest - 1] Starting function clickloginsubmit_xpath
+2015-03-17 13:49:43,756 DEBUG [createPortFolioTest - 1] Finding element loginsubmit_xpath
+2015-03-17 13:49:43,893 DEBUG [createPortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:49:47,713 DEBUG [createPortFolioTest - 1] Exiting function loginIfNotLoggedIn
+2015-03-17 13:49:47,713 DEBUG [createPortFolioTest - 1] clickAndWait --- createPortfolio_xpath,newPortFolioName_xpath --- 
+2015-03-17 13:49:47,713 DEBUG [createPortFolioTest - 1] Starting function clickAndWaitcreatePortfolio_xpath,newPortFolioName_xpath
+2015-03-17 13:49:50,713 DEBUG [createPortFolioTest - 1] Finding element createPortfolio_xpath
+2015-03-17 13:49:51,203 DEBUG [createPortFolioTest - 1] Finding element newPortFolioName_xpath
+2015-03-17 13:49:54,266 DEBUG [createPortFolioTest - 1] clearTextField --- newPortFolioName_xpath --- 
+2015-03-17 13:49:54,266 DEBUG [createPortFolioTest - 1] Starting function clearTextFieldnewPortFolioName_xpath
+2015-03-17 13:49:54,266 DEBUG [createPortFolioTest - 1] Finding element newPortFolioName_xpath
+2015-03-17 13:49:54,326 DEBUG [createPortFolioTest - 1] Ending  function clearTextField with status PASS
+2015-03-17 13:49:54,326 DEBUG [createPortFolioTest - 1] input --- newPortFolioName_xpath --- PortFolioName
+2015-03-17 13:49:54,326 DEBUG [createPortFolioTest - 1] Starting function inputnewPortFolioName_xpath , Port11
+2015-03-17 13:49:54,326 DEBUG [createPortFolioTest - 1] Finding element newPortFolioName_xpath
+2015-03-17 13:49:54,406 DEBUG [createPortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:49:54,406 DEBUG [createPortFolioTest - 1] click --- createPortfolioButton_xpath --- 
+2015-03-17 13:49:54,406 DEBUG [createPortFolioTest - 1] Starting function clickcreatePortfolioButton_xpath
+2015-03-17 13:49:54,406 DEBUG [createPortFolioTest - 1] Finding element createPortfolioButton_xpath
+2015-03-17 13:49:54,996 DEBUG [createPortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:49:54,996 DEBUG [createPortFolioTest - 1] verifyPortFolio ---  --- 
+2015-03-17 13:49:54,996 DEBUG [createPortFolioTest - 1] Entering function verifyPortFolio
+2015-03-17 13:49:54,996 DEBUG [createPortFolioTest - 1] Exiting function verifyPortFolio
+2015-03-17 13:49:54,996 DEBUG [createPortFolioTest - 1] Ending createPortFolioTest

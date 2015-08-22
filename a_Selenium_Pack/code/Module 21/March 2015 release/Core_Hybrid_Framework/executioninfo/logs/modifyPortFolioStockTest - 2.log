@@ -1,0 +1,44 @@
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 2] Starting modifyPortFolioStockTest
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 2] Executing  modifyPortFolioStockTest - {Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, StockName=ICICI Ltd., Browser=Chrome}
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 2] openBrowser ---  --- Browser
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 2] Starting function openBrowser - Chrome
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 2] {chrome=null, mozilla=null}
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 2] Opening fresh browser
+2015-03-17 13:51:36,901 DEBUG [modifyPortFolioStockTest - 2] Ending  function openBrowser with status PASS
+2015-03-17 13:51:36,901 DEBUG [modifyPortFolioStockTest - 2] loginIfNotLoggedIn ---  --- 
+2015-03-17 13:51:36,901 DEBUG [modifyPortFolioStockTest - 2] Entering function loginIfNotLoggedIn
+2015-03-17 13:51:42,021 DEBUG [modifyPortFolioStockTest - 2] Starting function navigate
+2015-03-17 13:51:43,612 DEBUG [modifyPortFolioStockTest - 2] Ending  function navigate with status PASS
+2015-03-17 13:51:43,612 DEBUG [modifyPortFolioStockTest - 2] Starting function clickmoneyLink_xpath
+2015-03-17 13:51:43,612 DEBUG [modifyPortFolioStockTest - 2] Finding element moneyLink_xpath
+2015-03-17 13:51:45,150 DEBUG [modifyPortFolioStockTest - 2] Ending  function click with status PASS
+2015-03-17 13:51:45,150 DEBUG [modifyPortFolioStockTest - 2] Starting function clickmyPortfolio_xpath
+2015-03-17 13:51:45,150 DEBUG [modifyPortFolioStockTest - 2] Finding element myPortfolio_xpath
+2015-03-17 13:51:48,577 DEBUG [modifyPortFolioStockTest - 2] Ending  function click with status PASS
+2015-03-17 13:51:48,602 DEBUG [modifyPortFolioStockTest - 2] Waiting for 2 sec for page to load
+2015-03-17 13:51:50,613 DEBUG [modifyPortFolioStockTest - 2] Starting function inputusername_xpath , ashishthakur1983
+2015-03-17 13:51:50,613 DEBUG [modifyPortFolioStockTest - 2] Finding element username_xpath
+2015-03-17 13:51:50,708 DEBUG [modifyPortFolioStockTest - 2] Ending  function click with status PASS
+2015-03-17 13:51:50,708 DEBUG [modifyPortFolioStockTest - 2] Starting function clickemailsubmit_xpath
+2015-03-17 13:51:50,708 DEBUG [modifyPortFolioStockTest - 2] Finding element emailsubmit_xpath
+2015-03-17 13:51:50,798 DEBUG [modifyPortFolioStockTest - 2] Ending  function click with status PASS
+2015-03-17 13:51:50,798 DEBUG [modifyPortFolioStockTest - 2] Starting function inputpassword_xpath , pass@1234
+2015-03-17 13:51:50,798 DEBUG [modifyPortFolioStockTest - 2] Finding element password_xpath
+2015-03-17 13:51:51,411 DEBUG [modifyPortFolioStockTest - 2] Ending  function click with status PASS
+2015-03-17 13:51:51,411 DEBUG [modifyPortFolioStockTest - 2] Starting function clickloginsubmit_xpath
+2015-03-17 13:51:51,411 DEBUG [modifyPortFolioStockTest - 2] Finding element loginsubmit_xpath
+2015-03-17 13:51:51,470 DEBUG [modifyPortFolioStockTest - 2] Ending  function click with status PASS
+2015-03-17 13:51:53,227 DEBUG [modifyPortFolioStockTest - 2] Exiting function loginIfNotLoggedIn
+2015-03-17 13:51:53,227 DEBUG [modifyPortFolioStockTest - 2] selectPortFolio ---  --- PortFolioName
+2015-03-17 13:51:53,227 DEBUG [modifyPortFolioStockTest - 2] Entering function selectPortFolio {Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, StockName=ICICI Ltd., Browser=Chrome}
+2015-03-17 13:51:53,243 DEBUG [modifyPortFolioStockTest - 2] Waiting for 2 sec for page to load
+2015-03-17 13:51:55,257 DEBUG [modifyPortFolioStockTest - 2] Waiting for 2 sec for page to load
+2015-03-17 13:51:57,277 DEBUG [modifyPortFolioStockTest - 2] Starting function inputportfolioid_xpath , test
+2015-03-17 13:51:57,277 DEBUG [modifyPortFolioStockTest - 2] Finding element portfolioid_xpath
+2015-03-17 13:51:57,397 DEBUG [modifyPortFolioStockTest - 2] Ending  function click with status PASS
+2015-03-17 13:51:57,397 DEBUG [modifyPortFolioStockTest - 2] Finding element portfolioid_xpath
+2015-03-17 13:51:57,503 DEBUG [modifyPortFolioStockTest - 2] Exiting function selectPortFolio
+2015-03-17 13:51:57,503 DEBUG [modifyPortFolioStockTest - 2] selectStock ---  --- StockName
+2015-03-17 13:51:57,503 DEBUG [modifyPortFolioStockTest - 2] Starting function selectStock
+2015-03-17 13:52:08,910 DEBUG [modifyPortFolioStockTest - 2] Stock ICICI Ltd. found in row - -1
+2015-03-17 13:52:09,290 DEBUG [modifyPortFolioStockTest - 2] FAIL - Stock name not present  - ICICI Ltd.

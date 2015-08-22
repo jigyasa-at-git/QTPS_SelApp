@@ -1,0 +1,36 @@
+2015-03-17 13:49:55,196 DEBUG [renamePortFolioTest - 1] Executing  renamePortFolioTest - {Case=CASE_OK, PortFolioName=Port11, Runmode=Y, Iteration=1, NewPortFolioName=Port101, Browser=Mozilla}
+2015-03-17 13:49:55,196 DEBUG [renamePortFolioTest - 1] openBrowser ---  --- Browser
+2015-03-17 13:49:55,196 DEBUG [renamePortFolioTest - 1] Starting function openBrowser - Mozilla
+2015-03-17 13:49:55,196 DEBUG [renamePortFolioTest - 1] {Mozilla=RemoteWebDriver: firefox on WINDOWS (b6f5262c-86dd-4fce-b8fe-f58f2530ba9a), chrome=null, mozilla=null}
+2015-03-17 13:49:55,196 DEBUG [renamePortFolioTest - 1] Using existing browser
+2015-03-17 13:49:55,286 DEBUG [renamePortFolioTest - 1] Ending  function openBrowser with status PASS
+2015-03-17 13:49:55,286 DEBUG [renamePortFolioTest - 1] loginIfNotLoggedIn ---  --- 
+2015-03-17 13:49:55,286 DEBUG [renamePortFolioTest - 1] Entering function loginIfNotLoggedIn
+2015-03-17 13:49:55,355 DEBUG [renamePortFolioTest - 1] Already logged in
+2015-03-17 13:49:55,355 DEBUG [renamePortFolioTest - 1] selectPortFolio ---  --- PortFolioName
+2015-03-17 13:49:55,355 DEBUG [renamePortFolioTest - 1] Entering function selectPortFolio {Case=CASE_OK, PortFolioName=Port11, Runmode=Y, Iteration=1, NewPortFolioName=Port101, Browser=Mozilla}
+2015-03-17 13:49:55,415 DEBUG [renamePortFolioTest - 1] Starting function inputportfolioid_xpath , Port11
+2015-03-17 13:49:55,415 DEBUG [renamePortFolioTest - 1] Finding element portfolioid_xpath
+2015-03-17 13:49:55,515 DEBUG [renamePortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:49:55,515 DEBUG [renamePortFolioTest - 1] Finding element portfolioid_xpath
+2015-03-17 13:50:00,204 DEBUG [renamePortFolioTest - 1] Exiting function selectPortFolio
+2015-03-17 13:50:00,204 DEBUG [renamePortFolioTest - 1] clickAndWait --- renamePortfolioButton_xpath,renamePortFolioName_xpath --- 
+2015-03-17 13:50:00,204 DEBUG [renamePortFolioTest - 1] Starting function clickAndWaitrenamePortfolioButton_xpath,renamePortFolioName_xpath
+2015-03-17 13:50:03,204 DEBUG [renamePortFolioTest - 1] Finding element renamePortfolioButton_xpath
+2015-03-17 13:50:03,343 DEBUG [renamePortFolioTest - 1] Finding element renamePortFolioName_xpath
+2015-03-17 13:50:06,380 DEBUG [renamePortFolioTest - 1] clearTextField --- renamePortFolioName_xpath --- 
+2015-03-17 13:50:06,380 DEBUG [renamePortFolioTest - 1] Starting function clearTextFieldrenamePortFolioName_xpath
+2015-03-17 13:50:06,380 DEBUG [renamePortFolioTest - 1] Finding element renamePortFolioName_xpath
+2015-03-17 13:50:06,460 DEBUG [renamePortFolioTest - 1] Ending  function clearTextField with status PASS
+2015-03-17 13:50:06,460 DEBUG [renamePortFolioTest - 1] input --- renamePortFolioName_xpath --- NewPortFolioName
+2015-03-17 13:50:06,460 DEBUG [renamePortFolioTest - 1] Starting function inputrenamePortFolioName_xpath , Port101
+2015-03-17 13:50:06,460 DEBUG [renamePortFolioTest - 1] Finding element renamePortFolioName_xpath
+2015-03-17 13:50:06,550 DEBUG [renamePortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:50:06,550 DEBUG [renamePortFolioTest - 1] click --- renamePortfolioSubmitButton_xpath --- 
+2015-03-17 13:50:06,550 DEBUG [renamePortFolioTest - 1] Starting function clickrenamePortfolioSubmitButton_xpath
+2015-03-17 13:50:06,550 DEBUG [renamePortFolioTest - 1] Finding element renamePortfolioSubmitButton_xpath
+2015-03-17 13:50:06,690 DEBUG [renamePortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:50:06,690 DEBUG [renamePortFolioTest - 1] verifyPortFolio ---  --- 
+2015-03-17 13:50:06,690 DEBUG [renamePortFolioTest - 1] Entering function verifyPortFolio
+2015-03-17 13:50:06,780 DEBUG [renamePortFolioTest - 1] Exiting function verifyPortFolio
+2015-03-17 13:50:06,780 DEBUG [renamePortFolioTest - 1] Ending renamePortFolioTest

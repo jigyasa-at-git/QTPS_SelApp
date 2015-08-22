@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="a-ff7944704ca64" name="com.qtpselenium.hybrid.testcases.SearchShareTest" tests="1" failures="0" timestamp="25 Jul 2012 04:32:11 GMT" time="0.0" errors="0">
+  <testcase name="sharePriceTest" time="0.0" classname="com.qtpselenium.hybrid.testcases.SearchShareTest"/>
+</testsuite>

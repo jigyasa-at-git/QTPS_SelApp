@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_B">
+              <span class="suite-name border-skipped">Suite B</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_B">
+                    <span>F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\Suite_B.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_B">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_B">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_B">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_B">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_B">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_B">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,  4 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite_B" class="hide-methods skipped suite-Suite_B"> (hide)</a> <!-- hide-methods skipped suite-Suite_B -->
+                      <a href="#" panel-name="suite-Suite_B" class="show-methods skipped suite-Suite_B"> (show)</a> <!-- show-methods skipped suite-Suite_B -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite_B">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest" hash-for-method="addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=2, Quantity=300, StockName=I...)">addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=2, Quantity=300, StockName=I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest" hash-for-method="addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=T...)">addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest" hash-for-method="modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, S...)">modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest" hash-for-method="modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, S...)">modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite_B -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_A">
+              <span class="suite-name border-skipped">Suite A</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_A">
+                    <span>F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\Suite_A.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_A">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_A">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_A">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_A">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_A">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_A">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  4 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite_A" class="hide-methods skipped suite-Suite_A"> (hide)</a> <!-- hide-methods skipped suite-Suite_A -->
+                      <a href="#" panel-name="suite-Suite_A" class="show-methods skipped suite-Suite_A"> (show)</a> <!-- show-methods skipped suite-Suite_A -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite_A">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.PortFolioTest" hash-for-method="deletePortFolioTest({PortFolioName=Port10, Runmode=Y, Iteration=1, Browser=Mozilla})">deletePortFolioTest({PortFolioName=Port10, Runmode=Y, Iteration=1, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.PortFolioTest" hash-for-method="deletePortFolioTest({PortFolioName=Port20, Runmode=Y, Iteration=2, Browser=Chrome})">deletePortFolioTest({PortFolioName=Port20, Runmode=Y, Iteration=2, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.PortFolioTest" hash-for-method="renamePortFolioTest({Case=CASE_OK, PortFolioName=Port2, Runmode=Y, Iteration=2, NewPortFolioName=Port20, Browser=Chrome})">renamePortFolioTest({Case=CASE_OK, PortFolioName=Port2, Runmode=Y, Iteration=2, NewPortFolioName=Port20, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.PortFolioTest" hash-for-method="renamePortFolioTest({Case=CASE_OK, PortFolioName=Port1, Runmode=Y, Iteration=1, NewPortFolioName=Port10, Browser=Mozilla...)">renamePortFolioTest({Case=CASE_OK, PortFolioName=Port1, Runmode=Y, Iteration=1, NewPortFolioName=Port10, Browser=Mozilla...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite_A -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_A" class="hide-methods passed suite-Suite_A"> (hide)</a> <!-- hide-methods passed suite-Suite_A -->
+                      <a href="#" panel-name="suite-Suite_A" class="show-methods passed suite-Suite_A"> (show)</a> <!-- show-methods passed suite-Suite_A -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_A">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.PortFolioTest" hash-for-method="createPortFolioTest({Case=CASE_INVALID_NAME, PortFolioName=Port2, Runmode=Y, Iteration=2, Browser=Chrome})">createPortFolioTest({Case=CASE_INVALID_NAME, PortFolioName=Port2, Runmode=Y, Iteration=2, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.PortFolioTest" hash-for-method="createPortFolioTest({Case=CASE DUPLICATE_NAME, PortFolioName=Port1, Runmode=Y, Iteration=1, Browser=Mozilla})">createPortFolioTest({Case=CASE DUPLICATE_NAME, PortFolioName=Port1, Runmode=Y, Iteration=1, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_A -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_B" class="panel Suite_B">
+          <div class="suite-Suite_B-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, S...)">
+                  </a> <!-- modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, S...) -->
+                  <span class="method-name">modifyPortFolioStockTest</span>
+                  <span class="parameters">({Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, StockName=ICICI Ltd., Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test modifyPortFolioStockTest as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest.modifyPortFolioStockTest(ModifyPortFolioStockTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, S...)">
+                  </a> <!-- modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, S...) -->
+                  <span class="method-name">modifyPortFolioStockTest</span>
+                  <span class="parameters">({Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, StockName=DLF Ltd., Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test modifyPortFolioStockTest as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest.modifyPortFolioStockTest(ModifyPortFolioStockTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-skipped -->
+          <div class="suite-Suite_B-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=2, Quantity=300, StockName=I...)">
+                  </a> <!-- addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=2, Quantity=300, StockName=I...) -->
+                  <span class="method-name">addPortFolioNewStockTest</span>
+                  <span class="parameters">({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=2, Quantity=300, StockName=Indian Oil Corporation Ltd., Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test addPortFolioNewStockTest as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest.addPortFolioNewStockTest(AddPortFolioNewStockTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=T...)">
+                  </a> <!-- addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=T...) -->
+                  <span class="method-name">addPortFolioNewStockTest</span>
+                  <span class="parameters">({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test addPortFolioNewStockTest as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest.addPortFolioNewStockTest(AddPortFolioNewStockTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-skipped -->
+        </div> <!-- panel Suite_B -->
+        <div panel-name="suite-Suite_A" class="panel Suite_A">
+          <div class="suite-Suite_A-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteA.PortFolioTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePortFolioTest({PortFolioName=Port10, Runmode=Y, Iteration=1, Browser=Mozilla})">
+                  </a> <!-- deletePortFolioTest({PortFolioName=Port10, Runmode=Y, Iteration=1, Browser=Mozilla}) -->
+                  <span class="method-name">deletePortFolioTest</span>
+                  <span class="parameters">({PortFolioName=Port10, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test deletePortFolioTest as runmode of test was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:110)
+	at com.qtpselenium.framework.suiteA.PortFolioTest.deletePortFolioTest(PortFolioTest.java:56)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePortFolioTest({PortFolioName=Port20, Runmode=Y, Iteration=2, Browser=Chrome})">
+                  </a> <!-- deletePortFolioTest({PortFolioName=Port20, Runmode=Y, Iteration=2, Browser=Chrome}) -->
+                  <span class="method-name">deletePortFolioTest</span>
+                  <span class="parameters">({PortFolioName=Port20, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test deletePortFolioTest as runmode of test was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:110)
+	at com.qtpselenium.framework.suiteA.PortFolioTest.deletePortFolioTest(PortFolioTest.java:56)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="renamePortFolioTest({Case=CASE_OK, PortFolioName=Port2, Runmode=Y, Iteration=2, NewPortFolioName=Port20, Browser=Chrome})">
+                  </a> <!-- renamePortFolioTest({Case=CASE_OK, PortFolioName=Port2, Runmode=Y, Iteration=2, NewPortFolioName=Port20, Browser=Chrome}) -->
+                  <span class="method-name">renamePortFolioTest</span>
+                  <span class="parameters">({Case=CASE_OK, PortFolioName=Port2, Runmode=Y, Iteration=2, NewPortFolioName=Port20, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test renamePortFolioTest as runmode of test was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:110)
+	at com.qtpselenium.framework.suiteA.PortFolioTest.renamePortFolioTest(PortFolioTest.java:39)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="renamePortFolioTest({Case=CASE_OK, PortFolioName=Port1, Runmode=Y, Iteration=1, NewPortFolioName=Port10, Browser=Mozilla...)">
+                  </a> <!-- renamePortFolioTest({Case=CASE_OK, PortFolioName=Port1, Runmode=Y, Iteration=1, NewPortFolioName=Port10, Browser=Mozilla...) -->
+                  <span class="method-name">renamePortFolioTest</span>
+                  <span class="parameters">({Case=CASE_OK, PortFolioName=Port1, Runmode=Y, Iteration=1, NewPortFolioName=Port10, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test renamePortFolioTest as runmode of test was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:110)
+	at com.qtpselenium.framework.suiteA.PortFolioTest.renamePortFolioTest(PortFolioTest.java:39)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-skipped -->
+          <div class="suite-Suite_A-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteA.PortFolioTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPortFolioTest({Case=CASE_INVALID_NAME, PortFolioName=Port2, Runmode=Y, Iteration=2, Browser=Chrome})">
+                  </a> <!-- createPortFolioTest({Case=CASE_INVALID_NAME, PortFolioName=Port2, Runmode=Y, Iteration=2, Browser=Chrome}) -->
+                  <span class="method-name">createPortFolioTest</span>
+                  <span class="parameters">({Case=CASE_INVALID_NAME, PortFolioName=Port2, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPortFolioTest({Case=CASE DUPLICATE_NAME, PortFolioName=Port1, Runmode=Y, Iteration=1, Browser=Mozilla})">
+                  </a> <!-- createPortFolioTest({Case=CASE DUPLICATE_NAME, PortFolioName=Port1, Runmode=Y, Iteration=1, Browser=Mozilla}) -->
+                  <span class="method-name">createPortFolioTest</span>
+                  <span class="parameters">({Case=CASE DUPLICATE_NAME, PortFolioName=Port1, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-passed -->
+        </div> <!-- panel Suite_A -->
+        <div panel-name="suite-My_suite" class="panel My_suite">
+        </div> <!-- panel My_suite -->
+        <div panel-name="test-xml-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\Suite_B.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite B&quot;&gt;
+  &lt;test name=&quot;Add Portfolio New stock&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Portfolio New stock --&gt;
+  &lt;test name=&quot;Modify Existing Stock&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Modify Existing Stock --&gt;
+&lt;/suite&gt; &lt;!-- Suite B --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\Suite_A.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite A&quot;&gt;
+  &lt;test name=&quot;PortFolio Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.suiteA.PortFolioTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PortFolio Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite A --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./Suite_A.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./Suite_B.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- My suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Add Portfolio New stock (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Modify Existing Stock (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PortFolio Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_B');
+function tableData_Suite_B() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addPortFolioNewStockTest')
+data.setCell(0, 2, 'com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest')
+data.setCell(0, 3, 72);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'modifyPortFolioStockTest')
+data.setCell(1, 2, 'com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest')
+data.setCell(1, 3, 71);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addPortFolioNewStockTest')
+data.setCell(2, 2, 'com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest')
+data.setCell(2, 3, 70);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'modifyPortFolioStockTest')
+data.setCell(3, 2, 'com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest')
+data.setCell(3, 3, 50);
+window.suiteTableData['Suite_B']= { tableData: data, tableDiv: 'times-div-Suite_B'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 263 ms</span>
+              <div id="times-div-Suite_B">
+              </div> <!-- times-div-Suite_B -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_A');
+function tableData_Suite_A() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createPortFolioTest')
+data.setCell(0, 2, 'com.qtpselenium.framework.suiteA.PortFolioTest')
+data.setCell(0, 3, 172);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createPortFolioTest')
+data.setCell(1, 2, 'com.qtpselenium.framework.suiteA.PortFolioTest')
+data.setCell(1, 3, 162);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'renamePortFolioTest')
+data.setCell(2, 2, 'com.qtpselenium.framework.suiteA.PortFolioTest')
+data.setCell(2, 3, 123);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deletePortFolioTest')
+data.setCell(3, 2, 'com.qtpselenium.framework.suiteA.PortFolioTest')
+data.setCell(3, 3, 80);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deletePortFolioTest')
+data.setCell(4, 2, 'com.qtpselenium.framework.suiteA.PortFolioTest')
+data.setCell(4, 3, 80);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'renamePortFolioTest')
+data.setCell(5, 2, 'com.qtpselenium.framework.suiteA.PortFolioTest')
+data.setCell(5, 3, 73);
+window.suiteTableData['Suite_A']= { tableData: data, tableDiv: 'times-div-Suite_A'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 690 ms</span>
+              <div id="times-div-Suite_A">
+              </div> <!-- times-div-Suite_A -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_suite');
+function tableData_My_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['My_suite']= { tableData: data, tableDiv: 'times-div-My_suite'}
+return data;
+}
+              </script>
+              <div id="times-div-My_suite">
+              </div> <!-- times-div-My_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.PortFolioTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPortFolioTest({Case=CASE_INVALID_NAME, PortFolioName=Port2, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPortFolioTest({Case=CASE DUPLICATE_NAME, PortFolioName=Port1, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">renamePortFolioTest({Case=CASE_OK, PortFolioName=Port1, Runmode=Y, Iteration=1, NewPortFolioName=Port10, Browser=Mozilla...)</span>
+                <span class="method-start">202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">renamePortFolioTest({Case=CASE_OK, PortFolioName=Port2, Runmode=Y, Iteration=2, NewPortFolioName=Port20, Browser=Chrome})</span>
+                <span class="method-start">212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePortFolioTest({PortFolioName=Port20, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                <span class="method-start">355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePortFolioTest({PortFolioName=Port10, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                <span class="method-start">355 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=2, Quantity=300, StockName=I...)</span>
+                <span class="method-start">494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=T...)</span>
+                <span class="method-start">495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, S...)</span>
+                <span class="method-start">657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, S...)</span>
+                <span class="method-start">657 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.PortFolioTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPortFolioTest({Case=CASE_INVALID_NAME, PortFolioName=Port2, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPortFolioTest({Case=CASE DUPLICATE_NAME, PortFolioName=Port1, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">renamePortFolioTest({Case=CASE_OK, PortFolioName=Port1, Runmode=Y, Iteration=1, NewPortFolioName=Port10, Browser=Mozilla...)</span>
+                <span class="method-start">202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">renamePortFolioTest({Case=CASE_OK, PortFolioName=Port2, Runmode=Y, Iteration=2, NewPortFolioName=Port20, Browser=Chrome})</span>
+                <span class="method-start">212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePortFolioTest({PortFolioName=Port20, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                <span class="method-start">355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePortFolioTest({PortFolioName=Port10, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                <span class="method-start">355 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=2, Quantity=300, StockName=I...)</span>
+                <span class="method-start">494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=T...)</span>
+                <span class="method-start">495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, S...)</span>
+                <span class="method-start">657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, S...)</span>
+                <span class="method-start">657 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.PortFolioTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPortFolioTest({Case=CASE DUPLICATE_NAME, PortFolioName=Port1, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPortFolioTest({Case=CASE_INVALID_NAME, PortFolioName=Port2, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">renamePortFolioTest({Case=CASE_OK, PortFolioName=Port1, Runmode=Y, Iteration=1, NewPortFolioName=Port10, Browser=Mozilla...)</span>
+                <span class="method-start">202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">renamePortFolioTest({Case=CASE_OK, PortFolioName=Port2, Runmode=Y, Iteration=2, NewPortFolioName=Port20, Browser=Chrome})</span>
+                <span class="method-start">212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePortFolioTest({PortFolioName=Port20, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                <span class="method-start">355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePortFolioTest({PortFolioName=Port10, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                <span class="method-start">355 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=2, Quantity=300, StockName=I...)</span>
+                <span class="method-start">494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addPortFolioNewStockTest({Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=T...)</span>
+                <span class="method-start">495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, S...)</span>
+                <span class="method-start">657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">modifyPortFolioStockTest({Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, S...)</span>
+                <span class="method-start">657 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

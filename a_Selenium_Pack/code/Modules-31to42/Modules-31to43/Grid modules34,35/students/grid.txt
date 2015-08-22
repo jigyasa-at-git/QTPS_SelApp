@@ -1,0 +1,85 @@
+
+
+java -jar selenium-server-standalone-2.30.0.jar -role hub
+java -Dwebdriver.chrome.driver=H:\chromedriver.exe -jar selenium-server-standalone-2.30.0.jar -role hub -hubConfig hub.json
+
+
+
+
+
+ java  -Dwebdriver.chrome.driver=H:\chromedriver.exe -jar selenium-server-standalone-2.30.0.jar -role rc -nodeConfig node1.json
+ java -Dwebdriver.chrome.driver=H:\chromedriver.exe -jar selenium-server-standalone-2.30.0.jar -role rc -nodeConfig node2.json
+
+
+java -Dwebdriver.chrome.driver=H:\chromedriver.exe -jar selenium-server-standalone-2.29.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5556 -browser browserName=firefox,maxInstances=6  -browser browserName=chrome,maxInstances=6 -maxSession 4
+
+
+java -jar selenium-server-standalone-2.29.0.jar -role node -hub http://localhost:4444/grid/register  -maxSession 10 -maxInstances=2
+
+
+-Dwebdriver.chrome.driver
+-Dwebdriver.ie.driver
+
+
+java -Dwebdriver.chrome.driver=C:\chromedriver.exe -jar selenium-server-standalone-2.28.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5556 -browser browserName=chrome
+
+
+java -Dwebdriver.iexplore.driver=C:\iedriver.exe -jar selenium-server-standalone-2.28.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5556 -browser browserName=iexplore
+
+
+
+-maxSession 2
+-maxInstances=2
+
+
+
+
+
+http://qtp-help.blogspot.in/2011/09/selenium-grid-with-webdriver.html
+http://stackoverflow.com/questions/9194500/how-to-launch-multiple-browsers-with-selenium-grid
+http://stackoverflow.com/questions/10488569/selenium-grid2-how-to-run-multiple-tests-against-a-single-node
+
+
+
+java -Dwebdriver.chrome.driver=H:\chromedriver.exe -jar selenium-server-standalone-2.29.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5557 -browser browserName=firefox,maxInstances=3 -browser browserName=chrome,maxInstances=3 -browser browserName=iexplore,maxInstances=1 -maxSession 3
+java -Dwebdriver.chrome.driver=H:\chromedriver.exe -jar selenium-server-standalone-2.29.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5558 -browser browserName=firefox,maxInstances=3 -browser browserName=chrome,maxInstances=3 -browser browserName=iexplore,maxInstances=1 -maxSession 3
+
+
+
+
+
+
+
+java -Dwebdriver.chrome.driver=H:\chromedriver.exe -jar selenium-server-standalone-2.29.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5558 -browser browserName=firefox,maxInstances=1 -browser browserName=chrome,maxInstances=1 -browser browserName=iexplore,maxInstances=1 -maxSession 2
+java -Dwebdriver.chrome.driver=H:\chromedriver.exe -jar selenium-server-standalone-2.29.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5559 -browser browserName=firefox,maxInstances=1 -browser browserName=chrome,maxInstances=1 -browser browserName=iexplore,maxInstances=1 -maxSession 2
+
+http://selenium.polteq.com/en/launch-node-with-config/
+http://selenium.polteq.com/en/category/selenium-grid-2/
+https://groups.google.com/forum/?fromgroups=#!topic/selenium-users/PRsEBcbpNlMhttps://groups.google.com/forum/?fromgroups=#!topic/webdriver/SGug3lXg58w
+http://www.jarvana.com/jarvana/view/org/seleniumhq/selenium/selenium-server/2.10.0/selenium-server-2.10.0-javadoc.jar!/org/openqa/grid/internal/utils/CapabilityMatcher.html
+http://stackoverflow.com/questions/7405912/where-can-i-find-a-schema-or-documentation-for-the-se-2-grid-hub-configuration-j
+https://github.com/freynaud/grid-plugin-tutorial
+
+
+
+http://selenium.googlecode.com/svn/trunk/java/server/src/org/openqa/grid/internal/utils/DefaultCapabilityMatcher.java
+https://groups.google.com/forum/?hl=en&fromgroups#!topic/selenium-users/SAbQ8eydyoo
+
+
+jar uf selenium-server-standalone-2.30.0.jar com/myprioritizer/CustomPrioritizer.class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://rationaleemotions.wordpress.com/2013/01/28/building-a-self-maintaining-grid-environment/

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="test Suite" duration-ms="36625" started-at="2012-03-28T14:42:47Z" finished-at="2012-03-28T14:43:24Z">
+    <groups>
+    </groups>
+    <test name="Testff" duration-ms="36625" started-at="2012-03-28T14:42:47Z" finished-at="2012-03-28T14:43:24Z">
+      <class name="Grid.TestApp2">
+        <test-method status="PASS" signature="setup(java.lang.String)" name="setup" is-config="true" duration-ms="32031" started-at="2012-03-28T14:42:47Z" finished-at="2012-03-28T14:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_first()" name="test_first" duration-ms="3891" started-at="2012-03-28T14:43:19Z" finished-at="2012-03-28T14:43:23Z">
+        </test-method>
+        <test-method status="PASS" signature="test_second()" name="test_second" duration-ms="359" started-at="2012-03-28T14:43:23Z" finished-at="2012-03-28T14:43:23Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="344" started-at="2012-03-28T14:43:23Z" finished-at="2012-03-28T14:43:24Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Testie" duration-ms="30468" started-at="2012-03-28T14:42:47Z" finished-at="2012-03-28T14:43:18Z">
+      <class name="Grid.TestApp1">
+        <test-method status="PASS" signature="setup(java.lang.String)" name="setup" is-config="true" duration-ms="25234" started-at="2012-03-28T14:42:47Z" finished-at="2012-03-28T14:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test_FOURTH()" name="test_FOURTH" duration-ms="1125" started-at="2012-03-28T14:43:12Z" finished-at="2012-03-28T14:43:13Z">
+        </test-method>
+        <test-method status="PASS" signature="test_THIRD()" name="test_THIRD" duration-ms="3750" started-at="2012-03-28T14:43:13Z" finished-at="2012-03-28T14:43:17Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="359" started-at="2012-03-28T14:43:17Z" finished-at="2012-03-28T14:43:18Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

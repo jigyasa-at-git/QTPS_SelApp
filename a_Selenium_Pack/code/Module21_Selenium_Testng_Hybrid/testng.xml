@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+
+
+
+<test name="Driver Script Suite 1">
+    <classes>
+        <class name="testscript.DriverScript" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>

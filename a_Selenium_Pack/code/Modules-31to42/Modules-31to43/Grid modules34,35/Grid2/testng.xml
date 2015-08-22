@@ -1,0 +1,17 @@
+<suite name="Selenium Grid with webdriver" verbose="4"  >   
+  
+  
+ <test name="Google search">
+    <classes>
+	  <class name="testcases.Google_Search"/>
+    </classes >
+ </test>
+ 
+ <test name="Drop box">
+    <classes>
+	  <class name="testcases.Dropbox"/>
+    </classes >
+ </test>
+ 
+ 
+ </suite>

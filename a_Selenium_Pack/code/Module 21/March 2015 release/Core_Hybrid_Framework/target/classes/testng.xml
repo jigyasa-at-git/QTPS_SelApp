@@ -1,0 +1,10 @@
+<suite name="My suite"  parallel="tests">
+<listeners>
+    <listener class-name="com.qtpselenium.framework.util.CustomListener" />
+</listeners>
+  <suite-files>
+   <suite-file path="./Suite_A.xml" />
+   <suite-file path="./Suite_B.xml" />
+   
+  </suite-files>
+</suite>

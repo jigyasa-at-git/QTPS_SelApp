@@ -1,0 +1,35 @@
+package com.qtpselenium.mobile.flipkart.pages.common;
+
+import io.appium.java_client.android.AndroidDriver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Menu {
+	
+   public WebDriver driver;
+	
+	
+	public Menu(WebDriver driver){
+		this.driver=driver;
+	}
+	
+	
+	public void swipeAndOpenMenu(){
+
+	
+		WebDriverWait wait = new WebDriverWait(driver,20);
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("com.flipkart.android:id/menu_search")));
+		AndroidDriver androidDriver  =(AndroidDriver) driver;
+		androidDriver.swipe(50, 600, 900, 600, 2000);
+
+		
+	}
+	
+	public void clickOnMenuItem(String text){
+		
+	}
+
+}

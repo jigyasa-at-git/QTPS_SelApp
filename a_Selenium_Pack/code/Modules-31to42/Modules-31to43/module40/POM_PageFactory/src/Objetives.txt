@@ -1,0 +1,7 @@
+1) Execute multiple test cases
+2) HTML Reports
+3) Read data from Xls file
+4) Execute a single test multiple times
+5) Logging
+6) OR - single
+7) Mail reports

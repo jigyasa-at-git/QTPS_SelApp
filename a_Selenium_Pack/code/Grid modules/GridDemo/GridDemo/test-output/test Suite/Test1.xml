@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="sejal-1d039e8ea" name="Grid.Test1" tests="4" failures="4" timestamp="28 Mar 2012 08:42:14 GMT" time="60.828" errors="0">
+  <testcase name="method1" time="8.094" classname="Grid.Test1">
+    <failure type="org.openqa.selenium.WebDriverException" message="Command not found: POST /session/f284feae-80ce-4c41-8e34-633313dd18c7/timeouts
+Command duration or timeout: 0 milliseconds
+Build info: version: &amp;apos;2.20.0&amp;apos;, revision: &amp;apos;16008&amp;apos;, time: &amp;apos;2012-02-27 19:03:04&amp;apos;
+System info: os.name: &amp;apos;Windows XP&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;5.1&amp;apos;, java.version: &amp;apos;1.6.0_31&amp;apos;
+Driver info: driver.version: RemoteWebDriver
+Command duration or timeout: 31 milliseconds
+Build info: version: &amp;apos;2.20.0&amp;apos;, revision: &amp;apos;16008&amp;apos;, time: &amp;apos;2012-02-27 19:03:04&amp;apos;
+System info: os.name: &amp;apos;Windows XP&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;5.1&amp;apos;, java.version: &amp;apos;1.6.0_26&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.WebDriverException: Command not found: POST /session/f284feae-80ce-4c41-8e34-633313dd18c7/timeouts
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_31'
+Driver info: driver.version: RemoteWebDriver
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_26'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:170)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:438)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:590)
+	at Grid.Test1.method1(Test1.java:54)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Command not found: POST /session/f284feae-80ce-4c41-8e34-633313dd18c7/timeouts
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_31'
+Driver info: driver.version: RemoteWebDriver
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_26'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:170)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:438)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:590)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTimeouts.pageLoadTimeout(EventFiringWebDriver.java:551)
+	at org.openqa.selenium.remote.server.handler.ConfigureTimeout.call(ConfigureTimeout.java:46)
+	at org.openqa.selenium.remote.server.handler.ConfigureTimeout.call(ConfigureTimeout.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+... Removed 18 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="method2" time="0.375" classname="Grid.Test1">
+    <failure type="org.openqa.selenium.UnhandledAlertException" message="Modal dialog present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: &amp;apos;2.20.0&amp;apos;, revision: &amp;apos;16008&amp;apos;, time: &amp;apos;2012-02-27 19:03:04&amp;apos;
+System info: os.name: &amp;apos;Windows XP&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;5.1&amp;apos;, java.version: &amp;apos;1.6.0_31&amp;apos;
+Driver info: driver.version: EventFiringWebDriver
+Build info: version: &amp;apos;2.20.0&amp;apos;, revision: &amp;apos;16008&amp;apos;, time: &amp;apos;2012-02-27 19:03:04&amp;apos;
+System info: os.name: &amp;apos;Windows XP&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;5.1&amp;apos;, java.version: &amp;apos;1.6.0_26&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.UnhandledAlertException: Modal dialog present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_31'
+Driver info: driver.version: EventFiringWebDriver
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_26'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:170)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:150)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:438)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:226)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:299)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:218)
+	at Grid.Test1.method2(Test1.java:69)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="method2" time="0.797" classname="Grid.Test2">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to find element with xpath == //*[@id=&amp;apos;topButtonRow&amp;apos;]/input[4] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 516 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.20.0&amp;apos;, revision: &amp;apos;16008&amp;apos;, time: &amp;apos;2012-02-27 19:03:04&amp;apos;
+System info: os.name: &amp;apos;Windows XP&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;5.1&amp;apos;, java.version: &amp;apos;1.6.0_31&amp;apos;
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 797 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.20.0&amp;apos;, revision: &amp;apos;16008&amp;apos;, time: &amp;apos;2012-02-27 19:03:04&amp;apos;
+System info: os.name: &amp;apos;Windows XP&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;5.1&amp;apos;, java.version: &amp;apos;1.6.0_26&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id='topButtonRow']/input[4] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 516 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_31'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 797 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_26'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:170)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:438)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:226)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:299)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:218)
+	at Grid.Test2.method2(Test2.java:69)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_26'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:103)
+	... 19 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id='topButtonRow']/input[4] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 516 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_31'
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_26'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:170)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:438)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:226)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:299)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:218)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:98)
+	at $Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:177)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="method1" time="2.86" classname="Grid.Test2">
+    <failure type="org.openqa.selenium.WebDriverException" message="Command not found: POST /session/d1677148-850a-4fa8-9081-994d11cdffb4/timeouts
+Command duration or timeout: 0 milliseconds
+Build info: version: &amp;apos;2.20.0&amp;apos;, revision: &amp;apos;16008&amp;apos;, time: &amp;apos;2012-02-27 19:03:04&amp;apos;
+System info: os.name: &amp;apos;Windows XP&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;5.1&amp;apos;, java.version: &amp;apos;1.6.0_31&amp;apos;
+Driver info: driver.version: RemoteWebDriver
+Command duration or timeout: 32 milliseconds
+Build info: version: &amp;apos;2.20.0&amp;apos;, revision: &amp;apos;16008&amp;apos;, time: &amp;apos;2012-02-27 19:03:04&amp;apos;
+System info: os.name: &amp;apos;Windows XP&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;5.1&amp;apos;, java.version: &amp;apos;1.6.0_26&amp;apos;
+Driver info: driver.version: RemoteWebDriver">
+      <![CDATA[org.openqa.selenium.WebDriverException: Command not found: POST /session/d1677148-850a-4fa8-9081-994d11cdffb4/timeouts
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_31'
+Driver info: driver.version: RemoteWebDriver
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_26'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:170)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:438)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:590)
+	at Grid.Test2.method1(Test2.java:54)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Command not found: POST /session/d1677148-850a-4fa8-9081-994d11cdffb4/timeouts
+Command duration or timeout: 0 milliseconds
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_31'
+Driver info: driver.version: RemoteWebDriver
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows XP', os.arch: 'x86', os.version: '5.1', java.version: '1.6.0_26'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:170)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:438)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:590)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTimeouts.pageLoadTimeout(EventFiringWebDriver.java:551)
+	at org.openqa.selenium.remote.server.handler.ConfigureTimeout.call(ConfigureTimeout.java:46)
+	at org.openqa.selenium.remote.server.handler.ConfigureTimeout.call(ConfigureTimeout.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+... Removed 18 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

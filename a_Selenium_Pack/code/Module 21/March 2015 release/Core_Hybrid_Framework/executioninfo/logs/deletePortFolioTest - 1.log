@@ -1,0 +1,20 @@
+2015-03-17 13:50:07,303 DEBUG [deletePortFolioTest - 1] Executing  deletePortFolioTest - {PortFolioName=Port101, Runmode=Y, Iteration=1, Browser=Mozilla}
+2015-03-17 13:50:07,303 DEBUG [deletePortFolioTest - 1] openBrowser ---  --- Browser
+2015-03-17 13:50:07,303 DEBUG [deletePortFolioTest - 1] Starting function openBrowser - Mozilla
+2015-03-17 13:50:07,303 DEBUG [deletePortFolioTest - 1] {Mozilla=RemoteWebDriver: firefox on WINDOWS (b6f5262c-86dd-4fce-b8fe-f58f2530ba9a), chrome=null, mozilla=null}
+2015-03-17 13:50:07,303 DEBUG [deletePortFolioTest - 1] Using existing browser
+2015-03-17 13:50:11,434 DEBUG [deletePortFolioTest - 1] Ending  function openBrowser with status PASS
+2015-03-17 13:50:11,434 DEBUG [deletePortFolioTest - 1] loginIfNotLoggedIn ---  --- 
+2015-03-17 13:50:11,434 DEBUG [deletePortFolioTest - 1] Entering function loginIfNotLoggedIn
+2015-03-17 13:50:11,524 DEBUG [deletePortFolioTest - 1] Already logged in
+2015-03-17 13:50:11,524 DEBUG [deletePortFolioTest - 1] selectPortFolio ---  --- PortFolioName
+2015-03-17 13:50:11,524 DEBUG [deletePortFolioTest - 1] Entering function selectPortFolio {PortFolioName=Port101, Runmode=Y, Iteration=1, Browser=Mozilla}
+2015-03-17 13:50:11,619 DEBUG [deletePortFolioTest - 1] Starting function inputportfolioid_xpath , Port101
+2015-03-17 13:50:11,619 DEBUG [deletePortFolioTest - 1] Finding element portfolioid_xpath
+2015-03-17 13:50:11,725 DEBUG [deletePortFolioTest - 1] Ending  function click with status PASS
+2015-03-17 13:50:11,725 DEBUG [deletePortFolioTest - 1] Finding element portfolioid_xpath
+2015-03-17 13:50:11,804 DEBUG [deletePortFolioTest - 1] Exiting function selectPortFolio
+2015-03-17 13:50:11,804 DEBUG [deletePortFolioTest - 1] clickAndAcceptAlert --- deletePortfolio_xpath --- 
+2015-03-17 13:50:14,886 DEBUG [deletePortFolioTest - 1] Finding element deletePortfolio_xpath
+2015-03-17 13:50:15,436 DEBUG [deletePortFolioTest - 1] closeBrower ---  --- 
+2015-03-17 13:50:15,436 DEBUG [deletePortFolioTest - 1] Ending deletePortFolioTest

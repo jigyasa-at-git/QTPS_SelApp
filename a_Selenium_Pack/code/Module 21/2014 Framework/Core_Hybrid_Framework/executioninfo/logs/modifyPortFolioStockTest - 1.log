@@ -1,0 +1,41 @@
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 1] Starting modifyPortFolioStockTest
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 1] Executing  modifyPortFolioStockTest - {Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, StockName=DLF Ltd., Browser=Mozilla}
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 1] openBrowser ---  --- Browser
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 1] Starting function openBrowser - Mozilla
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 1] {chrome=null, mozilla=null}
+2015-03-17 13:51:30,458 DEBUG [modifyPortFolioStockTest - 1] Opening fresh browser
+2015-03-17 13:51:41,481 DEBUG [modifyPortFolioStockTest - 1] Ending  function openBrowser with status PASS
+2015-03-17 13:51:41,481 DEBUG [modifyPortFolioStockTest - 1] loginIfNotLoggedIn ---  --- 
+2015-03-17 13:51:41,481 DEBUG [modifyPortFolioStockTest - 1] Entering function loginIfNotLoggedIn
+2015-03-17 13:51:46,559 DEBUG [modifyPortFolioStockTest - 1] Starting function navigate
+2015-03-17 13:51:49,817 DEBUG [modifyPortFolioStockTest - 1] Ending  function navigate with status PASS
+2015-03-17 13:51:49,817 DEBUG [modifyPortFolioStockTest - 1] Starting function clickmoneyLink_xpath
+2015-03-17 13:51:49,817 DEBUG [modifyPortFolioStockTest - 1] Finding element moneyLink_xpath
+2015-03-17 13:51:55,570 DEBUG [modifyPortFolioStockTest - 1] Ending  function click with status PASS
+2015-03-17 13:51:55,570 DEBUG [modifyPortFolioStockTest - 1] Starting function clickmyPortfolio_xpath
+2015-03-17 13:51:55,570 DEBUG [modifyPortFolioStockTest - 1] Finding element myPortfolio_xpath
+2015-03-17 13:52:00,470 DEBUG [modifyPortFolioStockTest - 1] Ending  function click with status PASS
+2015-03-17 13:52:00,530 DEBUG [modifyPortFolioStockTest - 1] Starting function inputusername_xpath , ashishthakur1983
+2015-03-17 13:52:00,530 DEBUG [modifyPortFolioStockTest - 1] Finding element username_xpath
+2015-03-17 13:52:00,640 DEBUG [modifyPortFolioStockTest - 1] Ending  function click with status PASS
+2015-03-17 13:52:00,640 DEBUG [modifyPortFolioStockTest - 1] Starting function clickemailsubmit_xpath
+2015-03-17 13:52:00,640 DEBUG [modifyPortFolioStockTest - 1] Finding element emailsubmit_xpath
+2015-03-17 13:52:00,750 DEBUG [modifyPortFolioStockTest - 1] Ending  function click with status PASS
+2015-03-17 13:52:00,750 DEBUG [modifyPortFolioStockTest - 1] Starting function inputpassword_xpath , pass@1234
+2015-03-17 13:52:00,750 DEBUG [modifyPortFolioStockTest - 1] Finding element password_xpath
+2015-03-17 13:52:01,020 DEBUG [modifyPortFolioStockTest - 1] Ending  function click with status PASS
+2015-03-17 13:52:01,020 DEBUG [modifyPortFolioStockTest - 1] Starting function clickloginsubmit_xpath
+2015-03-17 13:52:01,020 DEBUG [modifyPortFolioStockTest - 1] Finding element loginsubmit_xpath
+2015-03-17 13:52:01,150 DEBUG [modifyPortFolioStockTest - 1] Ending  function click with status PASS
+2015-03-17 13:52:03,709 DEBUG [modifyPortFolioStockTest - 1] Exiting function loginIfNotLoggedIn
+2015-03-17 13:52:03,709 DEBUG [modifyPortFolioStockTest - 1] selectPortFolio ---  --- PortFolioName
+2015-03-17 13:52:03,709 DEBUG [modifyPortFolioStockTest - 1] Entering function selectPortFolio {Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, StockName=DLF Ltd., Browser=Mozilla}
+2015-03-17 13:52:03,759 DEBUG [modifyPortFolioStockTest - 1] Starting function inputportfolioid_xpath , test
+2015-03-17 13:52:03,759 DEBUG [modifyPortFolioStockTest - 1] Finding element portfolioid_xpath
+2015-03-17 13:52:03,879 DEBUG [modifyPortFolioStockTest - 1] Ending  function click with status PASS
+2015-03-17 13:52:03,879 DEBUG [modifyPortFolioStockTest - 1] Finding element portfolioid_xpath
+2015-03-17 13:52:04,009 DEBUG [modifyPortFolioStockTest - 1] Exiting function selectPortFolio
+2015-03-17 13:52:04,009 DEBUG [modifyPortFolioStockTest - 1] selectStock ---  --- StockName
+2015-03-17 13:52:04,009 DEBUG [modifyPortFolioStockTest - 1] Starting function selectStock
+2015-03-17 13:52:15,327 DEBUG [modifyPortFolioStockTest - 1] Stock DLF Ltd. found in row - -1
+2015-03-17 13:52:15,667 DEBUG [modifyPortFolioStockTest - 1] FAIL - Stock name not present  - DLF Ltd.

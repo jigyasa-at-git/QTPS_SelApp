@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="a-cdd622f9b4c14" name="tests.UsingAssertions" tests="1" failures="0" timestamp="30 Jun 2011 17:38:54 GMT" time="0.015" errors="0">
+  <testcase name="testGoogleSearch" time="0.015" classname="tests.UsingAssertions"/>
+</testsuite>

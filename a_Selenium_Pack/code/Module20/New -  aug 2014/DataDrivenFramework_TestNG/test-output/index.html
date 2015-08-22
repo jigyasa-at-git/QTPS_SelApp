@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_B">
+              <span class="suite-name border-skipped">Suite B</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_B">
+                    <span>F:\selenium\phase3\Frameowrks\DataDrivenFramework_TestNG\src\test\resources\Suite_B.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_B">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_B">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_B">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_B">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_B">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_B">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  6 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite_B" class="hide-methods skipped suite-Suite_B"> (hide)</a> <!-- hide-methods skipped suite-Suite_B -->
+                      <a href="#" panel-name="suite-Suite_B" class="show-methods skipped suite-Suite_B"> (show)</a> <!-- show-methods skipped suite-Suite_B -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite_B">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.datadriven.suiteB.Test1" hash-for-method="test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})">test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.datadriven.suiteB.Test1" hash-for-method="test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})">test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.datadriven.suiteB.Test1" hash-for-method="test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})">test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.datadriven.suiteB.Test2" hash-for-method="test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})">test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.datadriven.suiteB.Test2" hash-for-method="test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})">test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.datadriven.suiteB.Test2" hash-for-method="test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})">test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite_B -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_A">
+              <span class="suite-name border-failed">Suite A</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_A">
+                    <span>F:\selenium\phase3\Frameowrks\DataDrivenFramework_TestNG\src\test\resources\Suite_A.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_A">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_A">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_A">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_A">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_A">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_A">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 2 failed,  4 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite_A" class="hide-methods failed suite-Suite_A"> (hide)</a> <!-- hide-methods failed suite-Suite_A -->
+                      <a href="#" panel-name="suite-Suite_A" class="show-methods failed suite-Suite_A"> (show)</a> <!-- show-methods failed suite-Suite_A -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite_A">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.datadriven.suiteA.Test1" hash-for-method="test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})">test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.datadriven.suiteA.Test1" hash-for-method="test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})">test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite_A -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite_A" class="hide-methods skipped suite-Suite_A"> (hide)</a> <!-- hide-methods skipped suite-Suite_A -->
+                      <a href="#" panel-name="suite-Suite_A" class="show-methods skipped suite-Suite_A"> (show)</a> <!-- show-methods skipped suite-Suite_A -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite_A">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.datadriven.suiteA.Test1" hash-for-method="test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})">test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.datadriven.suiteA.Test2" hash-for-method="test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})">test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.datadriven.suiteA.Test2" hash-for-method="test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})">test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.datadriven.suiteA.Test2" hash-for-method="test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})">test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite_A -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_B" class="panel Suite_B">
+          <div class="suite-Suite_B-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.datadriven.suiteB.Test2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})">
+                  </a> <!-- test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=}) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test2.test2(Test2.java:21)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})">
+                  </a> <!-- test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=}) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test2.test2(Test2.java:21)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})">
+                  </a> <!-- test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=}) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test2.test2(Test2.java:21)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-skipped -->
+          <div class="suite-Suite_B-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.datadriven.suiteB.Test1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})">
+                  </a> <!-- test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=}) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test1 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test1.test1(Test1.java:34)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})">
+                  </a> <!-- test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=}) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test1 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test1.test1(Test1.java:34)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})">
+                  </a> <!-- test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=}) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test1 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test1.test1(Test1.java:34)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-skipped -->
+        </div> <!-- panel Suite_B -->
+        <div panel-name="suite-Suite_A" class="panel Suite_A">
+          <div class="suite-Suite_A-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qtpselenium.framework.datadriven.suiteA.Test1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})">
+                  </a> <!-- test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=}) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                  <div class="stack-trace">java.lang.Throwable: Multiple failures (7):nnFailure 1 of 7:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 7:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 7:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 7:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 7:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 6 of 7:njava.lang.Throwable: Multiple failures (5):nnFailure 1 of 5:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 5:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 5:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 5:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 5:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 7 of 7:njava.lang.Throwable: Multiple failures (6):nnFailure 1 of 6:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 6:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 6:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 6:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 6:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 6 of 6:njava.lang.Throwable: Multiple failures (5):nnFailure 1 of 5:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 5:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 5:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 5:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 5:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+... Removed 960 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})">
+                  </a> <!-- test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=}) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                  <div class="stack-trace">java.lang.Throwable: Multiple failures (7):nnFailure 1 of 7:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 7:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 7:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 7:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 7:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 6 of 7:njava.lang.Throwable: Multiple failures (5):nnFailure 1 of 5:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 5:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 5:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 5:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 5:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 7 of 7:njava.lang.Throwable: Multiple failures (6):nnFailure 1 of 6:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 6:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 6:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 6:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 6:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 6 of 6:njava.lang.Throwable: Multiple failures (5):nnFailure 1 of 5:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 5:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 5:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 5:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 5:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+... Removed 960 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-failed -->
+          <div class="suite-Suite_A-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.datadriven.suiteA.Test1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})">
+                  </a> <!-- test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=}) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test1 inside the suite SuiteA
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:38)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-skipped -->
+          <div class="suite-Suite_A-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.datadriven.suiteA.Test2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})">
+                  </a> <!-- test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=}) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteA
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteA.Test2.test2(Test2.java:23)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})">
+                  </a> <!-- test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=}) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteA
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteA.Test2.test2(Test2.java:23)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})">
+                  </a> <!-- test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=}) -->
+                  <span class="method-name">test2</span>
+                  <span class="parameters">({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteA
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteA.Test2.test2(Test2.java:23)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-skipped -->
+        </div> <!-- panel Suite_A -->
+        <div panel-name="suite-My_Project" class="panel My_Project">
+        </div> <!-- panel My_Project -->
+        <div panel-name="test-xml-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\selenium\phase3\Frameowrks\DataDrivenFramework_TestNG\src\test\resources\Suite_B.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite B&quot;&gt;
+  &lt;test name=&quot;Test 1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.datadriven.suiteB.Test1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 1 --&gt;
+  &lt;test name=&quot;Test 2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.datadriven.suiteB.Test2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 2 --&gt;
+&lt;/suite&gt; &lt;!-- Suite B --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\selenium\phase3\Frameowrks\DataDrivenFramework_TestNG\src\test\resources\Suite_A.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite A&quot;&gt;
+  &lt;test name=&quot;Test 1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.datadriven.suiteA.Test1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 1 --&gt;
+  &lt;test name=&quot;Test 2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.datadriven.suiteA.Test2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 2 --&gt;
+&lt;/suite&gt; &lt;!-- Suite A --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\selenium\phase3\Frameowrks\DataDrivenFramework_TestNG\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My Project&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qtpselenium.framework.datadriven.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./Suite_A.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./Suite_B.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- My Project --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test 1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test 1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_B');
+function tableData_Suite_B() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test2')
+data.setCell(0, 2, 'com.qtpselenium.framework.datadriven.suiteB.Test2')
+data.setCell(0, 3, 36);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test2')
+data.setCell(1, 2, 'com.qtpselenium.framework.datadriven.suiteB.Test2')
+data.setCell(1, 3, 30);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test1')
+data.setCell(2, 2, 'com.qtpselenium.framework.datadriven.suiteB.Test1')
+data.setCell(2, 3, 28);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test2')
+data.setCell(3, 2, 'com.qtpselenium.framework.datadriven.suiteB.Test2')
+data.setCell(3, 3, 27);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test1')
+data.setCell(4, 2, 'com.qtpselenium.framework.datadriven.suiteB.Test1')
+data.setCell(4, 3, 25);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test1')
+data.setCell(5, 2, 'com.qtpselenium.framework.datadriven.suiteB.Test1')
+data.setCell(5, 3, 24);
+window.suiteTableData['Suite_B']= { tableData: data, tableDiv: 'times-div-Suite_B'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 170 ms</span>
+              <div id="times-div-Suite_B">
+              </div> <!-- times-div-Suite_B -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_A');
+function tableData_Suite_A() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test1')
+data.setCell(0, 2, 'com.qtpselenium.framework.datadriven.suiteA.Test1')
+data.setCell(0, 3, 62);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test1')
+data.setCell(1, 2, 'com.qtpselenium.framework.datadriven.suiteA.Test1')
+data.setCell(1, 3, 45);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test1')
+data.setCell(2, 2, 'com.qtpselenium.framework.datadriven.suiteA.Test1')
+data.setCell(2, 3, 43);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test2')
+data.setCell(3, 2, 'com.qtpselenium.framework.datadriven.suiteA.Test2')
+data.setCell(3, 3, 43);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test2')
+data.setCell(4, 2, 'com.qtpselenium.framework.datadriven.suiteA.Test2')
+data.setCell(4, 3, 41);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test2')
+data.setCell(5, 2, 'com.qtpselenium.framework.datadriven.suiteA.Test2')
+data.setCell(5, 3, 38);
+window.suiteTableData['Suite_A']= { tableData: data, tableDiv: 'times-div-Suite_A'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 272 ms</span>
+              <div id="times-div-Suite_A">
+              </div> <!-- times-div-Suite_A -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_Project');
+function tableData_My_Project() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['My_Project']= { tableData: data, tableDiv: 'times-div-My_Project'}
+return data;
+}
+              </script>
+              <div id="times-div-My_Project">
+              </div> <!-- times-div-My_Project -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteA.Test1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">674 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteA.Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">802 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">933 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteB.Test1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">5987 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">6005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">6030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">6058 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteB.Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">6087 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">6106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">6134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">6171 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteA.Test1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">674 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteA.Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">802 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">933 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteB.Test1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">5987 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">6005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">6030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">6058 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteB.Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">6087 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">6106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">6134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">6171 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteA.Test1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">674 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteA.Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">802 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">933 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteB.Test1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">5987 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">6005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">6030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test1({Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">6058 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.datadriven.suiteB.Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initLogs</span>
+                <span class="method-start">6087 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=})</span>
+                <span class="method-start">6106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=})</span>
+                <span class="method-start">6134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2({Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=})</span>
+                <span class="method-start">6171 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,39 @@
+[0.001][INFO]:      ChromeDriver 19.0.1068.0 E:\Tools\Selenium\Wokrspaces\26th_May_Weekend\POM\chromedriver\chromedriver.exe
+[1.338][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.358][INFO]:      Launching chrome: "H:\Documents and Settings\Administrator\Local Settings\Application Data\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --homepage=about:blank
+[4.232][INFO]:      Connected to Chrome successfully. Version: 20.0.1132.47
+[4.506][FINE]:      Command received (/session/8a1bd1fdf4cb9c1e03793c71afb11c5d)
+[4.506][FINE]:      Command finished (/session/8a1bd1fdf4cb9c1e03793c71afb11c5d) with response {
+   "sessionId": "8a1bd1fdf4cb9c1e03793c71afb11c5d",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "19.0.1068.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "20.0.1132.47",
+      "webStorageEnabled": false
+   }
+}
+

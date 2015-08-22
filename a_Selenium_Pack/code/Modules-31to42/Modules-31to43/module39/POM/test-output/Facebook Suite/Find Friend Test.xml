@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="a-ff7944704ca64" name="com.qtpselenium.facebook.testCases.FindaFriendTest" tests="2" failures="1" timestamp="25 Jul 2012 04:06:38 GMT" time="2.016" errors="0">
+  <testcase name="findFriend" time="2.016" classname="com.qtpselenium.facebook.testCases.FindaFriendTest">
+    <failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Error communicating with the remote browser. It may have died.
+Build info: version: &amp;apos;2.21.0&amp;apos;, revision: &amp;apos;16552&amp;apos;, time: &amp;apos;2012-04-11 19:09:00&amp;apos;
+System info: os.name: &amp;apos;Windows 2003&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;5.2&amp;apos;, java.version: &amp;apos;1.7.0_04&amp;apos;
+Driver info: driver.version: FirefoxDriver">
+      <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.21.0', revision: '16552', time: '2012-04-11 19:09:00'
+System info: os.name: 'Windows 2003', os.arch: 'x86', os.version: '5.2', java.version: '1.7.0_04'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:454)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:463)
+	at org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:246)
+	at com.qtpselenium.facebook.base.Page.takeScreenshot(Page.java:111)
+	at com.qtpselenium.facebook.pages.login.LoginPage.doLogin(LoginPage.java:19)
+	at com.qtpselenium.facebook.pages.login.LoginPage.doLogin(LoginPage.java:37)
+	at com.qtpselenium.facebook.testCases.FindaFriendTest.findFriend(FindaFriendTest.java:27)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7055 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:150)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:575)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:303)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:282)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:129)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:279)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:432)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 40 more
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="messageFriend" time="0.0" classname="com.qtpselenium.facebook.testCases.FindaFriendTest">
+    <skipped/>
+  </testcase>
+</testsuite>

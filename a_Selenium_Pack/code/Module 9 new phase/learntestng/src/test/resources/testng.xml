@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+<listeners>
+    <listener class-name="testng_listeners.CustomListener" />
+</listeners>
+
+
+<test name="App test">
+    <classes>
+        <class name="com.learntestng.AppTest" ></class>  
+    </classes>
+</test>
+
+<test name="Sample test">
+    <classes>
+        <class name="com.learntestng.Sampletest" ></class>  
+    </classes>
+</test>
+
+
+</suite>

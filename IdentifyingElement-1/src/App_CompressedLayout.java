@@ -1,4 +1,5 @@
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -14,7 +15,7 @@ import org.testng.annotations.Test;
 
 
 public class App_CompressedLayout {
-	AppiumDriver dr;
+	AndroidDriver dr;
 	@Test
 	public void testApp() throws MalformedURLException, InterruptedException{
 
@@ -27,7 +28,7 @@ public class App_CompressedLayout {
  
 	    
 		   // thread.sleep()
-	       dr = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+	       dr = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 	       dr.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	       //dr.findElement(By.id("com.qihoo.security:id/main_appbox_btn")).click();
 	       //dr.findElementByAndroidUIAutomator("UiSelector().resourceId(\"com.qihoo.security:id/main_appbox_btn\")");

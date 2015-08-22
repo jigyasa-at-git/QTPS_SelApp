@@ -1,0 +1,11 @@
+<suite name="My suite">
+<listeners>
+    <listener class-name="com.qtpselenium.listener.TestsListenerAdapter" />
+</listeners>
+  <suite-files>
+   <suite-file path="./Shop Suite.xml" />
+   <suite-file path="./Cart Suite.xml" />
+   <suite-file path="./Product Display Suite.xml" />
+   
+  </suite-files>
+</suite>

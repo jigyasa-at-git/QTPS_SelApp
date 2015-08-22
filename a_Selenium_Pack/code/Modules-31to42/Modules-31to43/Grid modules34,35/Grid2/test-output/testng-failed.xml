@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="4" name="Failed suite [Selenium Grid with webdriver]">
+  <test name="Drop box(failed)" preserve-order="true">
+    <classes>
+      <class name="testcases.Dropbox">
+        <methods>
+          <include name="dropBox" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.Dropbox -->
+    </classes>
+  </test> <!-- Drop box(failed) -->
+</suite> <!-- Failed suite [Selenium Grid with webdriver] -->

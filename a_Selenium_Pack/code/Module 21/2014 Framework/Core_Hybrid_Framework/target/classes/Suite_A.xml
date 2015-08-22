@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite A">
+
+<test name="PortFolio Test">
+    <classes>
+        <class name="com.qtpselenium.framework.suiteA.PortFolioTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

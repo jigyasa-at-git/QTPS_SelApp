@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="whizdom" name="com.qtpselenium.testcases.LoginTest" tests="2" failures="0" timestamp="25 Aug 2012 16:33:18 GMT" time="36.406" errors="0">
+  <testcase name="loginTest" time="27.078" classname="com.qtpselenium.testcases.LoginTest"/>
+  <testcase name="findFriend" time="9.297" classname="com.qtpselenium.testcases.LoginTest"/>
+</testsuite>

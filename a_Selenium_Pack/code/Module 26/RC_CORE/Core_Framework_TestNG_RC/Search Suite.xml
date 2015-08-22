@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search Suite">
+
+
+
+
+<test name="Check First 3 results">
+    <classes>
+        <class name="com.qtpselenium.suite.search.SearchResults" ></class>  
+    </classes>
+</test>
+
+<test name="Check Laptop Displays">
+    <classes>
+        <class name="com.qtpselenium.suite.search.LaptopDisplayTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

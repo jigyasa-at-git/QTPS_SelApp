@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14826" started-at="2014-08-25T06:34:52Z" finished-at="2014-08-25T06:35:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14826" started-at="2014-08-25T06:34:52Z" finished-at="2014-08-25T06:35:06Z">
+      <class name="temp.Organizer_App">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:temp.Organizer_App@546a03af]" name="testApp" duration-ms="14109" started-at="2014-08-25T12:04:52Z" finished-at="2014-08-25T12:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:temp.Organizer_App@546a03af]" name="quit" is-config="true" duration-ms="706" started-at="2014-08-25T12:05:06Z" finished-at="2014-08-25T12:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- temp.Organizer_App -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

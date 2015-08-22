@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ashish-PC" name="com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest" tests="2" failures="0" timestamp="17 Mar 2015 09:37:54 GMT" time="1.037" errors="0">
+  <testcase name="addPortFolioNewStockTest" time="0.04" classname="com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest">
+    <skipped/>
+  </testcase>
+  <testcase name="addPortFolioNewStockTest" time="0.06" classname="com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest">
+    <skipped/>
+  </testcase>
+</testsuite>

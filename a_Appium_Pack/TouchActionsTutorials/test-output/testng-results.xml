@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4307" started-at="2014-08-22T16:27:44Z" finished-at="2014-08-22T16:27:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4307" started-at="2014-08-22T16:27:44Z" finished-at="2014-08-22T16:27:49Z">
+      <class name="com.touchactions.Touch_Actions">
+        <test-method status="PASS" signature="xxx()[pri:0, instance:com.touchactions.Touch_Actions@2aafb23c]" name="xxx" duration-ms="4296" started-at="2014-08-22T21:57:44Z" finished-at="2014-08-22T21:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xxx -->
+      </class> <!-- com.touchactions.Touch_Actions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

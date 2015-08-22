@@ -1,0 +1,10 @@
+<suite name="My suite">
+<listeners>
+    <listener class-name="customreports.CustomReporter" />
+</listeners>
+  <suite-files>
+ 
+   <suite-file path="./Suite_A.xml" />
+    <suite-file path="./Suite_B.xml" />
+  </suite-files>
+</suite>

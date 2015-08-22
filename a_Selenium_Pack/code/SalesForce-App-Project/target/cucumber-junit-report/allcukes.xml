@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" tests="4">
+<testcase classname="Logging into Salesforce" name="Logging in salesforce_4" time="0.149835">
+<skipped><![CDATA[Given Runmode is "N"............................................................pending
+Given I go to "loginURL" on "Mozilla"....................................................skipped
+And I enter "loginusername" as "xxxxx"...................................................skipped
+And I enter "loginpassword" as "zxxxx"...................................................skipped
+And I click on "loginButton"........................................................skipped
+Then Login should be "failure".......................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Logging into Salesforce" name="Logging in salesforce_3" time="0.000195">
+<skipped><![CDATA[Given Runmode is "N"............................................................pending
+Given I go to "loginURL" on "Mozilla"....................................................skipped
+And I enter "loginusername" as "loadrunner.jmeter@gmail.com"........................................skipped
+And I enter "loginpassword" as "pass@1234".................................................skipped
+And I click on "loginButton"........................................................skipped
+Then Login should be "success".......................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Logging into Salesforce" name="Logging in salesforce_2" time="0.000173">
+<skipped><![CDATA[Given Runmode is "N"............................................................pending
+Given I go to "loginURL" on "Chrome"....................................................skipped
+And I enter "loginusername" as "xxxxx"...................................................skipped
+And I enter "loginpassword" as "zxxxx"...................................................skipped
+And I click on "loginButton"........................................................skipped
+Then Login should be "failure".......................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Logging into Salesforce" name="Logging in salesforce_1" time="0.00017">
+<skipped><![CDATA[Given Runmode is "N"............................................................pending
+Given I go to "loginURL" on "Chrome"....................................................skipped
+And I enter "loginusername" as "loadrunner.jmeter@gmail.com"........................................skipped
+And I enter "loginpassword" as "pass@1234".................................................skipped
+And I click on "loginButton"........................................................skipped
+Then Login should be "success".......................................................skipped
+]]></skipped>
+</testcase>
+</testsuite>

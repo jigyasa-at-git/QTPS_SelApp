@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cart Suite]">
+  <listeners>
+    <listener class-name="com.qtpselenium.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Test the total in cart(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.suite.cart.CheckTotalPrice">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="testcaseB2"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.qtpselenium.suite.cart.AddtoCartTest">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Randomly add items to cart(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.suite.cart.CheckTotalPrice">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class>
+      <class name="com.qtpselenium.suite.cart.AddtoCartTest">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testcaseA" invocation-numbers="0 1 2 3"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]" parallel="false">
+  <test name="Learning assertions(failed)" preserve-order="false">
+    <classes>
+      <class name="tests.UsingAssertions">
+        <methods>
+          <include name="testGoogleSearch"/>
+        </methods>
+      </class>
+      <class name="tests.SellItemsTest">
+        <methods>
+          <include name="shouldWeSkip"/>
+        </methods>
+      </class>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeConnection"/>
+          <include name="openConnection"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Selling Books(failed)" preserve-order="false">
+    <classes>
+      <class name="tests.SellItemsTest">
+        <methods>
+          <include name="testSellingBooks"/>
+          <include name="shouldWeSkip"/>
+        </methods>
+      </class>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeConnection"/>
+          <include name="openConnection"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

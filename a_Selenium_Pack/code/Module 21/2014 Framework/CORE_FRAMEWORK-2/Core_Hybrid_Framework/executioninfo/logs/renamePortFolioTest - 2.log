@@ -1,0 +1,11 @@
+2015-03-11 08:08:32,556 DEBUG [renamePortFolioTest - 2] Executing  renamePortFolioTest - {Case=CASE_OK, PortFolioName=HelloP2, Runmode=Y, Iteration=2, NewPortFolioName=HelloP11, Browser=Chrome}
+2015-03-11 08:08:32,576 DEBUG [renamePortFolioTest - 2] openBrowser ---  --- Browser
+2015-03-11 08:08:32,576 DEBUG [renamePortFolioTest - 2] Starting function openBrowser - Chrome
+2015-03-11 08:08:32,706 DEBUG [renamePortFolioTest - 2] Ending  function openBrowser with status PASS
+2015-03-11 08:08:32,706 DEBUG [renamePortFolioTest - 2] loginIfNotLoggedIn ---  --- 
+2015-03-11 08:08:32,706 DEBUG [renamePortFolioTest - 2] Entering function loginIfNotLoggedIn
+2015-03-11 08:08:32,736 DEBUG [renamePortFolioTest - 2] Already logged in
+2015-03-11 08:08:32,746 DEBUG [renamePortFolioTest - 2] selectPortFolio ---  --- PortFolioName
+2015-03-11 08:08:32,746 DEBUG [renamePortFolioTest - 2] Entering function selectPortFolio {Case=CASE_OK, PortFolioName=HelloP2, Runmode=Y, Iteration=2, NewPortFolioName=HelloP11, Browser=Chrome}
+2015-03-11 08:08:32,746 DEBUG [renamePortFolioTest - 2] Starting function inputportfolioid_xpath , HelloP2
+2015-03-11 08:08:32,746 DEBUG [renamePortFolioTest - 2] Finding element portfolioid_xpath

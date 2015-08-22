@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11375" started-at="2011-09-16T18:08:59Z" finished-at="2011-09-16T18:09:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11375" started-at="2011-09-16T18:08:59Z" finished-at="2011-09-16T18:09:10Z">
+      <class name="Sample_RC_APP_WAY1">
+        <test-method status="PASS" signature="testGmail()[pri:0, instance:null(Sample_RC_APP_WAY1)]" name="testGmail" duration-ms="11359" started-at="2011-09-16T18:08:59Z" finished-at="2011-09-16T18:09:10Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

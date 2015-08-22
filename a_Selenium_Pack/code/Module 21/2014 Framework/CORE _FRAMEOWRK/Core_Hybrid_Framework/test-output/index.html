@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_B">
+              <span class="suite-name border-skipped">Suite B</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_B">
+                    <span>F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\Suite_B.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_B">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_B">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_B">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_B">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_B">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_B">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,  7 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite_B" class="hide-methods skipped suite-Suite_B"> (hide)</a> <!-- hide-methods skipped suite-Suite_B -->
+                      <a href="#" panel-name="suite-Suite_B" class="show-methods skipped suite-Suite_B"> (show)</a> <!-- show-methods skipped suite-Suite_B -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite_B">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.TestB1" hash-for-method="testB1({Date=D32, Price=, Runmode=N, Iteration=3, Quantity=D33, StockName=D31, Browser=Chrome})">testB1({Date=D32, Price=, Runmode=N, Iteration=3, Quantity=D33, StockName=D31, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.TestB1" hash-for-method="testB1({Date=D22, Price=, Runmode=N, Iteration=2, Quantity=D23, StockName=D21, Browser=Chrome})">testB1({Date=D22, Price=, Runmode=N, Iteration=2, Quantity=D23, StockName=D21, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.TestB1" hash-for-method="testB1({Date=24/04/2014, Price=100, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Brows...)">testB1({Date=24/04/2014, Price=100, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Brows...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.TestB2" hash-for-method="testB2({Col2=X22, Col1=X21, Runmode=Y, Iteration=2})">testB2({Col2=X22, Col1=X21, Runmode=Y, Iteration=2})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.TestB2" hash-for-method="testB2({Col2=X12, Col1=X11, Runmode=Y, Iteration=1})">testB2({Col2=X12, Col1=X11, Runmode=Y, Iteration=1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.TestB3" hash-for-method="testB3({Col4=Z14, Col3=Z13, Col2=Z12, Col1=Z11, Runmode=Y, Iteration=1})">testB3({Col4=Z14, Col3=Z13, Col2=Z12, Col1=Z11, Runmode=Y, Iteration=1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_B" title="com.qtpselenium.framework.suiteB.TestB3" hash-for-method="testB3({Col4=Z24, Col3=Z23, Col2=Z22, Col1=Z21, Runmode=Y, Iteration=2})">testB3({Col4=Z24, Col3=Z23, Col2=Z22, Col1=Z21, Runmode=Y, Iteration=2})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite_B -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_A">
+              <span class="suite-name border-failed">Suite A</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_A">
+                    <span>F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\Suite_A.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_A">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_A">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_A">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_A">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_A">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_A">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,  4 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite_A" class="hide-methods failed suite-Suite_A"> (hide)</a> <!-- hide-methods failed suite-Suite_A -->
+                      <a href="#" panel-name="suite-Suite_A" class="show-methods failed suite-Suite_A"> (show)</a> <!-- show-methods failed suite-Suite_A -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite_A">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.TestA1" hash-for-method="testA1({Case=CASE_OK, PortFolioName=D38, Runmode=Y, Iteration=3, Browser=Mozilla})">testA1({Case=CASE_OK, PortFolioName=D38, Runmode=Y, Iteration=3, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite_A -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite_A" class="hide-methods skipped suite-Suite_A"> (hide)</a> <!-- hide-methods skipped suite-Suite_A -->
+                      <a href="#" panel-name="suite-Suite_A" class="show-methods skipped suite-Suite_A"> (show)</a> <!-- show-methods skipped suite-Suite_A -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite_A">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.TestA2" hash-for-method="testA2({PortFolioName=Iter2, Runmode=Y, Iteration=2, NewPortFolioName=Iter22, Browser=Chrome})">testA2({PortFolioName=Iter2, Runmode=Y, Iteration=2, NewPortFolioName=Iter22, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.TestA2" hash-for-method="testA2({PortFolioName=PortA6, Runmode=Y, Iteration=1, NewPortFolioName=PortA7, Browser=Mozilla})">testA2({PortFolioName=PortA6, Runmode=Y, Iteration=1, NewPortFolioName=PortA7, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.TestA2" hash-for-method="testA2({PortFolioName=Iter2, Runmode=N, Iteration=3, NewPortFolioName=Iter22, Browser=Chrome})">testA2({PortFolioName=Iter2, Runmode=N, Iteration=3, NewPortFolioName=Iter22, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.TestA3" hash-for-method="testA3({PortFolioName=PortA7, Runmode=Y, Iteration=1, DependentTests=TestA2-1, Browser=Mozilla})">testA3({PortFolioName=PortA7, Runmode=Y, Iteration=1, DependentTests=TestA2-1, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite_A -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_A" class="hide-methods passed suite-Suite_A"> (hide)</a> <!-- hide-methods passed suite-Suite_A -->
+                      <a href="#" panel-name="suite-Suite_A" class="show-methods passed suite-Suite_A"> (show)</a> <!-- show-methods passed suite-Suite_A -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_A">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.TestA1" hash-for-method="testA1({Case=CASE DUPLICATE_NAME-ERR, PortFolioName=Iter2, Runmode=Y, Iteration=2, Browser=Chrome})">testA1({Case=CASE DUPLICATE_NAME-ERR, PortFolioName=Iter2, Runmode=Y, Iteration=2, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.TestA1" hash-for-method="testA1({Case=CASE_OK, PortFolioName=PortA6, Runmode=Y, Iteration=1, Browser=Mozilla})">testA1({Case=CASE_OK, PortFolioName=PortA6, Runmode=Y, Iteration=1, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_A" title="com.qtpselenium.framework.suiteA.TestA1" hash-for-method="testA1({Case=CASE_OK, PortFolioName=xx, Runmode=Y, Iteration=4, Browser=Chrome})">testA1({Case=CASE_OK, PortFolioName=xx, Runmode=Y, Iteration=4, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_A -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_B" class="panel Suite_B">
+          <div class="suite-Suite_B-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteB.TestB3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testB3({Col4=Z14, Col3=Z13, Col2=Z12, Col1=Z11, Runmode=Y, Iteration=1})">
+                  </a> <!-- testB3({Col4=Z14, Col3=Z13, Col2=Z12, Col1=Z11, Runmode=Y, Iteration=1}) -->
+                  <span class="method-name">testB3</span>
+                  <span class="parameters">({Col4=Z14, Col3=Z13, Col2=Z12, Col1=Z11, Runmode=Y, Iteration=1})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestB3 as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.TestB3.testB3(TestB3.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testB3({Col4=Z24, Col3=Z23, Col2=Z22, Col1=Z21, Runmode=Y, Iteration=2})">
+                  </a> <!-- testB3({Col4=Z24, Col3=Z23, Col2=Z22, Col1=Z21, Runmode=Y, Iteration=2}) -->
+                  <span class="method-name">testB3</span>
+                  <span class="parameters">({Col4=Z24, Col3=Z23, Col2=Z22, Col1=Z21, Runmode=Y, Iteration=2})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestB3 as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.TestB3.testB3(TestB3.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-skipped -->
+          <div class="suite-Suite_B-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteB.TestB2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testB2({Col2=X22, Col1=X21, Runmode=Y, Iteration=2})">
+                  </a> <!-- testB2({Col2=X22, Col1=X21, Runmode=Y, Iteration=2}) -->
+                  <span class="method-name">testB2</span>
+                  <span class="parameters">({Col2=X22, Col1=X21, Runmode=Y, Iteration=2})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestB2 as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.TestB2.testB2(TestB2.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testB2({Col2=X12, Col1=X11, Runmode=Y, Iteration=1})">
+                  </a> <!-- testB2({Col2=X12, Col1=X11, Runmode=Y, Iteration=1}) -->
+                  <span class="method-name">testB2</span>
+                  <span class="parameters">({Col2=X12, Col1=X11, Runmode=Y, Iteration=1})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestB2 as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.TestB2.testB2(TestB2.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-skipped -->
+          <div class="suite-Suite_B-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteB.TestB1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testB1({Date=D32, Price=, Runmode=N, Iteration=3, Quantity=D33, StockName=D31, Browser=Chrome})">
+                  </a> <!-- testB1({Date=D32, Price=, Runmode=N, Iteration=3, Quantity=D33, StockName=D31, Browser=Chrome}) -->
+                  <span class="method-name">testB1</span>
+                  <span class="parameters">({Date=D32, Price=, Runmode=N, Iteration=3, Quantity=D33, StockName=D31, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestB1 as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.TestB1.testB1(TestB1.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testB1({Date=D22, Price=, Runmode=N, Iteration=2, Quantity=D23, StockName=D21, Browser=Chrome})">
+                  </a> <!-- testB1({Date=D22, Price=, Runmode=N, Iteration=2, Quantity=D23, StockName=D21, Browser=Chrome}) -->
+                  <span class="method-name">testB1</span>
+                  <span class="parameters">({Date=D22, Price=, Runmode=N, Iteration=2, Quantity=D23, StockName=D21, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestB1 as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.TestB1.testB1(TestB1.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testB1({Date=24/04/2014, Price=100, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Brows...)">
+                  </a> <!-- testB1({Date=24/04/2014, Price=100, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Brows...) -->
+                  <span class="method-name">testB1</span>
+                  <span class="parameters">({Date=24/04/2014, Price=100, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestB1 as runmode of suite was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+	at com.qtpselenium.framework.suiteB.TestB1.testB1(TestB1.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_B-class-skipped -->
+        </div> <!-- panel Suite_B -->
+        <div panel-name="suite-Suite_A" class="panel Suite_A">
+          <div class="suite-Suite_A-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteA.TestA1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA1({Case=CASE_OK, PortFolioName=D38, Runmode=Y, Iteration=3, Browser=Mozilla})">
+                  </a> <!-- testA1({Case=CASE_OK, PortFolioName=D38, Runmode=Y, Iteration=3, Browser=Mozilla}) -->
+                  <span class="method-name">testA1</span>
+                  <span class="parameters">({Case=CASE_OK, PortFolioName=D38, Runmode=Y, Iteration=3, Browser=Mozilla})</span>
+                  <div class="stack-trace">java.lang.AssertionError: FAIL - Not able to Login with Deault Username/password 
+	at com.qtpselenium.framework.util.Keywords.reportFailureAndStop(Keywords.java:277)
+	at com.qtpselenium.framework.util.Keywords.loginIfNotLoggedIn(Keywords.java:237)
+	at com.qtpselenium.framework.util.Keywords.executeKeywords(Keywords.java:82)
+	at com.qtpselenium.framework.suiteA.TestA1.testA1(TestA1.java:27)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-failed -->
+          <div class="suite-Suite_A-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteA.TestA2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA2({PortFolioName=Iter2, Runmode=Y, Iteration=2, NewPortFolioName=Iter22, Browser=Chrome})">
+                  </a> <!-- testA2({PortFolioName=Iter2, Runmode=Y, Iteration=2, NewPortFolioName=Iter22, Browser=Chrome}) -->
+                  <span class="method-name">testA2</span>
+                  <span class="parameters">({PortFolioName=Iter2, Runmode=Y, Iteration=2, NewPortFolioName=Iter22, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestA2 as runmode of test was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:110)
+	at com.qtpselenium.framework.suiteA.TestA2.testA2(TestA2.java:18)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA2({PortFolioName=PortA6, Runmode=Y, Iteration=1, NewPortFolioName=PortA7, Browser=Mozilla})">
+                  </a> <!-- testA2({PortFolioName=PortA6, Runmode=Y, Iteration=1, NewPortFolioName=PortA7, Browser=Mozilla}) -->
+                  <span class="method-name">testA2</span>
+                  <span class="parameters">({PortFolioName=PortA6, Runmode=Y, Iteration=1, NewPortFolioName=PortA7, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestA2 as runmode of test was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:110)
+	at com.qtpselenium.framework.suiteA.TestA2.testA2(TestA2.java:18)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA2({PortFolioName=Iter2, Runmode=N, Iteration=3, NewPortFolioName=Iter22, Browser=Chrome})">
+                  </a> <!-- testA2({PortFolioName=Iter2, Runmode=N, Iteration=3, NewPortFolioName=Iter22, Browser=Chrome}) -->
+                  <span class="method-name">testA2</span>
+                  <span class="parameters">({PortFolioName=Iter2, Runmode=N, Iteration=3, NewPortFolioName=Iter22, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestA2 as runmode of test was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:110)
+	at com.qtpselenium.framework.suiteA.TestA2.testA2(TestA2.java:18)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-skipped -->
+          <div class="suite-Suite_A-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteA.TestA3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA3({PortFolioName=PortA7, Runmode=Y, Iteration=1, DependentTests=TestA2-1, Browser=Mozilla})">
+                  </a> <!-- testA3({PortFolioName=PortA7, Runmode=Y, Iteration=1, DependentTests=TestA2-1, Browser=Mozilla}) -->
+                  <span class="method-name">testA3</span>
+                  <span class="parameters">({PortFolioName=PortA7, Runmode=Y, Iteration=1, DependentTests=TestA2-1, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test TestA3 as runmode of test was NO
+	at com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:110)
+	at com.qtpselenium.framework.suiteA.TestA3.testA3(TestA3.java:17)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-skipped -->
+          <div class="suite-Suite_A-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qtpselenium.framework.suiteA.TestA1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA1({Case=CASE DUPLICATE_NAME-ERR, PortFolioName=Iter2, Runmode=Y, Iteration=2, Browser=Chrome})">
+                  </a> <!-- testA1({Case=CASE DUPLICATE_NAME-ERR, PortFolioName=Iter2, Runmode=Y, Iteration=2, Browser=Chrome}) -->
+                  <span class="method-name">testA1</span>
+                  <span class="parameters">({Case=CASE DUPLICATE_NAME-ERR, PortFolioName=Iter2, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA1({Case=CASE_OK, PortFolioName=PortA6, Runmode=Y, Iteration=1, Browser=Mozilla})">
+                  </a> <!-- testA1({Case=CASE_OK, PortFolioName=PortA6, Runmode=Y, Iteration=1, Browser=Mozilla}) -->
+                  <span class="method-name">testA1</span>
+                  <span class="parameters">({Case=CASE_OK, PortFolioName=PortA6, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA1({Case=CASE_OK, PortFolioName=xx, Runmode=Y, Iteration=4, Browser=Chrome})">
+                  </a> <!-- testA1({Case=CASE_OK, PortFolioName=xx, Runmode=Y, Iteration=4, Browser=Chrome}) -->
+                  <span class="method-name">testA1</span>
+                  <span class="parameters">({Case=CASE_OK, PortFolioName=xx, Runmode=Y, Iteration=4, Browser=Chrome})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_A-class-passed -->
+        </div> <!-- panel Suite_A -->
+        <div panel-name="suite-My_suite" class="panel My_suite">
+        </div> <!-- panel My_suite -->
+        <div panel-name="test-xml-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\Suite_B.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite B&quot;&gt;
+  &lt;test name=&quot;Test B1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.suiteB.TestB1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test B1 --&gt;
+  &lt;test name=&quot;Test B2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.suiteB.TestB2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test B2 --&gt;
+  &lt;test name=&quot;Test B3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.suiteB.TestB3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test B3 --&gt;
+&lt;/suite&gt; &lt;!-- Suite B --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\Suite_A.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite A&quot;&gt;
+  &lt;test name=&quot;Test A1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.suiteA.TestA1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test A1 --&gt;
+  &lt;test name=&quot;Test A2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.suiteA.TestA2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test A2 --&gt;
+  &lt;test name=&quot;Test A3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.framework.suiteA.TestA3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test A3 --&gt;
+&lt;/suite&gt; &lt;!-- Suite A --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Whizdom-Trainings\Tools\Selenium\Online Classes\Jan_weekeday_2015\Core_Hybrid_Framework\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My suite&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./Suite_A.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./Suite_B.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- My suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test B1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test B2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test B3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test A1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test A2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test A3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_B');
+function tableData_Suite_B() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testB2')
+data.setCell(0, 2, 'com.qtpselenium.framework.suiteB.TestB2')
+data.setCell(0, 3, 102);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testB1')
+data.setCell(1, 2, 'com.qtpselenium.framework.suiteB.TestB1')
+data.setCell(1, 3, 60);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testB3')
+data.setCell(2, 2, 'com.qtpselenium.framework.suiteB.TestB3')
+data.setCell(2, 3, 60);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testB1')
+data.setCell(3, 2, 'com.qtpselenium.framework.suiteB.TestB1')
+data.setCell(3, 3, 40);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testB2')
+data.setCell(4, 2, 'com.qtpselenium.framework.suiteB.TestB2')
+data.setCell(4, 3, 40);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testB3')
+data.setCell(5, 2, 'com.qtpselenium.framework.suiteB.TestB3')
+data.setCell(5, 3, 40);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testB1')
+data.setCell(6, 2, 'com.qtpselenium.framework.suiteB.TestB1')
+data.setCell(6, 3, 30);
+window.suiteTableData['Suite_B']= { tableData: data, tableDiv: 'times-div-Suite_B'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 372 ms</span>
+              <div id="times-div-Suite_B">
+              </div> <!-- times-div-Suite_B -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_A');
+function tableData_Suite_A() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testA1')
+data.setCell(0, 2, 'com.qtpselenium.framework.suiteA.TestA1')
+data.setCell(0, 3, 32874);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testA1')
+data.setCell(1, 2, 'com.qtpselenium.framework.suiteA.TestA1')
+data.setCell(1, 3, 26102);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testA1')
+data.setCell(2, 2, 'com.qtpselenium.framework.suiteA.TestA1')
+data.setCell(2, 3, 17083);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testA1')
+data.setCell(3, 2, 'com.qtpselenium.framework.suiteA.TestA1')
+data.setCell(3, 3, 229);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testA2')
+data.setCell(4, 2, 'com.qtpselenium.framework.suiteA.TestA2')
+data.setCell(4, 3, 80);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testA2')
+data.setCell(5, 2, 'com.qtpselenium.framework.suiteA.TestA2')
+data.setCell(5, 3, 40);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testA2')
+data.setCell(6, 2, 'com.qtpselenium.framework.suiteA.TestA2')
+data.setCell(6, 3, 40);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testA3')
+data.setCell(7, 2, 'com.qtpselenium.framework.suiteA.TestA3')
+data.setCell(7, 3, 40);
+window.suiteTableData['Suite_A']= { tableData: data, tableDiv: 'times-div-Suite_A'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite_A">
+              </div> <!-- times-div-Suite_A -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_suite');
+function tableData_My_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['My_suite']= { tableData: data, tableDiv: 'times-div-My_suite'}
+return data;
+}
+              </script>
+              <div id="times-div-My_suite">
+              </div> <!-- times-div-My_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite B</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite A</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_B" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.TestA1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA1({Case=CASE_OK, PortFolioName=PortA6, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA1({Case=CASE DUPLICATE_NAME-ERR, PortFolioName=Iter2, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                <span class="method-start">32874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testA1({Case=CASE_OK, PortFolioName=D38, Runmode=Y, Iteration=3, Browser=Mozilla})</span>
+                <span class="method-start">58976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA1({Case=CASE_OK, PortFolioName=xx, Runmode=Y, Iteration=4, Browser=Chrome})</span>
+                <span class="method-start">76059 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.TestA2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA2({PortFolioName=PortA6, Runmode=Y, Iteration=1, NewPortFolioName=PortA7, Browser=Mozilla})</span>
+                <span class="method-start">76348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA2({PortFolioName=Iter2, Runmode=Y, Iteration=2, NewPortFolioName=Iter22, Browser=Chrome})</span>
+                <span class="method-start">76428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA2({PortFolioName=Iter2, Runmode=N, Iteration=3, NewPortFolioName=Iter22, Browser=Chrome})</span>
+                <span class="method-start">76478 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.TestA3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA3({PortFolioName=PortA7, Runmode=Y, Iteration=1, DependentTests=TestA2-1, Browser=Mozilla})</span>
+                <span class="method-start">76578 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.TestB1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testB1({Date=24/04/2014, Price=100, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Brows...)</span>
+                <span class="method-start">76668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB1({Date=D22, Price=, Runmode=N, Iteration=2, Quantity=D23, StockName=D21, Browser=Chrome})</span>
+                <span class="method-start">76728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB1({Date=D32, Price=, Runmode=N, Iteration=3, Quantity=D33, StockName=D31, Browser=Chrome})</span>
+                <span class="method-start">76768 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.TestB2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testB2({Col2=X12, Col1=X11, Runmode=Y, Iteration=1})</span>
+                <span class="method-start">76850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB2({Col2=X22, Col1=X21, Runmode=Y, Iteration=2})</span>
+                <span class="method-start">76952 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.TestB3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testB3({Col4=Z14, Col3=Z13, Col2=Z12, Col1=Z11, Runmode=Y, Iteration=1})</span>
+                <span class="method-start">77022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB3({Col4=Z24, Col3=Z23, Col2=Z22, Col1=Z21, Runmode=Y, Iteration=2})</span>
+                <span class="method-start">77082 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_A" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.TestA1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA1({Case=CASE_OK, PortFolioName=PortA6, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA1({Case=CASE DUPLICATE_NAME-ERR, PortFolioName=Iter2, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                <span class="method-start">32874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testA1({Case=CASE_OK, PortFolioName=D38, Runmode=Y, Iteration=3, Browser=Mozilla})</span>
+                <span class="method-start">58976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA1({Case=CASE_OK, PortFolioName=xx, Runmode=Y, Iteration=4, Browser=Chrome})</span>
+                <span class="method-start">76059 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.TestA2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA2({PortFolioName=PortA6, Runmode=Y, Iteration=1, NewPortFolioName=PortA7, Browser=Mozilla})</span>
+                <span class="method-start">76348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA2({PortFolioName=Iter2, Runmode=Y, Iteration=2, NewPortFolioName=Iter22, Browser=Chrome})</span>
+                <span class="method-start">76428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA2({PortFolioName=Iter2, Runmode=N, Iteration=3, NewPortFolioName=Iter22, Browser=Chrome})</span>
+                <span class="method-start">76478 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.TestA3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA3({PortFolioName=PortA7, Runmode=Y, Iteration=1, DependentTests=TestA2-1, Browser=Mozilla})</span>
+                <span class="method-start">76578 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.TestB1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testB1({Date=24/04/2014, Price=100, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Brows...)</span>
+                <span class="method-start">76668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB1({Date=D22, Price=, Runmode=N, Iteration=2, Quantity=D23, StockName=D21, Browser=Chrome})</span>
+                <span class="method-start">76728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB1({Date=D32, Price=, Runmode=N, Iteration=3, Quantity=D33, StockName=D31, Browser=Chrome})</span>
+                <span class="method-start">76768 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.TestB2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testB2({Col2=X12, Col1=X11, Runmode=Y, Iteration=1})</span>
+                <span class="method-start">76850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB2({Col2=X22, Col1=X21, Runmode=Y, Iteration=2})</span>
+                <span class="method-start">76952 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.TestB3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testB3({Col4=Z14, Col3=Z13, Col2=Z12, Col1=Z11, Runmode=Y, Iteration=1})</span>
+                <span class="method-start">77022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB3({Col4=Z24, Col3=Z23, Col2=Z22, Col1=Z21, Runmode=Y, Iteration=2})</span>
+                <span class="method-start">77082 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.TestA1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA1({Case=CASE_OK, PortFolioName=PortA6, Runmode=Y, Iteration=1, Browser=Mozilla})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA1({Case=CASE DUPLICATE_NAME-ERR, PortFolioName=Iter2, Runmode=Y, Iteration=2, Browser=Chrome})</span>
+                <span class="method-start">32874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testA1({Case=CASE_OK, PortFolioName=D38, Runmode=Y, Iteration=3, Browser=Mozilla})</span>
+                <span class="method-start">58976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA1({Case=CASE_OK, PortFolioName=xx, Runmode=Y, Iteration=4, Browser=Chrome})</span>
+                <span class="method-start">76059 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.TestA2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA2({PortFolioName=PortA6, Runmode=Y, Iteration=1, NewPortFolioName=PortA7, Browser=Mozilla})</span>
+                <span class="method-start">76348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA2({PortFolioName=Iter2, Runmode=Y, Iteration=2, NewPortFolioName=Iter22, Browser=Chrome})</span>
+                <span class="method-start">76428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testA2({PortFolioName=Iter2, Runmode=N, Iteration=3, NewPortFolioName=Iter22, Browser=Chrome})</span>
+                <span class="method-start">76478 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteA.TestA3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA3({PortFolioName=PortA7, Runmode=Y, Iteration=1, DependentTests=TestA2-1, Browser=Mozilla})</span>
+                <span class="method-start">76578 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.TestB1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testB1({Date=24/04/2014, Price=100, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Brows...)</span>
+                <span class="method-start">76668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB1({Date=D22, Price=, Runmode=N, Iteration=2, Quantity=D23, StockName=D21, Browser=Chrome})</span>
+                <span class="method-start">76728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB1({Date=D32, Price=, Runmode=N, Iteration=3, Quantity=D33, StockName=D31, Browser=Chrome})</span>
+                <span class="method-start">76768 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.TestB2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testB2({Col2=X12, Col1=X11, Runmode=Y, Iteration=1})</span>
+                <span class="method-start">76850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB2({Col2=X22, Col1=X21, Runmode=Y, Iteration=2})</span>
+                <span class="method-start">76952 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.framework.suiteB.TestB3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testB3({Col4=Z14, Col3=Z13, Col2=Z12, Col1=Z11, Runmode=Y, Iteration=1})</span>
+                <span class="method-start">77022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testB3({Col4=Z24, Col3=Z23, Col2=Z22, Col1=Z21, Runmode=Y, Iteration=2})</span>
+                <span class="method-start">77082 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

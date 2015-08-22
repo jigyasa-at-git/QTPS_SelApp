@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Suite">
+
+<listeners>
+    <listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+<test name="Login test">
+    <classes>
+        <class name="com.qtpselenium.testcases.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="UploadPic test">
+    <classes>
+        <class name="com.qtpselenium.testcases.UploadPic" ></class>  
+    </classes>
+</test>
+
+</suite>

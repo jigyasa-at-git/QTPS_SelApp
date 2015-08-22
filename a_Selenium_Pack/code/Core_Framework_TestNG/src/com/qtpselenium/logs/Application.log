@@ -1,0 +1,11 @@
+20/12/2011 08:52:34 devpinoyLogger Loading Property files
+20/12/2011 08:52:34 devpinoyLogger Loaded Property files successfully
+20/12/2011 08:52:34 devpinoyLogger Loading XLS Files
+20/12/2011 08:52:35 devpinoyLogger Loaded XLS Files successfully
+20/12/2011 08:52:35 devpinoyLogger Checking Runmode of Shop Suite
+20/12/2011 08:52:35 devpinoyLogger Skipping Test CaseAddProductTest as runmode set to NO
+20/12/2011 08:52:35 devpinoyLogger Skipping Test CaseCheckProductDisplay as runmode set to NO
+20/12/2011 08:54:02 devpinoyLogger Checking Runmode of Cart Suite
+20/12/2011 08:54:02 devpinoyLogger Skipped Cart Suite as the runmode was set to NO
+20/12/2011 08:54:02 devpinoyLogger Checking Runmode of Product Display Suite
+20/12/2011 08:54:02 devpinoyLogger Skipped Product Display Suite as the runmode was set to NO

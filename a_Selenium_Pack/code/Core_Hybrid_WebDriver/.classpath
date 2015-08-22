@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="E:/Tools/Selenium/OnlineVideos workspace/Selenium Online Training Videos/Core_Framework_TestNG/jars-core/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Tools/Selenium/OnlineVideos workspace/Selenium Online Training Videos/Core_Framework_TestNG/jars-core/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Tools/Selenium/OnlineVideos workspace/Selenium Online Training Videos/Core_Framework_TestNG/jars-core/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="E:/Tools/Selenium/OnlineVideos workspace/Selenium Online Training Videos/Core_Framework_TestNG/jars-core/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="E:/Tools/Selenium/OnlineVideos workspace/Selenium Online Training Videos/Core_Framework_TestNG/jars-core/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="E:/Tools/Selenium/OnlineVideos workspace/Selenium Online Training Videos/Core_Framework_TestNG/jars-core/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/cssparser-0.9.5.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/guava-r09.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/hamcrest-all-1.1.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/htmlunit-2.9.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/htmlunit-core-js-2.9.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/httpclient-4.1.2.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/httpcore-4.1.2.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/httpmime-4.1.2.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/jcommander-1.13.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/jna-3.3.0.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/json-20080701.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/junit-dep-4.8.1.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/nekohtml-1.9.15.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/operadriver-v0.6.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/protobuf-java-2.3.0.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/selenium-java-2.5.0.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/selenium-java-2.5.0-srcs.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/testng-6.0.1-nobsh-noguice.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/xercesImpl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="G:/My Softwares/selenium-2.5.0/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="E:/Tools/Selenium/OnlineVideos workspace/Selenium Online Training Videos/Core_Framework_TestNG/jars-core/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

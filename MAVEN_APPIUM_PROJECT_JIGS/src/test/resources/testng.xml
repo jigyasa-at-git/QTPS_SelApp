@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Android Test Suite"
+    
+    <test name=WhatsApp>
+        <classes>
+            <class name="comm.appium.mavensampleJigs.WhatsAppTest"></class>            
+        </classes>        
+    </test>
+    
+</suite>

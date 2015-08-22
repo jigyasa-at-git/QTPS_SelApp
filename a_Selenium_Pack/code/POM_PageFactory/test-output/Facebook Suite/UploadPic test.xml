@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="whizdom-7413329" name="com.qtpselenium.testcases.UploadPic" tests="1" failures="0" timestamp="14 Sep 2012 13:15:30 GMT" time="0.0" errors="0">
+  <testcase name="uploadPic" time="0.0" classname="com.qtpselenium.testcases.UploadPic">
+    <skipped/>
+  </testcase>
+</testsuite>

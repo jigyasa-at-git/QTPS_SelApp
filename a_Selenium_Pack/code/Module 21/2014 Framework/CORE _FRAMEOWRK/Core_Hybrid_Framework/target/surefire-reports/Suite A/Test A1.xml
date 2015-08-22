@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ashish-PC" name="com.qtpselenium.framework.suiteA.TestA1" tests="4" failures="0" timestamp="25 Feb 2015 03:03:07 GMT" time="0.545" errors="0">
+  <testcase name="testA1" time="0.004" classname="com.qtpselenium.framework.suiteA.TestA1"/>
+  <testcase name="testA1" time="0.0" classname="com.qtpselenium.framework.suiteA.TestA1"/>
+  <testcase name="testA1" time="0.0" classname="com.qtpselenium.framework.suiteA.TestA1"/>
+  <testcase name="testA1" time="0.0" classname="com.qtpselenium.framework.suiteA.TestA1"/>
+</testsuite>

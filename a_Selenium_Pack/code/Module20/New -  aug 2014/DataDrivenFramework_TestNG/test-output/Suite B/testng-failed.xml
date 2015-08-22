@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite B]">
+  <listeners>
+    <listener class-name="com.qtpselenium.framework.datadriven.CustomListener"/>
+  </listeners>
+  <test name="Test 1(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test2">
+        <methods>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteB.Test2 -->
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test1">
+        <methods>
+          <include name="test1" invocation-numbers="0 1 2"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteB.Test1 -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+  <test name="Test 2(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test2">
+        <methods>
+          <include name="initLogs"/>
+          <include name="test2" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteB.Test2 -->
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test1">
+        <methods>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteB.Test1 -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+</suite> <!-- Failed suite [Suite B] -->

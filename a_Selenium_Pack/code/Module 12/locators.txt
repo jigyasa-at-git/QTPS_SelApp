@@ -1,0 +1,20 @@
+
+
+
+
+Absolute Xpath OR Full Xpath
+html/body/div/div[2]/div/div/form/div[1]/input
+
+
+Partial Xpath
+//input[@id='Email']
+
+
+//tag[@attr='value']
+
+//a[@href='/en-us/firefox/user/4504606/']
+//input[@class='g-button g-button-submit']
+
+
+//input[@type='submit' and @class='g-button g-button-submit']
+//div[@class='product-info mail']/p

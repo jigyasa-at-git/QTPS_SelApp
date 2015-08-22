@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><th colspan="7">My suite</th></tr>
+<tr><th colspan="7">Suite A</th></tr>
+<tr><td style="text-align:left;padding-right:2em">PortFolio Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">0</td><td class="numi">3.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">Suite B</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Add Portfolio New stock</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">1.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Modify Existing Stock</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">1.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">0</td><td class="numi">0</td><td class="numi_attn">10</td><td class="numi">0</td><td class="numi">5.5 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">My suite</th></tr>
+<tr><th colspan="4">Suite A</th></tr>
+<tr><th colspan="4">PortFolio Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="6">com.qtpselenium.framework.suiteA.PortFolioTest<td><a href="#m1"><b>createPortFolioTest</b>  </a></td><td class="numi">2</td><td class="numi">128</td></tr><tr class="skippedodd"><td><a href="#m2"><b>deletePortFolioTest</b>  </a></td><td class="numi">2</td><td class="numi">109</td></tr><tr class="skippedodd"><td><a href="#m3"><b>renamePortFolioTest</b>  </a></td><td class="numi">2</td><td class="numi">102</td></tr><tr class="skippedodd"><td><a href="#m4"><b>createPortFolioTest</b>  </a></td><td class="numi">2</td><td class="numi">128</td></tr><tr class="skippedodd"><td><a href="#m5"><b>deletePortFolioTest</b>  </a></td><td class="numi">2</td><td class="numi">109</td></tr><tr class="skippedodd"><td><a href="#m6"><b>renamePortFolioTest</b>  </a></td><td class="numi">2</td><td class="numi">102</td></tr>
+<tr><th colspan="4">Suite B</th></tr>
+<tr><th colspan="4">Add Portfolio New stock &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest<td><a href="#m7"><b>addPortFolioNewStockTest</b>  </a></td><td class="numi">2</td><td class="numi">60</td></tr><tr class="skippedodd"><td><a href="#m8"><b>addPortFolioNewStockTest</b>  </a></td><td class="numi">2</td><td class="numi">60</td></tr>
+<tr><th colspan="4">Modify Existing Stock &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest<td><a href="#m9"><b>modifyPortFolioStockTest</b>  </a></td><td class="numi">2</td><td class="numi">98</td></tr><tr class="skippedodd"><td><a href="#m10"><b>modifyPortFolioStockTest</b>  </a></td><td class="numi">2</td><td class="numi">98</td></tr>
+</table>
+<h1>PortFolio Test</h1>
+<a id="m1"></a><h2>com.qtpselenium.framework.suiteA.PortFolioTest:createPortFolioTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Case=CASE_INVALID_NAME, PortFolioName=Port22, Runmode=Y, Iteration=2, Browser=Chrome}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test createPortFolioTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteA.PortFolioTest.createPortFolioTest(PortFolioTest.java:22)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.qtpselenium.framework.suiteA.PortFolioTest:deletePortFolioTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{PortFolioName=Port201, Runmode=Y, Iteration=2, Browser=Chrome}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test deletePortFolioTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteA.PortFolioTest.deletePortFolioTest(PortFolioTest.java:56)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.qtpselenium.framework.suiteA.PortFolioTest:renamePortFolioTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Case=CASE_OK, PortFolioName=Port22, Runmode=Y, Iteration=2, NewPortFolioName=Port201, Browser=Chrome}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test renamePortFolioTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteA.PortFolioTest.renamePortFolioTest(PortFolioTest.java:39)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.qtpselenium.framework.suiteA.PortFolioTest:createPortFolioTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Case=CASE DUPLICATE_NAME, PortFolioName=Port11, Runmode=Y, Iteration=1, Browser=Mozilla}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test createPortFolioTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteA.PortFolioTest.createPortFolioTest(PortFolioTest.java:22)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.qtpselenium.framework.suiteA.PortFolioTest:deletePortFolioTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{PortFolioName=Port101, Runmode=Y, Iteration=1, Browser=Mozilla}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test deletePortFolioTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteA.PortFolioTest.deletePortFolioTest(PortFolioTest.java:56)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.qtpselenium.framework.suiteA.PortFolioTest:renamePortFolioTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Case=CASE_OK, PortFolioName=Port11, Runmode=Y, Iteration=1, NewPortFolioName=Port101, Browser=Mozilla}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test renamePortFolioTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteA.PortFolioTest.renamePortFolioTest(PortFolioTest.java:39)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Add Portfolio New stock</h1>
+<a id="m7"></a><h2>com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest:addPortFolioNewStockTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=1, Quantity=300, StockName=Tata Motors Ltd., Browser=Mozilla}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test addPortFolioNewStockTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest.addPortFolioNewStockTest(AddPortFolioNewStockTest.java:20)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest:addPortFolioNewStockTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Date=24/04/2014, Price=100, PortFolioName=Ashish, Runmode=Y, Iteration=2, Quantity=300, StockName=Indian Oil Corporation Ltd., Browser=Chrome}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test addPortFolioNewStockTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest.addPortFolioNewStockTest(AddPortFolioNewStockTest.java:20)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Modify Existing Stock</h1>
+<a id="m9"></a><h2>com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest:modifyPortFolioStockTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Quantity=10, PortFolioName=test, Price=100, Action=Sell, Runmode=Y, Iteration=2, Date=24/04/2014, StockName=ICICI Ltd., Browser=Chrome}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test modifyPortFolioStockTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest.modifyPortFolioStockTest(ModifyPortFolioStockTest.java:20)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest:modifyPortFolioStockTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Quantity=10, PortFolioName=test, Price=110, Action=Sell, Runmode=Y, Iteration=1, Date=24/04/2014, StockName=DLF Ltd., Browser=Mozilla}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping the test modifyPortFolioStockTest as runmode of suite was NO</p>
+com.qtpselenium.framework.util.Utility.validateTestExecution(Utility.java:106)
+<br/>at com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest.modifyPortFolioStockTest(ModifyPortFolioStockTest.java:20)
+<br/>14 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

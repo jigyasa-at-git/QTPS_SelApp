@@ -1,0 +1,1 @@
+driver.navigate().to("javascript:document.getElementById('overridelink').click()");

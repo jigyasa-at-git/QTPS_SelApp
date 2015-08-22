@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite B]">
+  <test name="Add Portfolio New stock(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest">
+        <methods>
+          <include name="addPortFolioNewStockTest" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.suiteB.AddPortFolioNewStockTest -->
+    </classes>
+  </test> <!-- Add Portfolio New stock(failed) -->
+  <test name="Modify Existing Stock(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest">
+        <methods>
+          <include name="modifyPortFolioStockTest" invocation-numbers="1 0"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.suiteB.ModifyPortFolioStockTest -->
+    </classes>
+  </test> <!-- Modify Existing Stock(failed) -->
+</suite> <!-- Failed suite [Suite B] -->

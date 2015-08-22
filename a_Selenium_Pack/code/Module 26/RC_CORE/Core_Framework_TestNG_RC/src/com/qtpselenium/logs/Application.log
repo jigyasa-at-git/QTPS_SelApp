@@ -1,0 +1,17 @@
+21/11/2011 06:20:51 devpinoyLogger Loading Property files
+21/11/2011 06:20:51 devpinoyLogger Loaded Property files successfully
+21/11/2011 06:20:51 devpinoyLogger Loading XLS Files
+21/11/2011 06:20:52 devpinoyLogger Loaded XLS Files successfully
+21/11/2011 06:20:52 devpinoyLogger Checking Runmode of Suite A
+21/11/2011 06:20:52 devpinoyLogger Skipped Search Suite as the runmode was set to NO
+21/11/2011 06:20:52 devpinoyLogger Checking Runmode of Suite B
+21/11/2011 06:20:52 devpinoyLogger  Executing TestCase_B1
+21/11/2011 06:21:26 devpinoyLogger  Executing TestCase_B1
+21/11/2011 06:21:37 devpinoyLogger  Executing TestCase_B1
+21/11/2011 06:21:56 devpinoyLogger  Executing TestCase_B1
+21/11/2011 06:22:08 devpinoyLogger Skipping Test CaseCheckTotalPrice as runmode set to NO
+21/11/2011 021/11/2011 06:46:06 devpinoyLogger  Executing TestCase_B1
+21/11/2011 06:46:06 devpinoyLogger Dummy Data_B1_13 -- Dummy Data_B1_14 -- Dummy Data_B1_15 -- Dummy Data_B1_16
+21/11/2011 06:46:06 devpinoyLogger Skipping Test CaseCheckTotalPrice as runmode set to NO
+21/11/2011 06:46:06 devpinoyLogger Checking Runmode of Suite C
+21/11/2011 06:46:06 devpinoyLogger Skipped Suite C as the runmode was set to NO

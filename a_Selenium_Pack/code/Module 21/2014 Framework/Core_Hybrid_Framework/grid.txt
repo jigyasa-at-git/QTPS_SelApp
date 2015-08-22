@@ -1,0 +1,10 @@
+
+java -Dwebdriver.chrome.driver=F:\chromedriver.exe -jar selenium-server-standalone-2.44.0.jar -role hub -hubConfig hub.json
+java -Dwebdriver.chrome.driver=F:\chromedriver.exe -jar selenium-server-standalone-2.44.0.jar -role rc -nodeConfig node1.json
+java  -Dwebdriver.chrome.driver=F:\chromedriver.exe -jar selenium-server-standalone-2.44.0.jar -role rc -nodeConfig node2.json
+
+
+
+
+
+

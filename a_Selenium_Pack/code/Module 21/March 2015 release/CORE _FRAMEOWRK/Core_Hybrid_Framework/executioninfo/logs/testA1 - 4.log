@@ -1,0 +1,10 @@
+2015-03-04 08:39:54,973 DEBUG [testA1 - 4] Executing testA1 {Case=CASE_OK, PortFolioName=xx, Runmode=Y, Iteration=4, Browser=Chrome}
+2015-03-04 08:39:55,054 DEBUG [testA1 - 4] openBrowser ---  --- Browser
+2015-03-04 08:39:55,054 DEBUG [testA1 - 4] Executing the test on browser - Chrome
+2015-03-04 08:39:55,054 DEBUG [testA1 - 4] Starting function openBrowser - Chrome
+2015-03-04 08:39:55,182 DEBUG [testA1 - 4] Ending  function openBrowser with status PASS
+2015-03-04 08:39:55,182 DEBUG [testA1 - 4] loginIfNotLoggedIn ---  --- 
+2015-03-04 08:39:55,182 DEBUG [testA1 - 4] Executing the test on browser - null
+2015-03-04 08:39:55,182 DEBUG [testA1 - 4] Entering function loginIfNotLoggedIn
+2015-03-04 08:39:55,202 DEBUG [testA1 - 4] Already logged in
+2015-03-04 08:39:55,202 DEBUG [testA1 - 4] Ending test A1

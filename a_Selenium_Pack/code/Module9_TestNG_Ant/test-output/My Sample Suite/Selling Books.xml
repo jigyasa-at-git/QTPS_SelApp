@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="a-cdd622f9b4c14" name="tests.SellItemsTest" tests="1" failures="0" timestamp="30 Jun 2011 18:14:08 GMT" time="0.0" errors="0">
+  <testcase name="@BeforeTest shouldWeSkip" time="0.0" classname="tests.SellItemsTest">
+    <skipped/>
+  </testcase>
+  <testcase name="testSellingBooks" time="0.0" classname="tests.SellItemsTest">
+    <skipped/>
+  </testcase>
+</testsuite>

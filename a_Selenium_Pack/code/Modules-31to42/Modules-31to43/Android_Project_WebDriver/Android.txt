@@ -1,0 +1,60 @@
+
+
+
+
+*****************ANDROID DRIVER********************
+
+-Web based apps on Android
+
+1) Selenium AndroidDriver   ----  SLOW
+2) Android TestFramework    ----  FAST
+
+
+
+
+http://code.google.com/p/selenium/wiki/AndroidDriver
+
+
+1) Install Android emulator
+2) Start Emulator
+3) Install WebDriver APK File in emulator
+4) Start android driver application inside emulator
+5) Writing Scripts
+
+
+
+
+android create avd -n ashish_android_emulator -t 1 -c 100M
+
+android list targets
+
+emulator -avd ashish_android_emulator
+
+adb devices
+
+emulator-5554  --> Serial ID
+
+adb -s emulator-5554 -e install -r android-server-2.21.0.apk
+
+adb -s emulator-5554 shell am start -a android.intent.action.MAIN -n org.openqa.selenium.android.app/.MainActivity
+
+adb -s emulator-5554 forward tcp:8080 tcp:8080
+
+
+
+
+
+User agent
+http://www.howtogeek.com/113439/how-to-change-your-browsers-user-agent-without-installing-any-extensions/
+
+
+How to calculate user agent string
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; sdk Build/JB_MR1.1) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+
+
+www.useragentstring.com
+
+
+
+Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; sdk Build/JB_MR1.1) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+

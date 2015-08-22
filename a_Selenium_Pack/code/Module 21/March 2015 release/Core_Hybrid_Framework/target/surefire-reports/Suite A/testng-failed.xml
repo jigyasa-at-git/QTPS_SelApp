@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite A]">
+  <listeners>
+    <listener class-name="com.qtpselenium.framework.util.CustomListener"/>
+  </listeners>
+  <test name="PortFolio Test(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.framework.suiteA.PortFolioTest">
+        <methods>
+          <include name="deletePortFolioTest" invocation-numbers="0 1"/>
+          <include name="createPortFolioTest" invocation-numbers="1 0"/>
+          <include name="renamePortFolioTest" invocation-numbers="1 0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

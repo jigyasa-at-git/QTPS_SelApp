@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<SuiteA>
+	<LoginTest>
+		<Data>
+			<Runmode>Y</Runmode>
+			<Browser>Mozilla</Browser>
+			<Username>user1</Username>
+			<Password>pass</Password>
+			<ExResult>FAIL</ExResult>
+		</Data>
+
+		<Data>
+			<Runmode>Y</Runmode>
+			<Browser>Mozilla</Browser>
+			<Username>user2</Username>
+			<Password>pass</Password>
+			<ExResult>PASS</ExResult>
+		</Data>
+
+	</LoginTest>
+	
+	<ChangePasswd>
+		<Data>
+			<Runmode>Y</Runmode>
+			<Browser>Mozilla</Browser>
+			<Username>user1</Username>
+			<OldPassword>pass</OldPassword>
+			<NewPassword>pass11</NewPassword>
+			<ExResult>FAIL</ExResult>
+		</Data>
+
+		<Data>
+			<Runmode>N</Runmode>
+			<Browser>Mozilla</Browser>
+			<Username>user5</Username>
+			<OldPassword>pass</OldPassword>
+			<NewPassword>pass11</NewPassword>
+			<ExResult>FAIL</ExResult>
+			
+		</Data>
+
+	</ChangePasswd>
+
+</SuiteA>

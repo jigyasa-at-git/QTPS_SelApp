@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite B</th></tr><tr><td><a href="#t0">Test 1</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">96</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Test 2</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">115</td><td></td><td></td></tr><tr><th colspan="7">Suite A</th></tr><tr><td><a href="#t2">Test 1</a></td><td class="num">0</td><td class="num attn">1</td><td class="num attn">2</td><td class="num">727</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t3">Test 2</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">170</td><td></td><td></td></tr><tr><th colspan="7">My Project</th></tr><tr><th>Total</th><th class="num">0</th><th class="num attn">10</th><th class="num attn">2</th><th class="num">1,108</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite B</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test 1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.qtpselenium.framework.datadriven.suiteB.Test1</td><td><a href="#m0">test1</a></td><td rowspan="3">1409057169283</td><td rowspan="3">25</td></tr><tr class="skippedeven"><td><a href="#m1">test1</a></td></tr><tr class="skippedeven"><td><a href="#m2">test1</a></td></tr></tbody><tbody id="t1"><tr><th colspan="4">Test 2 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.qtpselenium.framework.datadriven.suiteB.Test2</td><td><a href="#m3">test2</a></td><td rowspan="3">1409057169384</td><td rowspan="3">27</td></tr><tr class="skippedeven"><td><a href="#m4">test2</a></td></tr><tr class="skippedeven"><td><a href="#m5">test2</a></td></tr></tbody><tbody><tr><th colspan="4">Suite A</th></tr></tbody><tbody id="t2"><tr><th colspan="4">Test 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.qtpselenium.framework.datadriven.suiteA.Test1</td><td><a href="#m6">test1</a></td><td rowspan="2">1409057163952</td><td rowspan="2">43</td></tr><tr class="failedeven"><td><a href="#m7">test1</a></td></tr><tr><th colspan="4">Test 1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qtpselenium.framework.datadriven.suiteA.Test1</td><td><a href="#m8">test1</a></td><td rowspan="1">1409057163906</td><td rowspan="1">45</td></tr></tbody><tbody id="t3"><tr><th colspan="4">Test 2 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.qtpselenium.framework.datadriven.suiteA.Test2</td><td><a href="#m9">test2</a></td><td rowspan="3">1409057164127</td><td rowspan="3">43</td></tr><tr class="skippedeven"><td><a href="#m10">test2</a></td></tr><tr class="skippedeven"><td><a href="#m11">test2</a></td></tr></tbody><tbody><tr><th colspan="4">My Project</th></tr></tbody></table><h2>Test 1</h2><h3 id="m0">com.qtpselenium.framework.datadriven.suiteB.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test1 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test1.test1(Test1.java:34)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.qtpselenium.framework.datadriven.suiteB.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test1 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test1.test1(Test1.java:34)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.qtpselenium.framework.datadriven.suiteB.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test1 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test1.test1(Test1.java:34)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Test 2</h2><h3 id="m3">com.qtpselenium.framework.datadriven.suiteB.Test2#test2</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test2.test2(Test2.java:21)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.qtpselenium.framework.datadriven.suiteB.Test2#test2</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test2.test2(Test2.java:21)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.qtpselenium.framework.datadriven.suiteB.Test2#test2</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteB
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteB.Test2.test2(Test2.java:21)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Test 1</h2><h3 id="m6">com.qtpselenium.framework.datadriven.suiteA.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Multiple failures (7):nnFailure 1 of 7:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 7:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 7:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 7:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 7:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 6 of 7:njava.lang.Throwable: Multiple failures (5):nnFailure 1 of 5:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 5:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 5:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 5:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 5:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 7 of 7:njava.lang.Throwable: Multiple failures (6):nnFailure 1 of 6:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 6:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 6:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 6:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 6:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 6 of 6:njava.lang.Throwable: Multiple failures (5):nnFailure 1 of 5:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 5:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 5:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 5:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 5:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+... Removed 960 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.qtpselenium.framework.datadriven.suiteA.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Multiple failures (7):nnFailure 1 of 7:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 7:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 7:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 7:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 7:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 6 of 7:njava.lang.Throwable: Multiple failures (5):nnFailure 1 of 5:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 5:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 5:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 5:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 5:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 7 of 7:njava.lang.Throwable: Multiple failures (6):nnFailure 1 of 6:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 6:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 6:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 6:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 6:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 6 of 6:njava.lang.Throwable: Multiple failures (5):nnFailure 1 of 5:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 5:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 5:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 5:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+nnFailure 5 of 5:njava.lang.Throwable: Multiple failures (4):nnFailure 1 of 4:njava.lang.AssertionError: expected [B1] but found [A1]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:41)
+nnFailure 2 of 4:njava.lang.AssertionError: expected [B2] but found [A2]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:48)
+nnFailure 3 of 4:njava.lang.AssertionError: expected [B3] but found [A3]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:55)
+nnFailure 4 of 4:njava.lang.AssertionError: expected [B4] but found [A4]
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:61)
+... Removed 960 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.qtpselenium.framework.datadriven.suiteA.Test1#test1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test1 inside the suite SuiteA
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteA.Test1.test1(Test1.java:38)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Test 2</h2><h3 id="m9">com.qtpselenium.framework.datadriven.suiteA.Test2#test2</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteA
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteA.Test2.test2(Test2.java:23)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">com.qtpselenium.framework.datadriven.suiteA.Test2#test2</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteA
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteA.Test2.test2(Test2.java:23)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">com.qtpselenium.framework.datadriven.suiteA.Test2#test2</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=Y, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test Test2 inside the suite SuiteA
+	at com.qtpselenium.framework.datadriven.TestBase.validateRunmodes(TestBase.java:63)
+	at com.qtpselenium.framework.datadriven.suiteA.Test2.test2(Test2.java:23)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

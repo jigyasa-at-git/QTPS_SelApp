@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]">
+  <test name="Test A1(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.suiteA.TestA1">
+        <methods>
+          <include name="testA1" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.suiteA.TestA1 -->
+    </classes>
+  </test> <!-- Test A1(failed) -->
+  <test name="Test A2(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.suiteA.TestA2">
+        <methods>
+          <include name="testA2" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.suiteA.TestA2 -->
+    </classes>
+  </test> <!-- Test A2(failed) -->
+  <test name="Test A3(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.suiteA.TestA3">
+        <methods>
+          <include name="testA3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.suiteA.TestA3 -->
+    </classes>
+  </test> <!-- Test A3(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

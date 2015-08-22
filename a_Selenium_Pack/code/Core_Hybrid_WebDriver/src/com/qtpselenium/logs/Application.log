@@ -1,0 +1,37 @@
+22/12/2011 01:24:52 devpinoyLogger Hello
+22/12/2011 01:24:52 devpinoyLogger Properties loaded. Starting testing
+22/12/2011 01:24:52 devpinoyLogger Intialize Suite xlsx
+22/12/2011 01:24:54 devpinoyLogger Check Items -- N
+22/12/2011 01:24:54 devpinoyLogger Search Suite -- Y
+22/12/2011 01:24:54 devpinoyLogger ******Executing the Suite******Search Suite
+22/12/2011 01:24:54 devpinoyLogger First3Results -- N
+22/12/2011 01:24:54 devpinoyLogger LaptopdisplayTest -- Y
+22/12/2011 01:24:54 devpinoyLogger Executing the test case -> LaptopdisplayTest
+22/12/2011 01:24:54 devpinoyLogger Iteration number 1
+22/12/2011 01:24:54 devpinoyLogger openBrowser
+22/12/2011 01:24:54 devpinoyLogger Opening browser
+22/12/2011 01:25:02 devpinoyLogger PASS
+22/12/2011 01:25:02 devpinoyLogger navigate
+22/12/2011 01:25:02 devpinoyLogger Navigating to URL
+22/12/2011 01:25:08 devpinoyLogger PASS
+22/12/2011 01:25:09 devpinoyLogger verifyTitle
+22/12/2011 01:25:09 devpinoyLogger Verifying title
+22/12/2011 01:25:09 devpinoyLogger PASS
+22/12/2011 01:25:10 devpinoyLogger clickLink
+22/12/2011 01:25:10 devpinoyLogger Clicking on link 
+22/12/2011 01:25:11 devpinoyLogger PASS
+22/12/2011 01:25:15 devpinoyLogger clickLink
+22/12/2011 01:25:15 devpinoyLogger Clicking on link 
+22/12/2011 01:25:15 devpinoyLogger PASS
+22/12/2011 01:25:18 devpinoyLogger selectList
+22/12/2011 01:25:18 devpinoyLogger Selecting from list
+22/12/2011 01:25:18 devpinoyLogger PASS
+22/12/2011 01:25:19 devpinoyLogger selectList
+22/12/2011 01:25:19 devpinoyLogger Selecting from list
+22/12/2011 01:25:19 devpinoyLogger PASS
+22/12/2011 01:25:20 devpinoyLogger pause
+22/12/2011 01:25:23 devpinoyLogger PASS
+22/12/2011 01:25:24 devpinoyLogger verifyLaptops
+22/12/2011 01:25:24 devpinoyLogger Verifying the laptops in app
+22/12/2011 01:25:24 devpinoyLogger PASS
+22/12/2011 01:25:27 devpinoyLogger C Suite -- N

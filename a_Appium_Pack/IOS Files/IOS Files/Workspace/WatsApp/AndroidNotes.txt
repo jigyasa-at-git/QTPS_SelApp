@@ -1,0 +1,77 @@
+Android
+
+
+Download Android:
+http://developer.android.com/sdk/installing/installing-adt.html
+
+https://eclipse.org/downloads/packages/release/indigo/sr2
+Mac os version 10.5 dependency for eclipse
+
+ADT Plugin Location:
+https://dl-ssl.google.com/android/eclipse/
+y
+On last page Click on Finish. Next is disabled
+
+Download SDK Bundle
+Click on standalone sdk tools link here:
+https://developer.android.com/sdk/installing/index.html
+will take u to
+https://developer.android.com/sdk/index.html#Other
+
+Setting appium
+http://www.testlab4apps.com/testing-of-mobile-apps-with-appium-on-mac-os-x-part-1/
+path of java
+
+/usr/libexec/java_home -v 1.7
+
+
+
+............................
+
+
+Appium, Android And MAC
+
+……………………….Download and configure Android…………..
+
+Configure Android Eclipse Plugin:
+http://developer.android.com/sdk/installing/installing-adt.html
+
+Download eclipse indigo. Make sure you have Macosx 10.5
+https://eclipse.org/downloads/packages/release/indigo/sr2
+
+ADT Plugin Location:
+https://dl-ssl.google.com/android/eclipse/
+On last page Click on Finish. Next is disabled
+
+Download SDK Bundle
+Click on standalone sdk tools link here:
+	
+
+Install build and platform tools
+
+…………………………Phone settings…………………………….
+Connect phone to MAC PC
+Enable debugging mode and developer mode
+Install Android File Transfer App - http://www.android.com/filetransfer/
+Install ES file manager and take backup of the app which needs to be tested
+Copy app into Mac PC
+
+………………………..MAC System and Appium Settings…………….
+Download Appium
+Run doctor for Android
+Setup environment variables - ANDROID_HOME and JAVA_HOME
+Run Doctor and Check if everything is ok
+ls -al
+vi .bash_profile
+
+export ANDROID_HOME=/Users/ashish/Documents/Ashish/android_mac/android-sdk-macosx
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home
+
+Esc + : +wq
+
+/usr/libexec/java_home -v 1.7
+
+Download Appium Jar
+Run the first Appium Android program in eclipse
+

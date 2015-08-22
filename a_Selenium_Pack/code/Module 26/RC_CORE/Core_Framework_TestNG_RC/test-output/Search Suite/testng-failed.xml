@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Search Suite]">
+  <listeners>
+    <listener class-name="com.qtpselenium.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Check Laptop Displays(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.suite.search.LaptopDisplayTest">
+        <methods>
+          <include name="testcaseA2"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Check First 3 results(failed)" preserve-order="false">
+    <classes>
+      <class name="com.qtpselenium.suite.search.LaptopDisplayTest">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class>
+      <class name="com.qtpselenium.suite.search.SearchResults">
+        <methods>
+          <include name="searchTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

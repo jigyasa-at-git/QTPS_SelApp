@@ -1,0 +1,29 @@
+2015-03-04 08:39:37,890 DEBUG [testA1 - 3] Executing testA1 {Case=CASE_OK, PortFolioName=D38, Runmode=Y, Iteration=3, Browser=Mozilla}
+2015-03-04 08:39:37,964 DEBUG [testA1 - 3] openBrowser ---  --- Browser
+2015-03-04 08:39:37,964 DEBUG [testA1 - 3] Executing the test on browser - Mozilla
+2015-03-04 08:39:37,964 DEBUG [testA1 - 3] Starting function openBrowser - Mozilla
+2015-03-04 08:39:37,976 DEBUG [testA1 - 3] Ending  function openBrowser with status PASS
+2015-03-04 08:39:37,976 DEBUG [testA1 - 3] loginIfNotLoggedIn ---  --- 
+2015-03-04 08:39:37,977 DEBUG [testA1 - 3] Executing the test on browser - null
+2015-03-04 08:39:37,977 DEBUG [testA1 - 3] Entering function loginIfNotLoggedIn
+2015-03-04 08:39:43,009 DEBUG [testA1 - 3] Starting function navigate
+2015-03-04 08:39:44,251 DEBUG [testA1 - 3] Ending  function navigate with status PASS
+2015-03-04 08:39:44,251 DEBUG [testA1 - 3] Starting function clickmoneyLink_xpath
+2015-03-04 08:39:44,251 DEBUG [testA1 - 3] Finding element moneyLink_xpath
+2015-03-04 08:39:46,612 DEBUG [testA1 - 3] Ending  function click with status PASS
+2015-03-04 08:39:46,612 DEBUG [testA1 - 3] Starting function clickmyPortfolio_xpath
+2015-03-04 08:39:46,612 DEBUG [testA1 - 3] Finding element myPortfolio_xpath
+2015-03-04 08:39:49,210 DEBUG [testA1 - 3] Ending  function click with status PASS
+2015-03-04 08:39:49,260 DEBUG [testA1 - 3] Starting function inputusername_xpath , ashishthakur1983
+2015-03-04 08:39:49,260 DEBUG [testA1 - 3] Finding element username_xpath
+2015-03-04 08:39:49,311 DEBUG [testA1 - 3] Ending  function click with status PASS
+2015-03-04 08:39:49,311 DEBUG [testA1 - 3] Starting function clickemailsubmit_xpath
+2015-03-04 08:39:49,311 DEBUG [testA1 - 3] Finding element emailsubmit_xpath
+2015-03-04 08:39:49,391 DEBUG [testA1 - 3] Ending  function click with status PASS
+2015-03-04 08:39:49,391 DEBUG [testA1 - 3] Starting function inputpassword_xpath , pass@1234
+2015-03-04 08:39:49,391 DEBUG [testA1 - 3] Finding element password_xpath
+2015-03-04 08:39:49,661 DEBUG [testA1 - 3] Ending  function click with status PASS
+2015-03-04 08:39:49,661 DEBUG [testA1 - 3] Starting function clickloginsubmit_xpath
+2015-03-04 08:39:49,661 DEBUG [testA1 - 3] Finding element loginsubmit_xpath
+2015-03-04 08:39:49,741 DEBUG [testA1 - 3] Ending  function click with status PASS
+2015-03-04 08:39:54,973 DEBUG [testA1 - 3] FAIL - Not able to Login with Deault Username/password 

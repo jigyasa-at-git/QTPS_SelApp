@@ -1,6 +1,7 @@
 
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -31,7 +32,7 @@ public class WatsApp {
 	       capabilities.setCapability("appPackage", "com.whatsapp");
 	       capabilities.setCapability("appActivity", "com.whatsapp.Main");
 
-	       dr = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+	       dr = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 	       dr.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	      
 	       // clicking

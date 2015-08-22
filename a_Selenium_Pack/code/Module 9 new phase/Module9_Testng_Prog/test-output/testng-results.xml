@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suiteABC" duration-ms="36" started-at="2014-06-21T09:29:33Z" finished-at="2014-06-21T09:29:33Z">
+    <groups>
+    </groups>
+    <test name="test A" duration-ms="13" started-at="2014-06-21T09:29:33Z" finished-at="2014-06-21T09:29:33Z">
+      <class name="suiteABC.TestA">
+        <test-method status="PASS" signature="testA()[pri:0, instance:suiteABC.TestA@101da9]" name="testA" duration-ms="5" started-at="2014-06-21T14:59:33Z" finished-at="2014-06-21T14:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- suiteABC.TestA -->
+    </test> <!-- test A -->
+    <test name="test C" duration-ms="1" started-at="2014-06-21T09:29:33Z" finished-at="2014-06-21T09:29:33Z">
+      <class name="suiteABC.TestB">
+        <test-method status="PASS" signature="testB()[pri:0, instance:suiteABC.TestB@1dbe135]" name="testB" duration-ms="0" started-at="2014-06-21T14:59:33Z" finished-at="2014-06-21T14:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+      </class> <!-- suiteABC.TestB -->
+    </test> <!-- test C -->
+    <test name="Command line test ed810a82-fff2-4f84-9f9c-732e4323c514" duration-ms="1" started-at="2014-06-21T09:29:33Z" finished-at="2014-06-21T09:29:33Z">
+      <class name="suiteABC.TestC">
+        <test-method status="PASS" signature="testC()[pri:0, instance:suiteABC.TestC@14b52aa]" name="testC" duration-ms="1" started-at="2014-06-21T14:59:33Z" finished-at="2014-06-21T14:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+      </class> <!-- suiteABC.TestC -->
+    </test> <!-- Command line test ed810a82-fff2-4f84-9f9c-732e4323c514 -->
+  </suite> <!-- suiteABC -->
+</testng-results>
